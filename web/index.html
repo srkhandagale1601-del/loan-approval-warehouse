@@ -18,318 +18,674 @@
 
 <body>
 
-  <!-- Top Enterprise Header -->
-  <header class="app-header">
-    <div class="brand-wrap">
-      <div class="brand-badge" aria-hidden="true">
-        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-          <path d="M3 3v18h18"/>
-          <path d="m19 9-5 5-4-4-3 3"/>
-        </svg>
-      </div>
-      <div class="brand-titles">
-        <div class="brand-title-row">
-          <h1>Loan Intelligence Warehouse</h1>
-          <span class="brand-edition-tag">Enterprise BI & ML</span>
+  <div class="app-shell" id="appShell">
+    <!-- Collapsible Enterprise Left Sidebar -->
+    <aside class="app-sidebar" id="appSidebar">
+      <div class="sidebar-brand">
+        <div class="brand-main-wrap">
+          <div class="brand-badge" aria-hidden="true">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M3 3v18h18"/>
+              <path d="m19 9-5 5-4-4-3 3"/>
+            </svg>
+          </div>
+          <div class="brand-info">
+            <span class="brand-name">Loan Intelligence</span>
+            <span class="brand-tag">FINTECH BI &bull; WAREHOUSE</span>
+          </div>
         </div>
-        <p>Dimensional Credit Warehouse, OLAP Multi-Cube & Machine Learning Underwriting Engine</p>
-      </div>
-    </div>
-    <div class="header-status-bar">
-      <div class="status-indicator">
-        <span class="status-dot" id="dbStatusDot"></span>
-        <span id="dbStatusText">PostgreSQL Connected</span>
-      </div>
-      <div class="status-indicator">
-        <span class="status-dot" id="modelStatusDot"></span>
-        <span id="modelStatusText">Model Active</span>
-      </div>
-      <button class="btn-refresh" id="btnRefreshAll" title="Reload live warehouse data">
-        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
-          <path d="M21.5 2v6h-6M2.5 22v-6h6M2 11.5a10 10 0 0 1 18.8-4.3M22 12.5a10 10 0 0 1-18.8 4.2" />
-        </svg>
-        Refresh Warehouse
-      </button>
-    </div>
-  </header>
-
-  <!-- Sticky Global Filter Bar -->
-  <section class="filter-bar-sticky" aria-label="Portfolio Filters">
-    <div class="filter-bar-inner">
-      <div class="filter-group-title">
-        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-          <polygon points="22 3 2 3 10 12.46 10 19 14 21 14 12.46 22 3" />
-        </svg>
-        <span>Global Filters</span>
-        <span class="filter-badge" id="activeFilterCount" style="display: none;">0 Active</span>
-      </div>
-      <div class="filter-controls">
-        <div class="filter-item">
-          <label for="filterRegion">Region</label>
-          <select id="filterRegion" class="filter-select">
-            <option value="all">All Regions</option>
-            <option value="West">West</option>
-            <option value="South">South</option>
-            <option value="North">North</option>
-            <option value="East">East</option>
-            <option value="Central">Central</option>
-          </select>
-        </div>
-        <div class="filter-item">
-          <label for="filterProduct">Loan Product</label>
-          <select id="filterProduct" class="filter-select">
-            <option value="all">All Products</option>
-            <option value="Home Loan">Home Loan</option>
-            <option value="Personal Loan">Personal Loan</option>
-            <option value="Business Loan">Business Loan</option>
-            <option value="Vehicle Loan">Vehicle Loan</option>
-            <option value="MSME Loan">MSME Loan</option>
-            <option value="Agriculture Loan">Agriculture Loan</option>
-          </select>
-        </div>
-        <div class="filter-item">
-          <label for="filterCreditBand">Credit Band</label>
-          <select id="filterCreditBand" class="filter-select">
-            <option value="all">All Credit Bands</option>
-            <option value="Excellent">Excellent (750+)</option>
-            <option value="Good">Good (650-749)</option>
-            <option value="Fair">Fair (550-649)</option>
-            <option value="Low">Low (&lt;550)</option>
-          </select>
-        </div>
-        <div class="filter-item">
-          <label for="filterIncomeBand">Income Band</label>
-          <select id="filterIncomeBand" class="filter-select">
-            <option value="all">All Income Bands</option>
-            <option value="High">High (&gt;₹12L)</option>
-            <option value="Upper-middle">Upper-middle (₹6L-12L)</option>
-            <option value="Lower-middle">Lower-middle (₹3L-6L)</option>
-            <option value="Low">Low (&lt;₹3L)</option>
-          </select>
-        </div>
-        <div class="filter-item">
-          <label for="filterOutcome">Outcome</label>
-          <select id="filterOutcome" class="filter-select">
-            <option value="all">All Outcomes</option>
-            <option value="Approved">Approved</option>
-            <option value="Rejected">Rejected</option>
-          </select>
-        </div>
-        <div class="filter-item">
-          <label for="filterEmployment">Employment</label>
-          <select id="filterEmployment" class="filter-select">
-            <option value="all">All Types</option>
-            <option value="Salaried">Salaried</option>
-            <option value="Self-Employed">Self-Employed</option>
-          </select>
-        </div>
-        <button class="btn-reset-filters" id="btnResetFilters" type="button">Reset Filters</button>
-      </div>
-    </div>
-  </section>
-
-  <!-- Modern E-Commerce / SaaS Navigation Tabs Bar -->
-  <nav class="nav-tabs-bar" aria-label="Platform Sections">
-    <!-- Mobile Fast-Jump Dropdown -->
-    <div class="mobile-nav-select-wrap">
-      <span class="mobile-nav-label">Navigation</span>
-      <select id="mobileTabSelect" class="mobile-tab-select" aria-label="Select Dashboard View">
-        <option value="overview">01 · Executive Overview</option>
-        <option value="applications">02 · Application Analytics</option>
-        <option value="repayments">03 · Repayment Analytics</option>
-        <option value="quality">04 · Data Quality & ETL</option>
-        <option value="warehouse">05 · Warehouse Explorer</option>
-        <option value="olap">06 · SQL & OLAP Analytics</option>
-        <option value="segmentation">07 · Customer Segmentation</option>
-        <option value="models">08 · Model Analytics</option>
-        <option value="predict">09 · Prediction Lab</option>
-        <option value="methodology">10 · Methodology & Findings</option>
-      </select>
-    </div>
-
-    <!-- Desktop & Tablet Pill Track with Scroll Controls -->
-    <div class="nav-tabs-container">
-      <button class="nav-scroll-btn left" id="btnScrollTabsLeft" type="button" aria-label="Scroll navigation left">
-        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
-          <path d="m15 18-6-6 6-6"/>
-        </svg>
-      </button>
-
-      <div class="nav-tabs-inner" id="navTabsTrack">
-        <a href="#overview" class="nav-tab-btn active" data-tab="overview">
-          <span class="tab-badge">01</span>
-          <span class="tab-text">Executive Overview</span>
-        </a>
-        <a href="#applications" class="nav-tab-btn" data-tab="applications">
-          <span class="tab-badge">02</span>
-          <span class="tab-text">Application Analytics</span>
-        </a>
-        <a href="#repayments" class="nav-tab-btn" data-tab="repayments">
-          <span class="tab-badge">03</span>
-          <span class="tab-text">Repayment Analytics</span>
-        </a>
-        <a href="#quality" class="nav-tab-btn" data-tab="quality">
-          <span class="tab-badge">04</span>
-          <span class="tab-text">Data Quality & ETL</span>
-        </a>
-        <a href="#warehouse" class="nav-tab-btn" data-tab="warehouse">
-          <span class="tab-badge">05</span>
-          <span class="tab-text">Warehouse Explorer</span>
-        </a>
-        <a href="#olap" class="nav-tab-btn" data-tab="olap">
-          <span class="tab-badge">06</span>
-          <span class="tab-text">SQL & OLAP Studio</span>
-        </a>
-        <a href="#segmentation" class="nav-tab-btn" data-tab="segmentation">
-          <span class="tab-badge">07</span>
-          <span class="tab-text">Customer Segmentation</span>
-        </a>
-        <a href="#models" class="nav-tab-btn" data-tab="models">
-          <span class="tab-badge">08</span>
-          <span class="tab-text">Model Analytics</span>
-        </a>
-        <a href="#predict" class="nav-tab-btn" data-tab="predict">
-          <span class="tab-badge hot">09</span>
-          <span class="tab-text">Prediction Lab</span>
-        </a>
-        <a href="#methodology" class="nav-tab-btn" data-tab="methodology">
-          <span class="tab-badge">10</span>
-          <span class="tab-text">Methodology</span>
-        </a>
+        <button class="sidebar-collapse-btn" id="btnCollapseSidebar" title="Toggle sidebar width" type="button" aria-label="Toggle sidebar width">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="15 18 9 12 15 6"></polyline>
+          </svg>
+        </button>
       </div>
 
-      <button class="nav-scroll-btn right" id="btnScrollTabsRight" type="button" aria-label="Scroll navigation right">
-        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
-          <path d="m9 18 6-6-6-6"/>
-        </svg>
-      </button>
-    </div>
-  </nav>
+      <!-- Navigation Links -->
+      <nav class="sidebar-nav" aria-label="Platform Sections">
+        <div class="nav-group-label">Intelligence</div>
 
-  <!-- Main Application Body -->
-  <main class="app-main">
+        <a href="#overview" class="nav-tab-btn active" data-tab="overview" data-tooltip="Executive Overview" title="Executive Overview">
+          <span class="nav-icon">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect width="7" height="9" x="3" y="3" rx="1"/><rect width="7" height="5" x="14" y="3" rx="1"/><rect width="7" height="9" x="14" y="12" rx="1"/><rect width="7" height="5" x="3" y="16" rx="1"/></svg>
+          </span>
+          <span class="nav-label">Executive Overview</span>
+          <span class="nav-badge">01</span>
+        </a>
+
+        <a href="#applications" class="nav-tab-btn" data-tab="applications" data-tooltip="Application Analytics" title="Application Analytics">
+          <span class="nav-icon">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
+          </span>
+          <span class="nav-label">Application Analytics</span>
+          <span class="nav-badge">02</span>
+        </a>
+
+        <a href="#repayments" class="nav-tab-btn" data-tab="repayments" data-tooltip="Repayment Analytics" title="Repayment Analytics">
+          <span class="nav-icon">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect width="20" height="14" x="2" y="5" rx="2"/><line x1="2" y1="10" x2="22" y2="10"/></svg>
+          </span>
+          <span class="nav-label">Repayment Analytics</span>
+          <span class="nav-badge">03</span>
+        </a>
+
+        <div class="nav-group-label">Data & Warehouse</div>
+
+        <a href="#quality" class="nav-tab-btn" data-tab="quality" data-tooltip="Data Quality & ETL" title="Data Quality & ETL">
+          <span class="nav-icon">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+          </span>
+          <span class="nav-label">Data Quality &amp; ETL</span>
+          <span class="nav-badge">04</span>
+        </a>
+
+        <a href="#warehouse" class="nav-tab-btn" data-tab="warehouse" data-tooltip="Warehouse Explorer" title="Warehouse Explorer">
+          <span class="nav-icon">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"/><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/></svg>
+          </span>
+          <span class="nav-label">Warehouse Explorer</span>
+          <span class="nav-badge">05</span>
+        </a>
+
+        <a href="#olap" class="nav-tab-btn" data-tab="olap" data-tooltip="SQL & OLAP Studio" title="SQL & OLAP Studio">
+          <span class="nav-icon">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m21.12 6.4-6.05-4.06a2 2 0 0 0-2.17-.05L2.9 6.27a2 2 0 0 0-1 1.73v7.94a2 2 0 0 0 1 1.75l9.97 6.07a2 2 0 0 0 2.15 0l6.1-4.03a2 2 0 0 0 .88-1.68V8.13a2 2 0 0 0-.88-1.73z"/><polyline points="3.27 6.96 12 12.01 20.73 6.96"/><line x1="12" y1="22.08" x2="12" y2="12"/></svg>
+          </span>
+          <span class="nav-label">SQL &amp; OLAP Studio</span>
+          <span class="nav-badge">06</span>
+        </a>
+
+        <div class="nav-group-label">Machine Learning</div>
+
+        <a href="#segmentation" class="nav-tab-btn" data-tab="segmentation" data-tooltip="Customer Segmentation" title="Customer Segmentation">
+          <span class="nav-icon">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+          </span>
+          <span class="nav-label">Customer Segmentation</span>
+          <span class="nav-badge">07</span>
+        </a>
+
+        <a href="#models" class="nav-tab-btn" data-tab="models" data-tooltip="Model Analytics" title="Model Analytics">
+          <span class="nav-icon">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"/></svg>
+          </span>
+          <span class="nav-label">Model Analytics</span>
+          <span class="nav-badge">08</span>
+        </a>
+
+        <a href="#predict" class="nav-tab-btn" data-tab="predict" data-tooltip="Prediction Lab" title="Prediction Lab">
+          <span class="nav-icon">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+          </span>
+          <span class="nav-label">Prediction Lab</span>
+          <span class="nav-badge hot">09</span>
+        </a>
+
+        <a href="#methodology" class="nav-tab-btn" data-tab="methodology" data-tooltip="Methodology & Governance" title="Methodology & Governance">
+          <span class="nav-icon">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1-2.5-2.5Z"/><path d="M6 6h10M6 10h10"/></svg>
+          </span>
+          <span class="nav-label">Methodology &amp; Gov</span>
+          <span class="nav-badge">10</span>
+        </a>
+      </nav>
+    </aside>
+
+    <!-- Mobile Drawer Backdrop -->
+    <div class="sidebar-overlay" id="sidebarOverlay"></div>
+
+    <!-- App Body (Right Side) -->
+    <div class="app-body">
+      <!-- Enterprise Top Header -->
+      <header class="app-header">
+        <div class="header-left">
+          <button class="mobile-menu-btn" id="btnMobileMenu" type="button" aria-label="Open navigation menu">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+          </button>
+          <div class="header-brand">
+            <div class="header-logo-icon" aria-hidden="true">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+                <path d="M3 3v18h18"/>
+                <path d="m19 9-5 5-4-4-3 3"/>
+              </svg>
+            </div>
+            <div class="header-brand-titles">
+              <h1 class="header-app-title">Loan Intelligence Warehouse</h1>
+              <span class="header-product-label">Enterprise BI &amp; ML Platform</span>
+            </div>
+          </div>
+          <span class="header-vdivider" aria-hidden="true"></span>
+          <div class="header-breadcrumbs">
+            <span class="breadcrumb-root">Platform</span>
+            <span class="breadcrumb-sep">/</span>
+            <span class="breadcrumb-current" id="headerBreadcrumbCurrent">Executive Overview</span>
+          </div>
+        </div>
+
+        <!-- Center Global Search Input -->
+        <div class="header-center">
+          <div class="header-search-wrap">
+            <svg class="search-icon" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+            <input type="text" id="globalHeaderSearch" class="header-search-input" placeholder="Search loans, customers, regions, or tables..." autocomplete="off">
+            <kbd class="search-shortcut">Ctrl+K</kbd>
+          </div>
+        </div>
+
+        <!-- Right Side Header Status & User Actions -->
+        <div class="header-right-actions">
+          <div class="status-indicator">
+            <span class="status-dot connected" id="dbStatusDot"></span>
+            <span id="dbStatusText">PostgreSQL Connected</span>
+          </div>
+          <div class="status-indicator">
+            <span class="status-dot connected" id="modelStatusDot"></span>
+            <span id="modelStatusText">ML Model Active</span>
+          </div>
+          <button class="theme-toggle-btn" id="btnThemeToggle" type="button" title="Toggle Theme (Hybrid / Light / Dark)">
+            <svg class="theme-icon" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+            <span id="themeToggleLabel">Hybrid</span>
+          </button>
+          <div class="notification-wrapper">
+            <button class="header-icon-btn" id="btnNotifications" title="System alerts and notifications" type="button" aria-expanded="false">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.73 21a2 2 0 0 1-3.46 0"/></svg>
+              <span class="notification-badge" id="notificationBadge">3</span>
+            </button>
+            <div class="notifications-dropdown" id="notificationsDropdown">
+              <div class="notifications-header">
+                <span class="notifications-title">System Alerts &amp; Notifications</span>
+                <span class="notifications-pill" id="notifPillCount">3 New</span>
+              </div>
+              <div class="notifications-list">
+                <div class="notification-item unread">
+                  <div class="notif-icon-circle green">
+                    <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                  </div>
+                  <div class="notif-content">
+                    <div class="notif-heading">PostgreSQL Star-Schema Synced</div>
+                    <div class="notif-desc">5,000 loan applications &amp; 33,204 monthly repayment facts verified.</div>
+                    <div class="notif-time">Just now · PostgreSQL 16.1 Live</div>
+                  </div>
+                </div>
+                <div class="notification-item unread">
+                  <div class="notif-icon-circle blue">
+                    <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+                  </div>
+                  <div class="notif-content">
+                    <div class="notif-heading">ML Underwriting Engine Active</div>
+                    <div class="notif-desc">XGBoost &amp; Logistic models ready with 96.2% ROC-AUC score.</div>
+                    <div class="notif-time">12 mins ago · Model Hub</div>
+                  </div>
+                </div>
+                <div class="notification-item">
+                  <div class="notif-icon-circle amber">
+                    <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+                  </div>
+                  <div class="notif-content">
+                    <div class="notif-heading">Tier-3 Region Default Rate Shift</div>
+                    <div class="notif-desc">Slight uptick (+0.3%) detected in 90+ DPD repayment cohort.</div>
+                    <div class="notif-time">1 hour ago · Risk Intelligence</div>
+                  </div>
+                </div>
+              </div>
+              <div class="notifications-footer">
+                <button type="button" class="btn-clear-notifs" id="btnClearNotifs">Mark all as read</button>
+              </div>
+            </div>
+          </div>
+          <div class="user-profile-badge">
+            <div class="user-avatar">S</div>
+            <div class="user-profile-info">
+              <span class="user-name">Shivam</span>
+              <span class="user-role">Fintech Architect</span>
+            </div>
+          </div>
+          <button class="btn-refresh" id="btnRefreshAll" title="Reload live warehouse data">
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+              <path d="M21.5 2v6h-6M2.5 22v-6h6M2 11.5a10 10 0 0 1 18.8-4.3M22 12.5a10 10 0 0 1-18.8 4.2" />
+            </svg>
+            <span>Refresh Warehouse</span>
+          </button>
+        </div>
+      </header>
+
+      <!-- Main Application Body -->
+      <main class="app-main">
 
     <!-- ========================================== -->
     <!-- SECTION 1: EXECUTIVE OVERVIEW -->
     <!-- ========================================== -->
     <section id="section-overview" class="section-container active" aria-labelledby="heading-overview">
-      <div class="section-header">
-        <div class="section-eyebrow">01 / EXECUTIVE OVERVIEW</div>
-        <h2 id="heading-overview">Portfolio at a Glance</h2>
-        <p>High-level portfolio performance, underwriting volumes, and evidence-based findings calculated directly from
-          the PostgreSQL warehouse.</p>
+      <!-- Welcome Banner with Soft Blue-Lavender Gradient -->
+      <div class="welcome-banner">
+        <div class="welcome-banner-content">
+          <div class="welcome-banner-text">
+            <h2>Welcome back, Shivam</h2>
+            <p>Monitor loan portfolio performance, track risks, and explore insights with AI-powered analytics.</p>
+          </div>
+          <div class="welcome-banner-right">
+            <div class="banner-date-picker">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+              <select id="overviewDateRange" class="banner-date-select">
+                <option value="all">Fiscal Year 2024-25 (Live)</option>
+                <option value="last30">Last 30 Days</option>
+                <option value="q4">Q4 2024</option>
+                <option value="ytd">Year to Date</option>
+              </select>
+            </div>
+            <div class="welcome-illustration" aria-hidden="true">
+              <svg width="130" height="72" viewBox="0 0 130 72" fill="none">
+                <path d="M10 65 L40 45 L70 52 L115 18" stroke="#4169FF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M10 65 L40 45 L70 52 L115 18 L115 65 Z" fill="url(#bannerGrad)" opacity="0.3"/>
+                <circle cx="115" cy="18" r="4.5" fill="#7047FF"/>
+                <rect x="75" y="24" width="38" height="42" rx="4" fill="#FFFFFF" fill-opacity="0.85" stroke="#DCE6F5"/>
+                <polygon points="75,24 94,10 113,24" fill="#4169FF" fill-opacity="0.9"/>
+                <rect x="80" y="28" width="4" height="32" fill="#38BDF8"/>
+                <rect x="92" y="28" width="4" height="32" fill="#38BDF8"/>
+                <rect x="104" y="28" width="4" height="32" fill="#38BDF8"/>
+                <circle cx="28" cy="24" r="10" fill="#F59E0B" fill-opacity="0.9"/>
+                <text x="28" y="28" font-size="11" font-weight="bold" fill="#FFFFFF" text-anchor="middle">₹</text>
+                <defs>
+                  <linearGradient id="bannerGrad" x1="10" y1="18" x2="115" y2="65" gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#4169FF"/>
+                    <stop offset="1" stop-color="#7047FF" stop-opacity="0"/>
+                  </linearGradient>
+                </defs>
+              </svg>
+            </div>
+          </div>
+        </div>
       </div>
 
-      <!-- 6 Key Performance Indicators -->
-      <div class="kpi-grid">
-        <article class="kpi-card">
-          <span class="kpi-label">Total Applications</span>
-          <div class="kpi-value" id="kpiTotalApps">—</div>
-          <div class="kpi-subtext" id="kpiOutcomeSplit">Loading applications…</div>
-        </article>
-        <article class="kpi-card">
-          <span class="kpi-label">Approval Rate</span>
-          <div class="kpi-value" id="kpiApprovalRate">—</div>
-          <div class="kpi-subtext"><span class="kpi-tag good" id="kpiRejectionTag">Rejection: —</span></div>
-        </article>
-        <article class="kpi-card">
-          <span class="kpi-label">Avg Requested Loan</span>
-          <div class="kpi-value" id="kpiAvgLoan">—</div>
-          <div class="kpi-subtext" id="kpiAvgSanctioned">Avg Sanctioned: —</div>
-        </article>
-        <article class="kpi-card">
-          <span class="kpi-label">Avg Credit Score (CIBIL)</span>
-          <div class="kpi-value" id="kpiAvgCibil">—</div>
-          <div class="kpi-subtext"><span class="kpi-tag neutral" id="kpiCibilTier">Prime Band</span></div>
-        </article>
-        <article class="kpi-card">
-          <span class="kpi-label">Repayment Instalments</span>
-          <div class="kpi-value" id="kpiRepaymentCount">—</div>
-          <div class="kpi-subtext" id="kpiUniqueLoans">Across 5,000 unique loans</div>
-        </article>
-        <article class="kpi-card">
-          <span class="kpi-label">Data Pipeline Health</span>
-          <div class="kpi-value" id="kpiPipelineStatus">Active</div>
-          <div class="kpi-subtext" id="kpiLastEtl">Last Run: Ingested 5,000 rows</div>
-        </article>
-      </div>
-
-      <!-- Dynamically Generated Key Findings -->
-      <div class="findings-panel" aria-label="Key Analytical Findings">
-        <div class="findings-header">
-          <h3>
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
-              <circle cx="12" cy="12" r="10" />
-              <line x1="12" y1="16" x2="12" y2="12" />
-              <line x1="12" y1="8" x2="12.01" y2="8" />
+      <!-- 4 Equal-Width KPI Cards Directly Below Welcome Banner -->
+      <div class="kpi-grid-4col">
+        <article class="kpi-card-v2 accent-blue">
+          <div class="kpi-card-head">
+            <span class="kpi-label-v2">Total Applications</span>
+            <div class="kpi-icon-box blue">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
+            </div>
+          </div>
+          <div class="kpi-value-v2" id="kpiTotalApps">5,000</div>
+          <div class="kpi-foot-v2">
+            <span class="kpi-trend positive">
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="18 15 12 9 6 15"/></svg>
+              +12.4%
+            </span>
+            <span class="kpi-subtext-v2" id="kpiOutcomeSplit">2,703 Appr · 2,297 Rej</span>
+            <svg class="kpi-sparkline" width="56" height="20" viewBox="0 0 56 20">
+              <path d="M2 16 L12 12 L22 14 L34 8 L44 11 L54 3" fill="none" stroke="#4169FF" stroke-width="2" stroke-linecap="round"/>
             </svg>
-            Key Warehouse Findings & Evidence-Based Observations
-          </h3>
-          <span class="kpi-tag neutral">Dynamically Generated from Warehouse Data</span>
-        </div>
-        <div class="findings-grid" id="findingsGrid">
-          <div class="finding-card">
-            <div class="finding-body">Calculating warehouse observations…</div>
           </div>
-        </div>
+        </article>
+
+        <article class="kpi-card-v2 accent-teal">
+          <div class="kpi-card-head">
+            <span class="kpi-label-v2">Approval Rate</span>
+            <div class="kpi-icon-box teal">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><polyline points="20 6 9 17 4 12"/></svg>
+            </div>
+          </div>
+          <div class="kpi-value-v2" id="kpiApprovalRate">54.1%</div>
+          <div class="kpi-foot-v2">
+            <span class="kpi-trend positive">
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="18 15 12 9 6 15"/></svg>
+              +2.1%
+            </span>
+            <span class="kpi-subtext-v2" id="kpiRejectionTag">Rejection: 45.9%</span>
+            <svg class="kpi-sparkline" width="56" height="20" viewBox="0 0 56 20">
+              <path d="M2 14 L14 15 L26 10 L38 11 L48 6 L54 4" fill="none" stroke="#00BFA6" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+          </div>
+        </article>
+
+        <article class="kpi-card-v2 accent-coral">
+          <div class="kpi-card-head">
+            <span class="kpi-label-v2">NPA Rate</span>
+            <div class="kpi-icon-box coral">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+            </div>
+          </div>
+          <div class="kpi-value-v2" id="kpiNpaRate">3.23%</div>
+          <div class="kpi-foot-v2">
+            <span class="kpi-trend positive">
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="6 9 12 15 18 9"/></svg>
+              -0.4%
+            </span>
+            <span class="kpi-subtext-v2" id="kpiNpaLoansCount">1,824 / 56,447 Records</span>
+            <svg class="kpi-sparkline" width="56" height="20" viewBox="0 0 56 20">
+              <path d="M2 8 L14 6 L26 10 L38 12 L48 14 L54 16" fill="none" stroke="#FF5C70" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+          </div>
+        </article>
+
+        <article class="kpi-card-v2 accent-violet">
+          <div class="kpi-card-head">
+            <span class="kpi-label-v2">Outstanding Principal</span>
+            <div class="kpi-icon-box violet">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+            </div>
+          </div>
+          <div class="kpi-value-v2" id="kpiOutstandingPrincipal">₹1,284.56 Cr</div>
+          <div class="kpi-foot-v2">
+            <span class="kpi-trend positive">
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="18 15 12 9 6 15"/></svg>
+              +8.7%
+            </span>
+            <span class="kpi-subtext-v2">5,000 Active Accounts</span>
+            <svg class="kpi-sparkline" width="56" height="20" viewBox="0 0 56 20">
+              <path d="M2 18 L14 14 L26 13 L38 9 L48 7 L54 3" fill="none" stroke="#7047FF" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+          </div>
+        </article>
       </div>
 
-      <!-- Core Charts Grid -->
-      <div class="charts-grid-2col">
-        <article class="chart-card">
-          <div class="chart-card-head">
-            <div>
-              <h3>Application Outcomes Distribution</h3>
-              <p>Proportion and absolute volume of Approved versus Rejected loan requests</p>
+      <!-- Full-Width Global Filters Panel -->
+      <div class="global-filter-card" aria-label="Global Filters">
+        <div class="filter-card-header">
+          <div class="filter-header-left">
+            <div class="filter-icon-badge">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><polygon points="22 3 2 3 10 12.46 10 19 14 21 14 12.46 22 3"/></svg>
             </div>
+            <h3 class="filter-card-title">Global Filters</h3>
+            <span class="filter-count-chip" id="activeFilterCount" style="display: none;">0 Active</span>
           </div>
-          <div class="chart-container" id="chartOverviewOutcomes"></div>
-          <div class="chart-insight" id="insightOverviewOutcomes">
-            <b>Underwriting Baseline:</b> Visualizes the primary portfolio acceptance ratio across all ingested
-            applications.
+          <div class="filter-header-actions">
+            <button class="btn-reset-filters" id="btnResetFilters" type="button" title="Clear all active filters">
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"/><path d="M3 3v5h5"/></svg>
+              <span>Reset Filters</span>
+            </button>
+            <button class="btn-apply-filters" id="btnApplyFilters" type="button">
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><polyline points="20 6 9 17 4 12"/></svg>
+              <span>Apply Filters</span>
+            </button>
           </div>
-        </article>
+        </div>
 
-        <article class="chart-card">
-          <div class="chart-card-head">
-            <div>
-              <h3>Approval Rate by Credit Score Band</h3>
-              <p>Underwriting success probabilities across CIBIL credit score tiers</p>
-            </div>
+        <div class="filter-card-grid">
+          <div class="filter-field">
+            <label for="filterRegion">Region</label>
+            <select id="filterRegion" class="filter-select-v2">
+              <option value="all">All Regions</option>
+              <option value="West">West</option>
+              <option value="South">South</option>
+              <option value="North">North</option>
+              <option value="East">East</option>
+              <option value="Central">Central</option>
+            </select>
           </div>
-          <div class="chart-container" id="chartOverviewCreditBands"></div>
-          <div class="chart-insight" id="insightOverviewCreditBands">
-            <b>Credit Risk Gradient:</b> Demonstrates how bureau scores correlate with commercial approval decisions.
+          <div class="filter-field">
+            <label for="filterProduct">Loan Product</label>
+            <select id="filterProduct" class="filter-select-v2">
+              <option value="all">All Products</option>
+              <option value="Home Loan">Home Loan</option>
+              <option value="Personal Loan">Personal Loan</option>
+              <option value="Business Loan">Business Loan</option>
+              <option value="Vehicle Loan">Vehicle Loan</option>
+              <option value="MSME Loan">MSME Loan</option>
+              <option value="Agriculture Loan">Agriculture Loan</option>
+            </select>
           </div>
-        </article>
+          <div class="filter-field">
+            <label for="filterCreditBand">Credit Band</label>
+            <select id="filterCreditBand" class="filter-select-v2">
+              <option value="all">All Credit Bands</option>
+              <option value="Excellent">Excellent (750+)</option>
+              <option value="Good">Good (650-749)</option>
+              <option value="Fair">Fair (550-649)</option>
+              <option value="Low">Low (&lt;550)</option>
+            </select>
+          </div>
+          <div class="filter-field">
+            <label for="filterIncomeBand">Income Band</label>
+            <select id="filterIncomeBand" class="filter-select-v2">
+              <option value="all">All Income Bands</option>
+              <option value="High">High (&gt;₹12L)</option>
+              <option value="Upper-middle">Upper-middle (₹6L-12L)</option>
+              <option value="Lower-middle">Lower-middle (₹3L-6L)</option>
+              <option value="Low">Low (&lt;₹3L)</option>
+            </select>
+          </div>
+          <div class="filter-field">
+            <label for="filterOutcome">Outcome</label>
+            <select id="filterOutcome" class="filter-select-v2">
+              <option value="all">All Outcomes</option>
+              <option value="Approved">Approved</option>
+              <option value="Rejected">Rejected</option>
+            </select>
+          </div>
+          <div class="filter-field">
+            <label for="filterEmployment">Employment</label>
+            <select id="filterEmployment" class="filter-select-v2">
+              <option value="all">All Types</option>
+              <option value="Salaried">Salaried</option>
+              <option value="Self-Employed">Self-Employed</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="active-filter-chips" id="activeFilterChips" style="display: none;"></div>
       </div>
 
-      <div class="charts-grid-2col">
-        <article class="chart-card">
-          <div class="chart-card-head">
-            <div>
-              <h3>Regional Ingestion Volume & Approval Rates</h3>
-              <p>Geographic footprint across Indian operational zones</p>
-            </div>
-          </div>
-          <div class="chart-container" id="chartOverviewRegions"></div>
-          <div class="chart-insight" id="insightOverviewRegions">
-            <b>Geographic Footprint:</b> Informs zonal branch expansion and regional risk adjustment.
-          </div>
-        </article>
+      <!-- Main Layout Grid with Right-Side Column -->
+      <div class="overview-layout-grid">
+        <!-- Main Column (Left/Center) -->
+        <div class="overview-main-col">
+          <!-- Main 2-Column Analytics Row -->
+          <div class="analytics-row-2col">
+            <!-- Left: Applications by State (Dark Navy Panel) -->
+            <article class="dark-analytics-card">
+              <div class="dark-card-head">
+                <div>
+                  <h3 class="dark-card-title">Applications by State</h3>
+                  <p class="dark-card-sub">State-level loan demand and credit risk distribution</p>
+                </div>
+                <div class="segmented-control-dark" id="stateMetricToggle">
+                  <button class="seg-btn active" data-metric="applications" type="button">Applications</button>
+                  <button class="seg-btn" data-metric="approval_rate" type="button">Approval Rate</button>
+                  <button class="seg-btn" data-metric="npa_rate" type="button">NPA Rate</button>
+                </div>
+              </div>
 
-        <article class="chart-card">
-          <div class="chart-card-head">
-            <div>
-              <h3>Loan Product Portfolio Mix</h3>
-              <p>Requested loan volumes and average ticket size by retail lending product</p>
+              <div class="state-analytics-body">
+                <!-- India Geographic Representation SVG -->
+                <div class="india-map-container" id="indiaMapContainer">
+                  <svg class="india-map-svg" viewBox="0 0 280 290" id="indiaStateSvg">
+                    <!-- Base background grid/contour -->
+                    <path d="M80,30 L110,20 L140,25 L160,50 L190,70 L210,100 L240,110 L260,130 L250,150 L210,160 L190,190 L170,230 L140,270 L130,285 L120,270 L100,230 L75,190 L60,160 L45,130 L55,100 L65,70 Z" fill="#0D1E3A" stroke="#1E3A67" stroke-width="1.5" stroke-dasharray="3,3"/>
+                    
+                    <!-- Interactive Regional/State Nodes with actual project state data -->
+                    <g id="stateMapNodes">
+                      <!-- North: Delhi, UP, Punjab, Rajasthan, Haryana -->
+                      <circle cx="115" cy="85" r="14" class="state-node" data-state="Delhi" fill="#38BDF8" fill-opacity="0.85"/>
+                      <text x="115" y="89" font-size="8.5" font-weight="700" fill="#07152F" text-anchor="middle">DL</text>
+
+                      <circle cx="145" cy="100" r="16" class="state-node" data-state="Uttar Pradesh" fill="#4169FF" fill-opacity="0.8"/>
+                      <text x="145" y="104" font-size="8.5" font-weight="700" fill="#FFFFFF" text-anchor="middle">UP</text>
+
+                      <circle cx="95" cy="65" r="11" class="state-node" data-state="Punjab" fill="#38BDF8" fill-opacity="0.6"/>
+                      <text x="95" y="69" font-size="8" font-weight="700" fill="#07152F" text-anchor="middle">PB</text>
+
+                      <circle cx="85" cy="115" r="13" class="state-node" data-state="Rajasthan" fill="#4169FF" fill-opacity="0.65"/>
+                      <text x="85" y="119" font-size="8" font-weight="700" fill="#FFFFFF" text-anchor="middle">RJ</text>
+
+                      <!-- West: Maharashtra, Gujarat -->
+                      <circle cx="100" cy="170" r="22" class="state-node" data-state="Maharashtra" fill="#00BFA6" fill-opacity="0.9"/>
+                      <text x="100" y="174" font-size="9.5" font-weight="800" fill="#07152F" text-anchor="middle">MH</text>
+
+                      <circle cx="68" cy="145" r="16" class="state-node" data-state="Gujarat" fill="#4169FF" fill-opacity="0.8"/>
+                      <text x="68" y="149" font-size="8.5" font-weight="700" fill="#FFFFFF" text-anchor="middle">GJ</text>
+
+                      <!-- South: Karnataka, Tamil Nadu, Telangana, Andhra Pradesh, Kerala -->
+                      <circle cx="105" cy="215" r="16" class="state-node" data-state="Karnataka" fill="#7047FF" fill-opacity="0.85"/>
+                      <text x="105" y="219" font-size="8.5" font-weight="700" fill="#FFFFFF" text-anchor="middle">KA</text>
+
+                      <circle cx="125" cy="245" r="15" class="state-node" data-state="Tamil Nadu" fill="#00BFA6" fill-opacity="0.8"/>
+                      <text x="125" y="249" font-size="8" font-weight="700" fill="#07152F" text-anchor="middle">TN</text>
+
+                      <circle cx="130" cy="180" r="14" class="state-node" data-state="Telangana" fill="#38BDF8" fill-opacity="0.75"/>
+                      <text x="130" y="184" font-size="8" font-weight="700" fill="#07152F" text-anchor="middle">TS</text>
+
+                      <circle cx="140" cy="205" r="13" class="state-node" data-state="Andhra Pradesh" fill="#4169FF" fill-opacity="0.7"/>
+                      <text x="140" y="209" font-size="8" font-weight="700" fill="#FFFFFF" text-anchor="middle">AP</text>
+
+                      <circle cx="102" cy="255" r="12" class="state-node" data-state="Kerala" fill="#10B981" fill-opacity="0.85"/>
+                      <text x="102" y="259" font-size="7.5" font-weight="700" fill="#07152F" text-anchor="middle">KL</text>
+
+                      <!-- East & Central: West Bengal, Bihar, MP, Odisha, Assam -->
+                      <circle cx="195" cy="140" r="15" class="state-node" data-state="West Bengal" fill="#7047FF" fill-opacity="0.8"/>
+                      <text x="195" y="144" font-size="8" font-weight="700" fill="#FFFFFF" text-anchor="middle">WB</text>
+
+                      <circle cx="170" cy="115" r="12" class="state-node" data-state="Bihar" fill="#4169FF" fill-opacity="0.6"/>
+                      <text x="170" y="119" font-size="8" font-weight="700" fill="#FFFFFF" text-anchor="middle">BR</text>
+
+                      <circle cx="125" cy="140" r="15" class="state-node" data-state="Madhya Pradesh" fill="#38BDF8" fill-opacity="0.7"/>
+                      <text x="125" y="144" font-size="8" font-weight="700" fill="#07152F" text-anchor="middle">MP</text>
+
+                      <circle cx="175" cy="170" r="11" class="state-node" data-state="Odisha" fill="#4169FF" fill-opacity="0.6"/>
+                      <text x="175" y="174" font-size="7.5" font-weight="700" fill="#FFFFFF" text-anchor="middle">OD</text>
+
+                      <circle cx="235" cy="110" r="11" class="state-node" data-state="Assam" fill="#00BFA6" fill-opacity="0.6"/>
+                      <text x="235" y="114" font-size="7.5" font-weight="700" fill="#07152F" text-anchor="middle">AS</text>
+                    </g>
+                  </svg>
+                  <div class="state-map-legend">
+                    <span class="legend-scale-label">Low Volume</span>
+                    <div class="legend-scale-gradient"></div>
+                    <span class="legend-scale-label">High (MH #1)</span>
+                  </div>
+                  <div class="state-map-tooltip" id="stateMapTooltip" style="display: none;"></div>
+                </div>
+
+                <!-- Top 5 Ranked States List -->
+                <div class="top-states-ranking">
+                  <div class="ranking-header">
+                    <span>Rank &amp; State</span>
+                    <span>Volume · Appr %</span>
+                  </div>
+                  <div class="ranking-list" id="topStatesList">
+                    <!-- Populated dynamically via JS -->
+                  </div>
+                </div>
+              </div>
+            </article>
+
+            <!-- Right: Application Trend (White Card) -->
+            <article class="chart-card">
+              <div class="chart-card-head">
+                <div>
+                  <h3>Application Trend</h3>
+                  <p>Monthly loan volume, approved tranches, and rejection rate</p>
+                </div>
+                <div class="chart-head-actions">
+                  <div class="chart-legend-custom">
+                    <span class="legend-chip"><span class="dot blue"></span> Total</span>
+                    <span class="legend-chip"><span class="dot teal"></span> Approved</span>
+                    <span class="legend-chip"><span class="dot coral"></span> Rejected</span>
+                  </div>
+                </div>
+              </div>
+              <div class="chart-container" id="chartOverviewTrend" style="min-height: 330px;"></div>
+            </article>
+          </div>
+
+          <!-- Lower Analytics Row (2 Aligned Cards) -->
+          <div class="analytics-row-2col">
+            <!-- Approval Funnel Card -->
+            <article class="chart-card">
+              <div class="chart-card-head">
+                <div>
+                  <h3>Underwriting &amp; Approval Funnel</h3>
+                  <p>Conversion efficiency across operational stages</p>
+                </div>
+                <span class="kpi-tag good">54.1% Overall</span>
+              </div>
+              <div class="funnel-container" id="approvalFunnelContainer">
+                <!-- Funnel stages injected via JS -->
+              </div>
+            </article>
+
+            <!-- Loan Portfolio Composition Donut Card -->
+            <article class="chart-card">
+              <div class="chart-card-head">
+                <div>
+                  <h3>Loan Portfolio Composition</h3>
+                  <p>Distribution mix across lending dimensions</p>
+                </div>
+                <div class="segmented-control-light" id="portfolioDimToggle">
+                  <button class="seg-btn-light active" data-dim="product" type="button">By Product</button>
+                  <button class="seg-btn-light" data-dim="credit" type="button">By Credit Band</button>
+                  <button class="seg-btn-light" data-dim="income" type="button">By Income Band</button>
+                </div>
+              </div>
+              <div class="chart-container" id="chartOverviewPortfolioDonut" style="min-height: 290px;"></div>
+            </article>
+          </div>
+        </div>
+
+        <!-- Right-Side Column (Key Insights, Recent Activity, Quick Actions) -->
+        <aside class="overview-side-col">
+          <!-- Key Insights Panel (Dark Navy Panel) -->
+          <article class="dark-insights-panel">
+            <div class="dark-insights-head">
+              <div class="insights-title-group">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#38BDF8" stroke-width="2.2"><path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"/></svg>
+                <h4>Key Insights</h4>
+              </div>
+              <span class="insights-ai-pill">Data Intelligence</span>
             </div>
-          </div>
-          <div class="chart-container" id="chartOverviewProducts"></div>
-          <div class="chart-insight" id="insightOverviewProducts">
-            <b>Product Allocation:</b> Contrasts high-volume consumer loans with asset-backed commercial mortgages.
-          </div>
-        </article>
+            <div class="insights-list" id="insightsList">
+              <!-- Injected dynamically via JS -->
+            </div>
+          </article>
+
+          <!-- Recent Activity Panel (White Card) -->
+          <article class="side-card">
+            <div class="side-card-head">
+              <h4>Recent Activity</h4>
+              <span class="activity-live-dot">Live</span>
+            </div>
+            <div class="timeline-list" id="timelineList">
+              <!-- Populated dynamically via JS -->
+            </div>
+          </article>
+
+          <!-- Quick Actions Panel (White Card) -->
+          <article class="side-card">
+            <div class="side-card-head">
+              <h4>Quick Actions</h4>
+            </div>
+            <div class="quick-actions-grid">
+              <button class="quick-action-tile blue" id="qaRunEtl" type="button">
+                <div class="qa-icon-wrap">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+                </div>
+                <span class="qa-title">Run ETL Pipeline</span>
+                <span class="qa-desc">Inspect &amp; validate warehouse</span>
+              </button>
+              <button class="quick-action-tile purple" id="qaOpenSql" type="button">
+                <div class="qa-icon-wrap">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+                </div>
+                <span class="qa-title">Open SQL Studio</span>
+                <span class="qa-desc">Execute multi-dim queries</span>
+              </button>
+              <button class="quick-action-tile teal" id="qaViewModel" type="button">
+                <div class="qa-icon-wrap">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+                </div>
+                <span class="qa-title">View Model Analytics</span>
+                <span class="qa-desc">Check confusion &amp; features</span>
+              </button>
+              <button class="quick-action-tile amber" id="qaExportReports" type="button">
+                <div class="qa-icon-wrap">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+                </div>
+                <span class="qa-title">Export Reports</span>
+                <span class="qa-desc">Download test predictions CSV</span>
+              </button>
+            </div>
+          </article>
+        </aside>
       </div>
     </section>
 
@@ -655,47 +1011,47 @@
           <svg viewBox="0 0 940 380"
             style="width: 100%; max-width: 940px; height: 380px; font-family: var(--font-sans);">
             <!-- Central Fact Table -->
-            <rect x="330" y="110" width="280" height="160" rx="8" fill="#1e293b" stroke="#0f172a" stroke-width="2" />
-            <text x="470" y="135" font-size="14" font-weight="700" fill="#ffffff"
+            <rect x="330" y="110" width="280" height="160" rx="8" fill="#EEF2FF" stroke="#4F46E5" stroke-width="2" />
+            <text x="470" y="135" font-size="14" font-weight="700" fill="#312E81"
               text-anchor="middle">fact_loan_application</text>
-            <text x="470" y="152" font-size="11" fill="#93c5fd" text-anchor="middle">PK: loan_id (TEXT)</text>
-            <line x1="340" y1="160" x2="600" y2="160" stroke="#334155" stroke-width="1" />
-            <text x="350" y="180" font-size="11" fill="#cbd5e1">FK: region, loan_product, credit_band</text>
-            <text x="350" y="200" font-size="11" fill="#cbd5e1">FK: education, self_employed, loan_status</text>
-            <text x="350" y="220" font-size="11" fill="#cbd5e1">Measures: loan_amount, cibil_score, income</text>
-            <text x="350" y="240" font-size="11" fill="#cbd5e1">Ratios: loan_to_income, asset_to_loan</text>
-            <text x="350" y="260" font-size="10" fill="#94a3b8">Row Count: 5,000 records</text>
+            <text x="470" y="152" font-size="11" font-weight="600" fill="#4F46E5" text-anchor="middle">PK: loan_id (TEXT)</text>
+            <line x1="340" y1="160" x2="600" y2="160" stroke="#C7D2FE" stroke-width="1" />
+            <text x="350" y="180" font-size="11" fill="#334155">FK: region, loan_product, credit_band</text>
+            <text x="350" y="200" font-size="11" fill="#334155">FK: education, self_employed, loan_status</text>
+            <text x="350" y="220" font-size="11" fill="#334155">Measures: loan_amount, cibil_score, income</text>
+            <text x="350" y="240" font-size="11" fill="#334155">Ratios: loan_to_income, asset_to_loan</text>
+            <text x="350" y="260" font-size="10" fill="#64748B">Row Count: 5,000 records</text>
 
             <!-- Dim 1: dim_region (Top Left) -->
-            <rect x="40" y="20" width="200" height="90" rx="6" fill="#f8fafc" stroke="#3b82f6" stroke-width="1.5" />
-            <text x="140" y="42" font-size="12" font-weight="700" fill="#1e40af" text-anchor="middle">dim_region</text>
+            <rect x="40" y="20" width="200" height="90" rx="6" fill="#F8FAFC" stroke="#6366F1" stroke-width="1.5" />
+            <text x="140" y="42" font-size="12" font-weight="700" fill="#312E81" text-anchor="middle">dim_region</text>
             <text x="55" y="62" font-size="11" fill="#475569">PK: region_key</text>
             <text x="55" y="80" font-size="11" fill="#475569">Attributes: region, states</text>
-            <line x1="240" y1="75" x2="330" y2="135" stroke="#3b82f6" stroke-width="1.5" stroke-dasharray="4,4" />
+            <line x1="240" y1="75" x2="330" y2="135" stroke="#6366F1" stroke-width="1.5" stroke-dasharray="4,4" />
 
             <!-- Dim 2: dim_loan_product (Top Right) -->
-            <rect x="700" y="20" width="200" height="90" rx="6" fill="#f8fafc" stroke="#3b82f6" stroke-width="1.5" />
-            <text x="800" y="42" font-size="12" font-weight="700" fill="#1e40af"
+            <rect x="700" y="20" width="200" height="90" rx="6" fill="#F8FAFC" stroke="#6366F1" stroke-width="1.5" />
+            <text x="800" y="42" font-size="12" font-weight="700" fill="#312E81"
               text-anchor="middle">dim_loan_product</text>
             <text x="715" y="62" font-size="11" fill="#475569">PK: product_key</text>
             <text x="715" y="80" font-size="11" fill="#475569">Attributes: loan_product, category</text>
-            <line x1="700" y1="75" x2="610" y2="135" stroke="#3b82f6" stroke-width="1.5" stroke-dasharray="4,4" />
+            <line x1="700" y1="75" x2="610" y2="135" stroke="#6366F1" stroke-width="1.5" stroke-dasharray="4,4" />
 
             <!-- Dim 3: dim_credit_band (Bottom Left) -->
-            <rect x="40" y="270" width="200" height="90" rx="6" fill="#f8fafc" stroke="#3b82f6" stroke-width="1.5" />
-            <text x="140" y="292" font-size="12" font-weight="700" fill="#1e40af"
+            <rect x="40" y="270" width="200" height="90" rx="6" fill="#F8FAFC" stroke="#6366F1" stroke-width="1.5" />
+            <text x="140" y="292" font-size="12" font-weight="700" fill="#312E81"
               text-anchor="middle">dim_credit_band</text>
             <text x="55" y="312" font-size="11" fill="#475569">PK: credit_band_key</text>
             <text x="55" y="330" font-size="11" fill="#475569">Attributes: credit_band, risk_tier</text>
-            <line x1="240" y1="305" x2="330" y2="245" stroke="#3b82f6" stroke-width="1.5" stroke-dasharray="4,4" />
+            <line x1="240" y1="305" x2="330" y2="245" stroke="#6366F1" stroke-width="1.5" stroke-dasharray="4,4" />
 
             <!-- Dim 4: fact_loan_repayment (Bottom Right) -->
-            <rect x="700" y="270" width="200" height="90" rx="6" fill="#f8fafc" stroke="#16a34a" stroke-width="1.5" />
-            <text x="800" y="292" font-size="12" font-weight="700" fill="#15803d"
+            <rect x="700" y="270" width="200" height="90" rx="6" fill="#F8FAFC" stroke="#0D9488" stroke-width="1.5" />
+            <text x="800" y="292" font-size="12" font-weight="700" fill="#0F766E"
               text-anchor="middle">fact_loan_repayment</text>
             <text x="715" y="312" font-size="11" fill="#475569">PK: repayment_id</text>
             <text x="715" y="330" font-size="11" fill="#475569">FK: loan_id (1:N join)</text>
-            <line x1="700" y1="305" x2="610" y2="245" stroke="#16a34a" stroke-width="1.5" />
+            <line x1="700" y1="305" x2="610" y2="245" stroke="#0D9488" stroke-width="1.5" />
           </svg>
         </div>
       </div>
@@ -755,93 +1111,148 @@
     <!-- SECTION 6: SQL & OLAP ANALYTICS -->
     <!-- ========================================== -->
     <section id="section-olap" class="section-container" aria-labelledby="heading-olap">
-      <div class="section-header">
-        <div class="section-eyebrow">06 / SQL & OLAP ANALYTICS</div>
-        <h2 id="heading-olap">Multi-Dimensional OLAP Studio</h2>
-        <p>Interactive database-backed OLAP operations: Roll-up, Drill-down, Slice, Dice, and Pivot cross-tabulation
-          with parameterised SQL generation.</p>
+      <!-- Page Heading Separated from Workspace -->
+      <div class="olap-page-header">
+        <div class="olap-heading-left">
+          <div class="section-eyebrow">06 / SQL &amp; OLAP ANALYTICS</div>
+          <h2 id="heading-olap">Multi-Dimensional OLAP Studio</h2>
+          <p class="section-desc">Interactive database-backed OLAP operations: Roll-up, Drill-down, Slice, Dice, and Pivot cross-tabulation with parameterised SQL generation.</p>
+        </div>
+        <div class="olap-heading-right">
+          <div class="olap-status-pill ready" id="olapQueryStatus">
+            <span class="status-indicator-dot"></span>
+            <span class="status-indicator-label">Ready (PostgreSQL)</span>
+          </div>
+        </div>
       </div>
 
-      <!-- OLAP Studio Controls Card -->
-      <div class="olap-controls-card">
-        <div class="olap-controls-grid">
-          <div class="olap-field">
-            <label for="olapOperation">OLAP Operation</label>
-            <select id="olapOperation" class="olap-select">
-              <option value="aggregate">Aggregate (Group By)</option>
-              <option value="drilldown">Drill-Down (Hierarchical)</option>
-              <option value="slice">Slice (Filter 1 Dimension)</option>
-              <option value="dice">Dice (Multi-Attribute)</option>
-              <option value="pivot">Pivot (Cross-Tabulation)</option>
-            </select>
+      <!-- OLAP Workspace: Query Builder & SQL Preview Card -->
+      <div class="olap-workspace-card">
+        <!-- OLAP Query Builder Form -->
+        <div class="olap-builder-card">
+          <div class="olap-builder-head">
+            <div class="card-title-group">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="m21.12 6.4-6.05-4.06a2 2 0 0 0-2.17-.05L2.9 6.27a2 2 0 0 0-1 1.73v7.94a2 2 0 0 0 1 1.75l9.97 6.07a2 2 0 0 0 2.15 0l6.1-4.03a2 2 0 0 0 .88-1.68V8.13a2 2 0 0 0-.88-1.73z"/><polyline points="3.27 6.96 12 12.01 20.73 6.96"/><line x1="12" y1="22.08" x2="12" y2="12"/></svg>
+              <h3>Dimensional Cube Configuration</h3>
+            </div>
+            <span class="cube-target-badge">Cube: fact_loan_application</span>
           </div>
-          <div class="olap-field">
-            <label for="olapDimension">Primary Dimension</label>
-            <select id="olapDimension" class="olap-select">
-              <option value="region">Region</option>
-              <option value="state">State</option>
-              <option value="city_tier">City Tier</option>
-              <option value="loan_product">Loan Product</option>
-              <option value="loan_purpose">Loan Purpose</option>
-              <option value="credit_band">Credit Band</option>
-              <option value="income_band">Income Band</option>
-              <option value="amount_band">Amount Band</option>
-              <option value="education">Education</option>
-              <option value="self_employed">Employment</option>
-              <option value="age_band">Age Band</option>
-              <option value="loan_status">Loan Status</option>
-            </select>
+
+          <!-- 2-Row Balanced Grid -->
+          <div class="olap-form-grid">
+            <!-- Row 1: Operation & Primary Dimension -->
+            <div class="olap-form-field">
+              <label for="olapOperation">OLAP Operation</label>
+              <div class="select-wrap">
+                <select id="olapOperation" class="olap-styled-select">
+                  <option value="aggregate">Aggregate (Group By Roll-up)</option>
+                  <option value="drilldown">Drill-Down (Hierarchical Slice)</option>
+                  <option value="slice">Slice (Filter 1 Dimension)</option>
+                  <option value="dice">Dice (Multi-Attribute)</option>
+                  <option value="pivot">Pivot (Cross-Tabulation)</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="olap-form-field">
+              <label for="olapDimension">Primary Dimension</label>
+              <div class="select-wrap">
+                <select id="olapDimension" class="olap-styled-select">
+                  <option value="region">Region</option>
+                  <option value="state">State</option>
+                  <option value="city_tier">City Tier</option>
+                  <option value="loan_product">Loan Product</option>
+                  <option value="loan_purpose">Loan Purpose</option>
+                  <option value="credit_band">Credit Band</option>
+                  <option value="income_band">Income Band</option>
+                  <option value="amount_band">Amount Band</option>
+                  <option value="education">Education</option>
+                  <option value="self_employed">Employment</option>
+                  <option value="age_band">Age Band</option>
+                  <option value="loan_status">Loan Status</option>
+                </select>
+              </div>
+            </div>
+
+            <!-- Row 2: Secondary Dimension & Aggregated Measure -->
+            <div class="olap-form-field">
+              <label for="olapSecDimension">Secondary Dimension (Pivot)</label>
+              <div class="select-wrap">
+                <select id="olapSecDimension" class="olap-styled-select">
+                  <option value="">None (1D Summary Rollup)</option>
+                  <option value="loan_product">Loan Product</option>
+                  <option value="credit_band">Credit Band</option>
+                  <option value="income_band">Income Band</option>
+                  <option value="region">Region</option>
+                  <option value="education">Education</option>
+                  <option value="self_employed">Employment</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="olap-form-field">
+              <label for="olapMeasure">Aggregated Measure</label>
+              <div class="select-wrap">
+                <select id="olapMeasure" class="olap-styled-select">
+                  <option value="approval_rate">Approval Rate (%)</option>
+                  <option value="count">Total Applications (n)</option>
+                  <option value="avg_amount">Average Loan Amount (₹)</option>
+                  <option value="sum_sanctioned">Total Sanctioned (₹)</option>
+                  <option value="avg_cibil">Average CIBIL Score (pts)</option>
+                  <option value="avg_lti">Average Loan-to-Income (x)</option>
+                </select>
+              </div>
+            </div>
           </div>
-          <div class="olap-field">
-            <label for="olapSecDimension">Secondary Dimension (Pivot)</label>
-            <select id="olapSecDimension" class="olap-select">
-              <option value="">None (1D Summary)</option>
-              <option value="loan_product">Loan Product</option>
-              <option value="credit_band">Credit Band</option>
-              <option value="income_band">Income Band</option>
-              <option value="region">Region</option>
-              <option value="education">Education</option>
-              <option value="self_employed">Employment</option>
-            </select>
-          </div>
-          <div class="olap-field">
-            <label for="olapMeasure">Aggregated Measure</label>
-            <select id="olapMeasure" class="olap-select">
-              <option value="approval_rate">Approval Rate (%)</option>
-              <option value="count">Total Applications (n)</option>
-              <option value="avg_amount">Average Loan Amount (₹)</option>
-              <option value="sum_sanctioned">Total Sanctioned (₹)</option>
-              <option value="avg_cibil">Average CIBIL Score (pts)</option>
-              <option value="avg_lti">Average Loan-to-Income (x)</option>
-            </select>
-          </div>
-          <div class="olap-field" style="justify-content: flex-end;">
-            <button class="btn-execute-olap" id="btnExecuteOlap" type="button">
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+
+          <!-- Dedicated Action Area Aligned with Controls -->
+          <div class="olap-action-strip">
+            <div class="action-strip-meta">
+              <span class="action-pulse-dot"></span>
+              <span>Compiled into dynamic SQL query executed against warehouse</span>
+            </div>
+            <button class="btn-execute-olap-query" id="btnExecuteOlap" type="button">
+              <svg class="run-icon" width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
                 <polygon points="5 3 19 12 5 21 5 3" />
               </svg>
-              Execute Query
+              <span class="btn-text">Execute Query</span>
             </button>
           </div>
         </div>
 
-        <!-- Formatted Executed SQL Box -->
-        <div class="sql-preview-box" id="sqlPreviewBox">
-          <button class="sql-copy-btn" id="btnCopySql" type="button">Copy SQL</button>
-          <code
-            id="sqlQueryText">SELECT region, COUNT(*), ROUND(100.0 * COUNT(*) FILTER (WHERE loan_status='Approved') / NULLIF(COUNT(*), 0), 2) AS approval_rate_pct FROM fact_loan_application GROUP BY region ORDER BY approval_rate_pct DESC;</code>
+        <!-- SQL Preview Section in its own card below query controls -->
+        <div class="olap-sql-card" id="sqlPreviewCard">
+          <div class="sql-card-head">
+            <div class="sql-title-meta">
+              <span class="sql-badge">SQL</span>
+              <span class="sql-title">Generated SQL Statement</span>
+              <span class="sql-engine-badge">PostgreSQL 15+</span>
+            </div>
+            <button class="btn-copy-sql" id="btnCopySql" type="button" title="Copy SQL statement to clipboard">
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect width="14" height="14" x="8" y="8" rx="2" ry="2"/><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"/></svg>
+              <span class="btn-copy-text">Copy SQL</span>
+            </button>
+          </div>
+          <div class="sql-code-display">
+            <code id="sqlQueryText" class="sql-code-block">SELECT region, COUNT(*), ROUND(100.0 * COUNT(*) FILTER (WHERE loan_status='Approved') / NULLIF(COUNT(*), 0), 2) AS approval_rate_pct FROM fact_loan_application GROUP BY region ORDER BY approval_rate_pct DESC;</code>
+          </div>
         </div>
       </div>
 
-      <!-- Analytical Findings Callout -->
-      <div class="chart-insight" style="margin-bottom: 20px; border-left-color: var(--accent-blue);"
-        id="olapFindingText">
-        <b>Analytical Synthesis:</b> Select dimensions and measures to query the warehouse database.
+      <!-- Analytical Synthesis Callout Banner -->
+      <div class="olap-synthesis-banner" id="olapFindingBanner">
+        <div class="synthesis-icon">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg>
+        </div>
+        <div class="synthesis-body">
+          <span class="synthesis-label">Analytical Synthesis:</span>
+          <span class="synthesis-text" id="olapFindingText">Select dimensions and measures above, then click Execute Query to analyze multi-dimensional warehouse aggregations.</span>
+        </div>
       </div>
 
       <!-- OLAP Results Grid (Chart + Table) -->
-      <div class="charts-grid-2col">
-        <article class="chart-card">
+      <div class="olap-results-grid">
+        <article class="chart-card olap-result-card">
           <div class="chart-card-head">
             <div>
               <h3 id="olapChartTitle">OLAP Visualisation</h3>
@@ -851,14 +1262,14 @@
           <div class="chart-container" id="chartOlapResult"></div>
         </article>
 
-        <article class="table-card" style="margin-bottom: 0;">
+        <article class="table-card olap-result-card">
           <div class="chart-card-head">
             <div>
               <h3>OLAP Tabular Breakdown</h3>
               <p>Exact aggregated figures and record counts</p>
             </div>
           </div>
-          <div class="table-responsive" style="max-height: 330px;">
+          <div class="table-responsive" style="max-height: 380px;">
             <table class="data-table" id="tableOlapResult">
               <thead>
                 <tr>
@@ -1364,11 +1775,9 @@
       </div>
     </section>
 
-  </main>
-
-  <footer class="app-footer">
-    Indian Loan Intelligence Warehouse &middot; Standalone Business Intelligence Platform &middot; Synthetic Coursework Data
-  </footer>
+      </main>
+    </div>
+  </div>
 
   <!-- Toast Notification element -->
   <div class="toast-msg" id="toastMsg" role="status"></div>

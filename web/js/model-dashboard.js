@@ -29,24 +29,24 @@ function render(){
  $('generatedAt').textContent=summary.generated_at_utc?'Run generated '+new Date(summary.generated_at_utc).toLocaleString():'Colab export';
  $('metricsTable').querySelector('tbody').innerHTML=metrics.map(m=>`<tr><td><b>${esc(m.model)}</b></td><td>${pct(m.accuracy)}</td><td>${pct(m.precision_approved)}</td><td>${pct(m.recall_approved)}</td><td>${pct(m.f1_approved)}</td><td>${pct(m.roc_auc)}</td></tr>`).join('');
  plot('metricChart',[
-  {type:'bar',name:'Accuracy',x:metrics.map(m=>m.model),y:metrics.map(m=>+m.accuracy),marker:{color:'#4f72c8'}},
-  {type:'bar',name:'Precision',x:metrics.map(m=>m.model),y:metrics.map(m=>+m.precision_approved),marker:{color:'#3d8d87'}},
-  {type:'bar',name:'Recall',x:metrics.map(m=>m.model),y:metrics.map(m=>+m.recall_approved),marker:{color:'#dc9560'}},
-  {type:'bar',name:'F1',x:metrics.map(m=>m.model),y:metrics.map(m=>+m.f1_approved),marker:{color:'#8b75c7'}}
+  {type:'bar',name:'Accuracy',x:metrics.map(m=>m.model),y:metrics.map(m=>+m.accuracy),marker:{color:'#4F46E5'}},
+  {type:'bar',name:'Precision',x:metrics.map(m=>m.model),y:metrics.map(m=>+m.precision_approved),marker:{color:'#0D9488'}},
+  {type:'bar',name:'Recall',x:metrics.map(m=>m.model),y:metrics.map(m=>+m.recall_approved),marker:{color:'#D97706'}},
+  {type:'bar',name:'F1',x:metrics.map(m=>m.model),y:metrics.map(m=>+m.f1_approved),marker:{color:'#6366F1'}}
  ],{barmode:'group',yaxis:{range:[0,1],tickformat:'.0%',title:'Score'},legend:{orientation:'h',y:-.25},margin:{l:45,r:10,t:10,b:80}});
  const test=predictions;
  const actualA=test.filter(x=>x.actual_outcome==='Approved'),actualR=test.filter(x=>x.actual_outcome==='Rejected');
  const labels=['Actual Rejected','Actual Approved'],predLabs=['Predicted Rejected','Predicted Approved'];
  const cm=[[0,0],[0,0]];
  test.forEach(x=>{let a=x.actual_outcome==='Approved'?1:0,p=x.predicted_outcome==='Approved'?1:0;cm[a][p]++});
- plot('confusionChart',[{z:cm,x:predLabs,y:labels,type:'heatmap',colorscale:[[0,'#eef2fa'],[1,'#397f82']],showscale:false,text:cm.map(r=>r.map(String)),texttemplate:'%{text}',hovertemplate:'%{y}<br>%{x}<br>Count: %{z}<extra></extra>'}],{yaxis:{autorange:'reversed'},margin:{l:120,r:10,t:10,b:60}});
+ plot('confusionChart',[{z:cm,x:predLabs,y:labels,type:'heatmap',colorscale:[[0,'#EEF2FF'],[1,'#4F46E5']],showscale:false,text:cm.map(r=>r.map(String)),texttemplate:'%{text}',hovertemplate:'%{y}<br>%{x}<br>Count: %{z}<extra></extra>'}],{yaxis:{autorange:'reversed'},margin:{l:120,r:10,t:10,b:60}});
  const probs=test.map(x=>Number(x.approval_probability)).filter(Number.isFinite);
- plot('probChart',[{x:probs,type:'histogram',nbinsx:20,marker:{color:'#4f72c8'},hovertemplate:'Probability range: %{x}<br>Records: %{y}<extra></extra>'}],{xaxis:{title:'Predicted approval probability',range:[0,1]},yaxis:{title:'Test records'}});
- plot('productChart',[{x:products.map(x=>x.loan_product),y:products.map(x=>Number(x.approval_rate_pct)),type:'bar',marker:{color:'#3d8d87'},text:products.map(x=>fmt(x.approval_rate_pct,1)+'%'),textposition:'outside',cliponaxis:false}],{yaxis:{title:'Approval rate (%)',range:[0,Math.min(100,Math.max(70,...products.map(x=>+x.approval_rate_pct||0))+8)]},margin:{l:45,r:15,t:15,b:100}});
- plot('regionChart',[{x:regional.map(x=>x.region),y:regional.map(x=>Number(x.applications)),type:'bar',marker:{color:'#4f72c8'},text:regional.map(x=>fmt(x.applications,0)),textposition:'outside'}],{yaxis:{title:'Applications'},margin:{l:50,r:15,t:15,b:55}});
+ plot('probChart',[{x:probs,type:'histogram',nbinsx:20,marker:{color:'#4F46E5'},hovertemplate:'Probability range: %{x}<br>Records: %{y}<extra></extra>'}],{xaxis:{title:'Predicted approval probability',range:[0,1]},yaxis:{title:'Test records'}});
+ plot('productChart',[{x:products.map(x=>x.loan_product),y:products.map(x=>Number(x.approval_rate_pct)),type:'bar',marker:{color:'#0D9488'},text:products.map(x=>fmt(x.approval_rate_pct,1)+'%'),textposition:'outside',cliponaxis:false}],{yaxis:{title:'Approval rate (%)',range:[0,Math.min(100,Math.max(70,...products.map(x=>+x.approval_rate_pct||0))+8)]},margin:{l:45,r:15,t:15,b:100}});
+ plot('regionChart',[{x:regional.map(x=>x.region),y:regional.map(x=>Number(x.applications)),type:'bar',marker:{color:'#4F46E5'},text:regional.map(x=>fmt(x.applications,0)),textposition:'outside'}],{yaxis:{title:'Applications'},margin:{l:50,r:15,t:15,b:55}});
  $('regionTable').querySelector('tbody').innerHTML=regional.map(x=>`<tr><td><b>${esc(x.region)}</b></td><td>${fmt(x.applications,0)}</td><td>${fmt(x.approved,0)}</td><td>${fmt(x.rejected,0)}</td><td>${fmt(x.approval_rate_pct,2)}%</td><td>${money(x.requested_amount_inr)}</td></tr>`).join('');
  const top=importance.slice().sort((a,b)=>Number(b.importance)-Number(a.importance)).slice(0,20).reverse();
- plot('importanceChart',[{x:top.map(x=>Number(x.importance)),y:top.map(x=>String(x.feature).replace(/^(num__|cat__)/,'')),type:'bar',orientation:'h',marker:{color:'#dc9560'},hovertemplate:'%{y}<br>Importance: %{x:.4f}<extra></extra>'}],{xaxis:{title:'Importance'},margin:{l:230,r:20,t:5,b:45}});
+ plot('importanceChart',[{x:top.map(x=>Number(x.importance)),y:top.map(x=>String(x.feature).replace(/^(num__|cat__)/,'')),type:'bar',orientation:'h',marker:{color:'#4F46E5'},hovertemplate:'%{y}<br>Importance: %{x:.4f}<extra></extra>'}],{xaxis:{title:'Importance'},margin:{l:230,r:20,t:5,b:45}});
  $('predictionCount').textContent=`${fmt(test.length,0)} held-out test records`;
  filterPredictions();
 }
