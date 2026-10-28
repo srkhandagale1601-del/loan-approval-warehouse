@@ -1,45 +1,46 @@
 {
-  "generated_at_utc": "2026-10-17T13:37:35.706365+00:00",
-  "selected_model": "Random Forest",
+  "generated_at_utc": "2026-10-28T15:47:53.806455+00:00",
+  "selected_model": "Logistic Regression",
+  "feature_importance_source": "Logistic Regression",
   "validation_scores": [
     {
       "model": "Logistic Regression",
-      "validation_accuracy": 0.764,
-      "validation_precision": 0.7893401015228426,
-      "validation_recall": 0.7679012345679013,
-      "validation_f1": 0.7784730913642053
+      "validation_accuracy": 0.792,
+      "validation_precision": 0.8233766233766234,
+      "validation_recall": 0.782716049382716,
+      "validation_f1": 0.8025316455696202
     },
     {
       "model": "Decision Tree",
-      "validation_accuracy": 0.74,
-      "validation_precision": 0.7884615384615384,
-      "validation_recall": 0.7086419753086419,
-      "validation_f1": 0.7464239271781534
+      "validation_accuracy": 0.7186666666666667,
+      "validation_precision": 0.7593582887700535,
+      "validation_recall": 0.7012345679012346,
+      "validation_f1": 0.7291399229781772
     },
     {
       "model": "Random Forest",
-      "validation_accuracy": 0.776,
-      "validation_precision": 0.7869249394673123,
-      "validation_recall": 0.8024691358024691,
-      "validation_f1": 0.7946210268948656
+      "validation_accuracy": 0.7746666666666666,
+      "validation_precision": 0.7935323383084577,
+      "validation_recall": 0.7876543209876543,
+      "validation_f1": 0.7905824039653035
     }
   ],
   "models": [
     {
       "model": "Logistic Regression",
-      "accuracy": 0.7587,
-      "precision_approved": 0.7672,
-      "recall_approved": 0.7956,
-      "f1_approved": 0.7811,
-      "roc_auc": 0.8227,
+      "accuracy": 0.7453,
+      "precision_approved": 0.7667,
+      "recall_approved": 0.7611,
+      "f1_approved": 0.7639,
+      "roc_auc": 0.8092,
       "confusion_matrix": [
         [
-          246,
-          98
+          250,
+          94
         ],
         [
-          83,
-          323
+          97,
+          309
         ]
       ],
       "roc_curve": [
@@ -49,99 +50,103 @@
         },
         {
           "fpr": 0.0145,
-          "tpr": 0.1059
+          "tpr": 0.0837
         },
         {
-          "fpr": 0.032,
-          "tpr": 0.202
+          "fpr": 0.0291,
+          "tpr": 0.1921
         },
         {
-          "fpr": 0.0465,
-          "tpr": 0.2833
+          "fpr": 0.0494,
+          "tpr": 0.2808
         },
         {
-          "fpr": 0.0669,
-          "tpr": 0.4089
+          "fpr": 0.064,
+          "tpr": 0.3325
         },
         {
-          "fpr": 0.0872,
-          "tpr": 0.5049
+          "fpr": 0.0814,
+          "tpr": 0.4163
         },
         {
           "fpr": 0.1017,
-          "tpr": 0.5517
+          "tpr": 0.4532
         },
         {
-          "fpr": 0.125,
-          "tpr": 0.5911
+          "fpr": 0.1192,
+          "tpr": 0.4754
+        },
+        {
+          "fpr": 0.1337,
+          "tpr": 0.5542
         },
         {
           "fpr": 0.1541,
-          "tpr": 0.6552
+          "tpr": 0.5813
         },
         {
-          "fpr": 0.1773,
-          "tpr": 0.6724
+          "fpr": 0.1744,
+          "tpr": 0.6133
         },
         {
-          "fpr": 0.2122,
-          "tpr": 0.6921
+          "fpr": 0.1977,
+          "tpr": 0.6453
         },
         {
-          "fpr": 0.2384,
-          "tpr": 0.7414
+          "fpr": 0.218,
+          "tpr": 0.6749
         },
         {
           "fpr": 0.2558,
-          "tpr": 0.7783
+          "tpr": 0.7266
         },
         {
-          "fpr": 0.311,
-          "tpr": 0.8079
+          "fpr": 0.2762,
+          "tpr": 0.7635
         },
         {
-          "fpr": 0.343,
-          "tpr": 0.8227
+          "fpr": 0.314,
+          "tpr": 0.798
         },
         {
-          "fpr": 0.3837,
+          "fpr": 0.3372,
+          "tpr": 0.8251
+        },
+        {
+          "fpr": 0.3721,
           "tpr": 0.8448
         },
         {
-          "fpr": 0.4186,
-          "tpr": 0.8596
-        },
-        {
-          "fpr": 0.4477,
-          "tpr": 0.8842
+          "fpr": 0.407,
+          "tpr": 0.867
         },
         {
           "fpr": 0.4884,
-          "tpr": 0.9039
+          "tpr": 0.8916
         },
         {
-          "fpr": 0.5349,
-          "tpr": 0.9187
+          "fpr": 0.5407,
+          "tpr": 0.9089
         },
         {
-          "fpr": 0.5814,
-          "tpr": 0.936
+          "fpr": 0.5843,
+          "tpr": 0.9261
         },
         {
-          "fpr": 0.625,
+          "fpr": 0.6308,
           "tpr": 0.9483
         },
         {
-          "fpr": 0.6686,
+          "fpr": 0.6977,
           "tpr": 0.9606
         },
         {
-          "fpr": 0.7267,
-          "tpr": 0.9754
+          "fpr": 0.7674,
+          "tpr": 0.9803
         },
         {
-          "fpr": 0.7616,
-          "tpr": 0.9901
+          "fpr": 0.8459,
+          "tpr": 0.9975
         },
         {
           "fpr": 1.0,
@@ -151,19 +156,19 @@
     },
     {
       "model": "Decision Tree",
-      "accuracy": 0.7387,
-      "precision_approved": 0.7586,
-      "recall_approved": 0.7586,
-      "f1_approved": 0.7586,
-      "roc_auc": 0.764,
+      "accuracy": 0.7107,
+      "precision_approved": 0.7368,
+      "recall_approved": 0.7241,
+      "f1_approved": 0.7304,
+      "roc_auc": 0.7383,
       "confusion_matrix": [
         [
-          246,
-          98
+          239,
+          105
         ],
         [
-          98,
-          308
+          112,
+          294
         ]
       ],
       "roc_curve": [
@@ -172,100 +177,104 @@
           "tpr": 0.0
         },
         {
-          "fpr": 0.1017,
-          "tpr": 0.2586
+          "fpr": 0.0581,
+          "tpr": 0.101
         },
         {
-          "fpr": 0.1105,
-          "tpr": 0.2882
+          "fpr": 0.0727,
+          "tpr": 0.1256
         },
         {
-          "fpr": 0.1192,
-          "tpr": 0.3202
-        },
-        {
-          "fpr": 0.1279,
-          "tpr": 0.4138
-        },
-        {
-          "fpr": 0.1308,
-          "tpr": 0.436
+          "fpr": 0.1134,
+          "tpr": 0.3005
         },
         {
           "fpr": 0.1337,
-          "tpr": 0.4557
+          "tpr": 0.4187
         },
         {
-          "fpr": 0.1424,
-          "tpr": 0.4828
+          "fpr": 0.1337,
+          "tpr": 0.4261
         },
         {
-          "fpr": 0.1657,
-          "tpr": 0.5296
+          "fpr": 0.1686,
+          "tpr": 0.4655
         },
         {
           "fpr": 0.1773,
-          "tpr": 0.5714
+          "tpr": 0.4828
+        },
+        {
+          "fpr": 0.2035,
+          "tpr": 0.4975
         },
         {
           "fpr": 0.2355,
-          "tpr": 0.7315
+          "tpr": 0.5542
         },
         {
-          "fpr": 0.2413,
-          "tpr": 0.7438
+          "fpr": 0.25,
+          "tpr": 0.6158
         },
         {
-          "fpr": 0.2674,
-          "tpr": 0.7512
+          "fpr": 0.2616,
+          "tpr": 0.6552
         },
         {
           "fpr": 0.2878,
-          "tpr": 0.7586
+          "tpr": 0.6847
         },
         {
-          "fpr": 0.3227,
-          "tpr": 0.7808
+          "fpr": 0.2965,
+          "tpr": 0.7143
         },
         {
-          "fpr": 0.3372,
-          "tpr": 0.7882
+          "fpr": 0.3052,
+          "tpr": 0.7241
         },
         {
-          "fpr": 0.3459,
-          "tpr": 0.7906
+          "fpr": 0.3488,
+          "tpr": 0.734
         },
         {
-          "fpr": 0.5494,
-          "tpr": 0.8744
+          "fpr": 0.3663,
+          "tpr": 0.7438
         },
         {
-          "fpr": 0.561,
-          "tpr": 0.8867
+          "fpr": 0.3779,
+          "tpr": 0.7759
         },
         {
-          "fpr": 0.6366,
+          "fpr": 0.5116,
+          "tpr": 0.8522
+        },
+        {
+          "fpr": 0.5465,
+          "tpr": 0.8768
+        },
+        {
+          "fpr": 0.6134,
+          "tpr": 0.8941
+        },
+        {
+          "fpr": 0.6279,
           "tpr": 0.9138
         },
         {
-          "fpr": 0.6483,
-          "tpr": 0.9212
+          "fpr": 0.6919,
+          "tpr": 0.936
         },
         {
-          "fpr": 0.657,
-          "tpr": 0.9335
+          "fpr": 0.7209,
+          "tpr": 0.9507
         },
         {
-          "fpr": 0.6657,
-          "tpr": 0.9409
+          "fpr": 0.7703,
+          "tpr": 0.9655
         },
         {
-          "fpr": 0.686,
-          "tpr": 0.9433
-        },
-        {
-          "fpr": 0.75,
-          "tpr": 0.9532
+          "fpr": 0.7907,
+          "tpr": 0.9655
         },
         {
           "fpr": 1.0,
@@ -275,19 +284,19 @@
     },
     {
       "model": "Random Forest",
-      "accuracy": 0.736,
-      "precision_approved": 0.7364,
-      "recall_approved": 0.798,
-      "f1_approved": 0.766,
-      "roc_auc": 0.8153,
+      "accuracy": 0.7293,
+      "precision_approved": 0.7434,
+      "recall_approved": 0.7635,
+      "f1_approved": 0.7533,
+      "roc_auc": 0.7915,
       "confusion_matrix": [
         [
-          228,
-          116
+          237,
+          107
         ],
         [
-          82,
-          324
+          96,
+          310
         ]
       ],
       "roc_curve": [
@@ -297,102 +306,106 @@
         },
         {
           "fpr": 0.0087,
-          "tpr": 0.0714
+          "tpr": 0.0665
         },
         {
-          "fpr": 0.0203,
-          "tpr": 0.1823
+          "fpr": 0.0349,
+          "tpr": 0.1675
         },
         {
-          "fpr": 0.0465,
-          "tpr": 0.2537
+          "fpr": 0.0436,
+          "tpr": 0.2512
         },
         {
           "fpr": 0.0581,
-          "tpr": 0.33
+          "tpr": 0.3079
         },
         {
-          "fpr": 0.0843,
-          "tpr": 0.4163
+          "fpr": 0.0901,
+          "tpr": 0.367
         },
         {
-          "fpr": 0.093,
-          "tpr": 0.4975
+          "fpr": 0.1134,
+          "tpr": 0.4507
         },
         {
-          "fpr": 0.1192,
-          "tpr": 0.5764
+          "fpr": 0.1395,
+          "tpr": 0.5123
         },
         {
-          "fpr": 0.1512,
-          "tpr": 0.6232
+          "fpr": 0.1599,
+          "tpr": 0.5567
         },
         {
-          "fpr": 0.1686,
-          "tpr": 0.6626
+          "fpr": 0.1802,
+          "tpr": 0.6182
         },
         {
-          "fpr": 0.218,
-          "tpr": 0.6946
+          "fpr": 0.2267,
+          "tpr": 0.6601
         },
         {
-          "fpr": 0.2471,
-          "tpr": 0.7266
+          "fpr": 0.2587,
+          "tpr": 0.6921
         },
         {
           "fpr": 0.2907,
-          "tpr": 0.7783
+          "tpr": 0.7241
         },
         {
-          "fpr": 0.3372,
-          "tpr": 0.798
+          "fpr": 0.311,
+          "tpr": 0.7709
         },
         {
-          "fpr": 0.3779,
-          "tpr": 0.8251
+          "fpr": 0.3488,
+          "tpr": 0.7931
         },
         {
-          "fpr": 0.4157,
-          "tpr": 0.8547
+          "fpr": 0.3895,
+          "tpr": 0.8103
+        },
+        {
+          "fpr": 0.4244,
+          "tpr": 0.8448
         },
         {
           "fpr": 0.4622,
-          "tpr": 0.8768
+          "tpr": 0.8744
         },
         {
-          "fpr": 0.5,
-          "tpr": 0.8892
+          "fpr": 0.5349,
+          "tpr": 0.8966
         },
         {
-          "fpr": 0.5494,
-          "tpr": 0.9138
+          "fpr": 0.5959,
+          "tpr": 0.9286
         },
         {
-          "fpr": 0.6017,
-          "tpr": 0.9483
+          "fpr": 0.6483,
+          "tpr": 0.9409
         },
         {
-          "fpr": 0.657,
+          "fpr": 0.6802,
           "tpr": 0.9557
         },
         {
-          "fpr": 0.7035,
-          "tpr": 0.9581
+          "fpr": 0.7267,
+          "tpr": 0.9655
         },
         {
-          "fpr": 0.7616,
+          "fpr": 0.8081,
           "tpr": 0.9778
         },
         {
-          "fpr": 0.814,
-          "tpr": 0.9951
+          "fpr": 0.8517,
+          "tpr": 0.9852
         },
         {
-          "fpr": 0.8924,
+          "fpr": 0.936,
           "tpr": 1.0
         },
         {
-          "fpr": 0.9797,
+          "fpr": 0.9913,
           "tpr": 1.0
         },
         {
@@ -406,148 +419,148 @@
     {
       "feature": "cibil_score",
       "raw_feature": "num__cibil_score",
-      "importance": 0.2303
-    },
-    {
-      "feature": "income_annum",
-      "raw_feature": "num__income_annum",
-      "importance": 0.0985
-    },
-    {
-      "feature": "total_assets",
-      "raw_feature": "num__total_assets",
-      "importance": 0.0812
-    },
-    {
-      "feature": "loan_to_income",
-      "raw_feature": "num__loan_to_income",
-      "importance": 0.0783
-    },
-    {
-      "feature": "asset_to_loan",
-      "raw_feature": "num__asset_to_loan",
-      "importance": 0.0783
-    },
-    {
-      "feature": "loan_amount",
-      "raw_feature": "num__loan_amount",
-      "importance": 0.0781
-    },
-    {
-      "feature": "credit_band_Fair",
-      "raw_feature": "cat__credit_band_Fair",
-      "importance": 0.0652
-    },
-    {
-      "feature": "credit_band_Excellent",
-      "raw_feature": "cat__credit_band_Excellent",
-      "importance": 0.0597
-    },
-    {
-      "feature": "loan_term",
-      "raw_feature": "num__loan_term",
-      "importance": 0.0433
-    },
-    {
-      "feature": "no_of_dependents",
-      "raw_feature": "num__no_of_dependents",
-      "importance": 0.0362
-    },
-    {
-      "feature": "credit_band_Good",
-      "raw_feature": "cat__credit_band_Good",
-      "importance": 0.0229
+      "importance": 0.3455
     },
     {
       "feature": "credit_band_Low",
       "raw_feature": "cat__credit_band_Low",
-      "importance": 0.0125
+      "importance": 0.1508
     },
     {
-      "feature": "education_Graduate",
-      "raw_feature": "cat__education_Graduate",
-      "importance": 0.012
+      "feature": "credit_band_Fair",
+      "raw_feature": "cat__credit_band_Fair",
+      "importance": 0.0759
     },
     {
-      "feature": "education_12th",
-      "raw_feature": "cat__education_12th",
-      "importance": 0.0106
+      "feature": "income_annum",
+      "raw_feature": "num__income_annum",
+      "importance": 0.0616
     },
     {
-      "feature": "education_Postgraduate",
-      "raw_feature": "cat__education_Postgraduate",
-      "importance": 0.0099
-    },
-    {
-      "feature": "self_employed_No",
-      "raw_feature": "cat__self_employed_No",
-      "importance": 0.0096
-    },
-    {
-      "feature": "education_Up to 10th",
-      "raw_feature": "cat__education_Up to 10th",
-      "importance": 0.0093
-    },
-    {
-      "feature": "self_employed_Yes",
-      "raw_feature": "cat__self_employed_Yes",
-      "importance": 0.0089
+      "feature": "income_band_Low",
+      "raw_feature": "cat__income_band_Low",
+      "importance": 0.0554
     },
     {
       "feature": "income_band_High",
       "raw_feature": "cat__income_band_High",
-      "importance": 0.0085
+      "importance": 0.0514
     },
     {
-      "feature": "amount_band_Medium",
-      "raw_feature": "cat__amount_band_Medium",
-      "importance": 0.0075
+      "feature": "credit_band_Good",
+      "raw_feature": "cat__credit_band_Good",
+      "importance": 0.0454
+    },
+    {
+      "feature": "amount_band_Very large",
+      "raw_feature": "cat__amount_band_Very large",
+      "importance": 0.026
+    },
+    {
+      "feature": "loan_amount",
+      "raw_feature": "num__loan_amount",
+      "importance": 0.0214
+    },
+    {
+      "feature": "education_Postgraduate",
+      "raw_feature": "cat__education_Postgraduate",
+      "importance": 0.0193
     },
     {
       "feature": "income_band_Lower-middle",
       "raw_feature": "cat__income_band_Lower-middle",
-      "importance": 0.0071
+      "importance": 0.0164
     },
     {
-      "feature": "income_band_Upper-middle",
-      "raw_feature": "cat__income_band_Upper-middle",
-      "importance": 0.0069
+      "feature": "credit_band_Excellent",
+      "raw_feature": "cat__credit_band_Excellent",
+      "importance": 0.0153
     },
     {
-      "feature": "education_Professional",
-      "raw_feature": "cat__education_Professional",
-      "importance": 0.0068
+      "feature": "total_assets",
+      "raw_feature": "num__total_assets",
+      "importance": 0.0148
+    },
+    {
+      "feature": "education_Graduate",
+      "raw_feature": "cat__education_Graduate",
+      "importance": 0.0116
+    },
+    {
+      "feature": "loan_term",
+      "raw_feature": "num__loan_term",
+      "importance": 0.0097
     },
     {
       "feature": "amount_band_Small",
       "raw_feature": "cat__amount_band_Small",
-      "importance": 0.0059
+      "importance": 0.0093
+    },
+    {
+      "feature": "education_Up to 10th",
+      "raw_feature": "cat__education_Up to 10th",
+      "importance": 0.0091
+    },
+    {
+      "feature": "amount_band_Medium",
+      "raw_feature": "cat__amount_band_Medium",
+      "importance": 0.0087
+    },
+    {
+      "feature": "self_employed_Yes",
+      "raw_feature": "cat__self_employed_Yes",
+      "importance": 0.0087
+    },
+    {
+      "feature": "asset_to_loan",
+      "raw_feature": "num__asset_to_loan",
+      "importance": 0.0074
+    },
+    {
+      "feature": "education_Professional",
+      "raw_feature": "cat__education_Professional",
+      "importance": 0.0074
+    },
+    {
+      "feature": "loan_to_income",
+      "raw_feature": "num__loan_to_income",
+      "importance": 0.0072
     },
     {
       "feature": "amount_band_Large",
       "raw_feature": "cat__amount_band_Large",
-      "importance": 0.0049
+      "importance": 0.0063
+    },
+    {
+      "feature": "income_band_Upper-middle",
+      "raw_feature": "cat__income_band_Upper-middle",
+      "importance": 0.0062
+    },
+    {
+      "feature": "self_employed_No",
+      "raw_feature": "cat__self_employed_No",
+      "importance": 0.0055
     }
   ],
   "segment_performance": {
     "credit_band": [
       {
         "category": "Excellent",
-        "records": 206,
-        "accuracy": 0.874,
-        "approval_rate": 0.874
+        "records": 183,
+        "accuracy": 0.847,
+        "approval_rate": 0.847
       },
       {
         "category": "Fair",
-        "records": 175,
-        "accuracy": 0.8,
-        "approval_rate": 0.217
+        "records": 178,
+        "accuracy": 0.787,
+        "approval_rate": 0.23
       },
       {
         "category": "Good",
-        "records": 352,
-        "accuracy": 0.611,
-        "approval_rate": 0.534
+        "records": 372,
+        "accuracy": 0.664,
+        "approval_rate": 0.565
       },
       {
         "category": "Low",
@@ -559,65 +572,65 @@
     "loan_product": [
       {
         "category": "Agriculture Loan",
-        "records": 56,
-        "accuracy": 0.786,
-        "approval_rate": 0.464
-      },
-      {
-        "category": "Business Loan",
-        "records": 108,
-        "accuracy": 0.611,
+        "records": 54,
+        "accuracy": 0.87,
         "approval_rate": 0.481
       },
       {
+        "category": "Business Loan",
+        "records": 95,
+        "accuracy": 0.695,
+        "approval_rate": 0.6
+      },
+      {
         "category": "Home Loan",
-        "records": 133,
-        "accuracy": 0.782,
-        "approval_rate": 0.571
+        "records": 160,
+        "accuracy": 0.725,
+        "approval_rate": 0.55
       },
       {
         "category": "MSME Loan",
-        "records": 116,
-        "accuracy": 0.81,
-        "approval_rate": 0.509
+        "records": 99,
+        "accuracy": 0.717,
+        "approval_rate": 0.444
       },
       {
         "category": "Personal Loan",
-        "records": 209,
-        "accuracy": 0.718,
-        "approval_rate": 0.56
+        "records": 226,
+        "accuracy": 0.735,
+        "approval_rate": 0.553
       },
       {
         "category": "Vehicle Loan",
-        "records": 128,
-        "accuracy": 0.734,
-        "approval_rate": 0.594
+        "records": 116,
+        "accuracy": 0.802,
+        "approval_rate": 0.569
       }
     ],
     "income_band": [
       {
         "category": "High",
-        "records": 118,
-        "accuracy": 0.737,
-        "approval_rate": 0.636
+        "records": 112,
+        "accuracy": 0.777,
+        "approval_rate": 0.688
       },
       {
         "category": "Low",
-        "records": 72,
-        "accuracy": 0.736,
-        "approval_rate": 0.514
+        "records": 89,
+        "accuracy": 0.708,
+        "approval_rate": 0.494
       },
       {
         "category": "Lower-middle",
-        "records": 274,
-        "accuracy": 0.682,
-        "approval_rate": 0.464
+        "records": 265,
+        "accuracy": 0.728,
+        "approval_rate": 0.472
       },
       {
         "category": "Upper-middle",
-        "records": 286,
-        "accuracy": 0.787,
-        "approval_rate": 0.584
+        "records": 284,
+        "accuracy": 0.761,
+        "approval_rate": 0.563
       }
     ]
   },

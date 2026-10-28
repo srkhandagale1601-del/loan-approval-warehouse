@@ -11,84 +11,32 @@
   "segments": [
     {
       "cluster_id": 0,
-      "segment_name": "Prime Bureau Retail Borrowers",
-      "description": "Pristine credit history (avg 760 CIBIL) with strong repayment track record and balanced retail borrowing needs.",
-      "risk_profile": "Low Risk",
-      "recommended_action": "Automated straight-through approval (STP) with competitive prime interest rates.",
-      "count": 1883,
-      "percentage_of_portfolio": 37.66,
-      "approval_rate_pct": 76.74,
-      "avg_income_inr": 639951.18,
-      "avg_loan_amount_inr": 1448485.4,
-      "avg_cibil_score": 760.1,
-      "avg_total_assets_inr": 6003288.36,
-      "avg_loan_to_income": 2.82,
-      "avg_age": 35.5,
-      "primary_products": {
-        "Personal Loan": 680,
-        "Vehicle Loan": 369,
-        "Business Loan": 254
-      },
-      "credit_band_distribution": {
-        "Excellent": 971,
-        "Good": 912
-      }
-    },
-    {
-      "cluster_id": 1,
-      "segment_name": "High-Value Mortgage & Asset-Backed Borrowers",
-      "description": "Substantial accumulated asset base (avg \u20b91.64 Cr) backing large-ticket mortgage loans with long-tenure structured collateral.",
-      "risk_profile": "Asset-Secured Moderate Risk",
-      "recommended_action": "Independent property title search, collateral valuation appraisal, and structured mortgage tenure.",
-      "count": 625,
-      "percentage_of_portfolio": 12.5,
-      "approval_rate_pct": 57.12,
-      "avg_income_inr": 635419.37,
-      "avg_loan_amount_inr": 8193216.0,
-      "avg_cibil_score": 690.8,
-      "avg_total_assets_inr": 16380770.75,
-      "avg_loan_to_income": 17.61,
-      "avg_age": 35.1,
-      "primary_products": {
-        "Home Loan": 575,
-        "Business Loan": 24,
-        "MSME Loan": 16
-      },
-      "credit_band_distribution": {
-        "Good": 325,
-        "Fair": 158,
-        "Excellent": 124,
-        "Low": 18
-      }
-    },
-    {
-      "cluster_id": 2,
       "segment_name": "Emerging & Credit-Building Borrowers",
       "description": "Developing credit history or fair bureau score (avg 634 CIBIL) requiring structured underwriting and risk mitigation.",
       "risk_profile": "Moderate to High Risk",
       "recommended_action": "Enhanced collateral coverage, co-borrower endorsement, and credit-builder structuring.",
-      "count": 1854,
-      "percentage_of_portfolio": 37.08,
-      "approval_rate_pct": 25.35,
-      "avg_income_inr": 594562.61,
-      "avg_loan_amount_inr": 1598490.29,
-      "avg_cibil_score": 633.8,
-      "avg_total_assets_inr": 6197093.8,
-      "avg_loan_to_income": 3.37,
+      "count": 1850,
+      "percentage_of_portfolio": 37.0,
+      "approval_rate_pct": 25.19,
+      "avg_income_inr": 594094.24,
+      "avg_loan_amount_inr": 1598664.86,
+      "avg_cibil_score": 633.6,
+      "avg_total_assets_inr": 6188547.38,
+      "avg_loan_to_income": 3.38,
       "avg_age": 35.4,
       "primary_products": {
         "Personal Loan": 596,
         "Vehicle Loan": 341,
-        "MSME Loan": 304
+        "MSME Loan": 300
       },
       "credit_band_distribution": {
         "Fair": 956,
-        "Good": 804,
+        "Good": 800,
         "Low": 94
       }
     },
     {
-      "cluster_id": 3,
+      "cluster_id": 1,
       "segment_name": "Affluent High-Income Professionals",
       "description": "Top-tier household earnings (avg \u20b917.5L) with exceptionally low leverage (1.2x LTI) and disciplined debt servicing capacity.",
       "risk_profile": "Prime / Very Low Risk",
@@ -112,6 +60,58 @@
         "Fair": 140,
         "Excellent": 126,
         "Low": 11
+      }
+    },
+    {
+      "cluster_id": 2,
+      "segment_name": "Prime Bureau Retail Borrowers",
+      "description": "Pristine credit history (avg 760 CIBIL) with strong repayment track record and balanced retail borrowing needs.",
+      "risk_profile": "Low Risk",
+      "recommended_action": "Automated straight-through approval (STP) with competitive prime interest rates.",
+      "count": 1888,
+      "percentage_of_portfolio": 37.76,
+      "approval_rate_pct": 76.8,
+      "avg_income_inr": 640099.3,
+      "avg_loan_amount_inr": 1450231.99,
+      "avg_cibil_score": 760.0,
+      "avg_total_assets_inr": 6011532.7,
+      "avg_loan_to_income": 2.82,
+      "avg_age": 35.5,
+      "primary_products": {
+        "Personal Loan": 680,
+        "Vehicle Loan": 369,
+        "Business Loan": 254
+      },
+      "credit_band_distribution": {
+        "Excellent": 971,
+        "Good": 917
+      }
+    },
+    {
+      "cluster_id": 3,
+      "segment_name": "High-Value Mortgage & Asset-Backed Borrowers",
+      "description": "Substantial accumulated asset base (avg \u20b91.64 Cr) backing large-ticket mortgage loans with long-tenure structured collateral.",
+      "risk_profile": "Asset-Secured Moderate Risk",
+      "recommended_action": "Independent property title search, collateral valuation appraisal, and structured mortgage tenure.",
+      "count": 624,
+      "percentage_of_portfolio": 12.48,
+      "approval_rate_pct": 57.05,
+      "avg_income_inr": 636061.57,
+      "avg_loan_amount_inr": 8199184.29,
+      "avg_cibil_score": 690.9,
+      "avg_total_assets_inr": 16399037.21,
+      "avg_loan_to_income": 17.6,
+      "avg_age": 35.1,
+      "primary_products": {
+        "Home Loan": 575,
+        "Business Loan": 23,
+        "MSME Loan": 16
+      },
+      "credit_band_distribution": {
+        "Good": 324,
+        "Fair": 158,
+        "Excellent": 124,
+        "Low": 18
       }
     }
   ],

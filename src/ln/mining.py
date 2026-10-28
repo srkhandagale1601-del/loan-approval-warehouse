@@ -261,19 +261,28 @@ def main():
             "roc_curve": roc_pts
         })
 
-    # Feature Importance from Random Forest
-    rf_model = trained_pipelines["Random Forest"].named_steps["model"]
-    preprocessor = trained_pipelines["Random Forest"].named_steps["preprocess"]
+    # Feature Importance from selected best model architecture
+    selected_estimator = best_pipe.named_steps["model"]
+    preprocessor = best_pipe.named_steps["preprocess"]
     
     feature_names = []
     try:
         feature_names = list(preprocessor.get_feature_names_out())
     except Exception:
-        feature_names = [f"feat_{i}" for i in range(len(rf_model.feature_importances_))]
+        feature_names = [f"feat_{i}" for i in range(len(ALLOWED_FEATURES))]
     
-    importances = rf_model.feature_importances_
+    if hasattr(selected_estimator, "feature_importances_"):
+        raw_importances = selected_estimator.feature_importances_
+    elif hasattr(selected_estimator, "coef_"):
+        coef_abs = np.abs(selected_estimator.coef_[0])
+        s = np.sum(coef_abs)
+        raw_importances = (coef_abs / s) if s > 0 else coef_abs
+    else:
+        rf_est = trained_pipelines.get("Random Forest")
+        raw_importances = rf_est.named_steps["model"].feature_importances_ if rf_est else np.ones(len(feature_names))
+    
     feat_importance_list = []
-    for fn, imp in zip(feature_names, importances):
+    for fn, imp in zip(feature_names, raw_importances):
         clean_name = fn.replace("num__", "").replace("cat__", "")
         feat_importance_list.append({
             "feature": clean_name,
@@ -336,6 +345,7 @@ def main():
     full_model_report = {
         "generated_at_utc": pd.Timestamp.utcnow().isoformat(),
         "selected_model": best_name,
+        "feature_importance_source": best_name,
         "validation_scores": validation_scores,
         "models": test_results,
         "feature_importance": feat_importance_list[:25],

@@ -995,6 +995,18 @@ def model_predictions(
         "rows": page_df.to_dict(orient="records")
     }
 
+def get_selected_model_name() -> str:
+    metrics_file = WEB_DIR / "data" / "model_metrics.json"
+    if not metrics_file.exists():
+        metrics_file = REPORT_DIR / "model_metrics.json"
+    if metrics_file.exists():
+        try:
+            metrics_data = json.loads(metrics_file.read_text(encoding="utf-8"))
+            return metrics_data.get("selected_model", "Logistic Regression")
+        except Exception:
+            pass
+    return "Logistic Regression"
+
 @app.post("/api/predict")
 def predict(data: PredictionInput):
     model_path = MODEL_DIR / "loan_approval_model.joblib"
@@ -1003,6 +1015,7 @@ def predict(data: PredictionInput):
     
     try:
         model = load(model_path)
+        selected_model_name = get_selected_model_name()
         
         # Calculate derived features if omitted
         payload = data.model_dump()
@@ -1110,7 +1123,7 @@ def predict(data: PredictionInput):
             "prediction": str(pred_class),
             "approval_probability": approval_prob,
             "probabilities": probabilities,
-            "model_version": "Random Forest v2 (Educational)",
+            "model_version": f"{selected_model_name} (Educational)",
             "loan_product": loan_prod,
             "input_summary": {
                 "loan_product": loan_prod,

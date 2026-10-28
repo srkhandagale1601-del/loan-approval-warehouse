@@ -1,751 +1,751 @@
 loan_id,region,state,city,loan_product,loan_amount,cibil_score,credit_band,income_band,actual_outcome,predicted_outcome,approval_probability,prediction_correct
-209,South,Andhra Pradesh,Visakhapatnam,Personal Loan,1181000.0,749.0,Good,Upper-middle,Approved,Approved,0.73,True
-4865,West,Rajasthan,Jodhpur,Home Loan,7203000.0,859.0,Excellent,Lower-middle,Approved,Approved,0.845,True
-3250,West,Rajasthan,Udaipur,Vehicle Loan,1546000.0,612.0,Fair,High,Rejected,Rejected,0.4,True
-2810,South,Telangana,Hyderabad,Home Loan,2421000.0,757.0,Excellent,High,Approved,Approved,0.905,True
-4294,East,West Bengal,Kolkata,Business Loan,1017000.0,708.0,Good,High,Approved,Approved,0.805,True
-3504,East,West Bengal,Howrah,Agriculture Loan,568000.0,663.0,Good,Lower-middle,Rejected,Rejected,0.285,True
-4734,North,Uttar Pradesh,Varanasi,Home Loan,4120000.0,835.0,Excellent,Lower-middle,Approved,Approved,0.915,True
-4605,South,Tamil Nadu,Madurai,Personal Loan,408000.0,777.0,Excellent,Low,Approved,Approved,0.845,True
-3463,Central,Madhya Pradesh,Indore,Personal Loan,391000.0,658.0,Good,High,Approved,Approved,0.69,True
-1472,South,Tamil Nadu,Madurai,MSME Loan,1093000.0,755.0,Excellent,Lower-middle,Approved,Approved,0.67,True
-2108,South,Karnataka,Bengaluru,Vehicle Loan,1328000.0,761.0,Excellent,Lower-middle,Rejected,Approved,0.59,False
-1012,East,Bihar,Gaya,Personal Loan,558000.0,750.0,Excellent,Upper-middle,Approved,Approved,0.87,True
-4809,North,Delhi,New Delhi,Business Loan,849000.0,617.0,Fair,High,Rejected,Approved,0.52,False
-3499,South,Telangana,Warangal,Home Loan,1991000.0,599.0,Fair,Lower-middle,Rejected,Rejected,0.05,True
-4956,South,Tamil Nadu,Madurai,Personal Loan,1111000.0,705.0,Good,Upper-middle,Approved,Approved,0.71,True
-3941,West,Gujarat,Surat,MSME Loan,1357000.0,743.0,Good,Lower-middle,Approved,Approved,0.55,True
-3921,North,Uttar Pradesh,Noida,Agriculture Loan,1359000.0,577.0,Fair,Upper-middle,Rejected,Rejected,0.18,True
-4908,South,Kerala,Thiruvananthapuram,Personal Loan,1390000.0,689.0,Good,Low,Approved,Rejected,0.305,False
-1961,North,Haryana,Faridabad,Personal Loan,595000.0,833.0,Excellent,Upper-middle,Approved,Approved,0.905,True
-3005,South,Telangana,Hyderabad,Vehicle Loan,1755000.0,788.0,Excellent,Low,Approved,Approved,0.7,True
-1807,East,Assam,Dibrugarh,Business Loan,503000.0,724.0,Good,Upper-middle,Rejected,Approved,0.7,False
-2344,West,Rajasthan,Jodhpur,MSME Loan,2995000.0,693.0,Good,Upper-middle,Rejected,Approved,0.745,False
-2799,East,West Bengal,Howrah,Business Loan,2533000.0,660.0,Good,Lower-middle,Approved,Rejected,0.48,False
-1249,South,Tamil Nadu,Coimbatore,Agriculture Loan,799000.0,610.0,Fair,Upper-middle,Rejected,Rejected,0.23,True
-4373,South,Tamil Nadu,Chennai,Personal Loan,865000.0,708.0,Good,Lower-middle,Rejected,Approved,0.62,False
-1932,West,Maharashtra,Nagpur,Home Loan,3068000.0,639.0,Fair,Upper-middle,Rejected,Rejected,0.185,True
-1175,South,Karnataka,Mangaluru,Business Loan,4027000.0,693.0,Good,Upper-middle,Approved,Approved,0.54,True
-1588,North,Uttar Pradesh,Varanasi,Home Loan,847000.0,843.0,Excellent,Upper-middle,Approved,Approved,0.915,True
-3397,North,Punjab,Ludhiana,Home Loan,7317000.0,706.0,Good,Upper-middle,Approved,Approved,0.795,True
-4883,South,Tamil Nadu,Madurai,Business Loan,1698000.0,580.0,Fair,Lower-middle,Rejected,Rejected,0.075,True
-602,South,Karnataka,Mangaluru,Personal Loan,389000.0,598.0,Fair,Upper-middle,Rejected,Rejected,0.08,True
-1005,Central,Madhya Pradesh,Jabalpur,Personal Loan,761000.0,815.0,Excellent,High,Approved,Approved,0.91,True
-4375,West,Maharashtra,Pune,Business Loan,1656000.0,683.0,Good,Lower-middle,Rejected,Approved,0.5,False
-1013,North,Delhi,New Delhi,Agriculture Loan,874000.0,744.0,Good,High,Approved,Approved,0.815,True
-3724,West,Gujarat,Vadodara,MSME Loan,3469000.0,638.0,Fair,Lower-middle,Rejected,Rejected,0.115,True
-3284,West,Gujarat,Surat,Vehicle Loan,584000.0,580.0,Fair,Upper-middle,Approved,Rejected,0.095,False
-1874,North,Delhi,Rohini,Business Loan,2641000.0,671.0,Good,Lower-middle,Approved,Rejected,0.335,False
-2207,North,Delhi,Rohini,Personal Loan,1054000.0,698.0,Good,Upper-middle,Rejected,Rejected,0.495,True
-2841,North,Uttar Pradesh,Varanasi,Personal Loan,128000.0,627.0,Fair,High,Rejected,Rejected,0.485,True
-908,North,Delhi,Dwarka,Home Loan,5693000.0,797.0,Excellent,Upper-middle,Approved,Approved,0.935,True
-1883,West,Maharashtra,Nashik,MSME Loan,2552000.0,745.0,Good,High,Approved,Approved,0.775,True
-71,North,Delhi,New Delhi,Vehicle Loan,693000.0,776.0,Excellent,Upper-middle,Approved,Approved,0.88,True
-1071,North,Uttar Pradesh,Kanpur,Home Loan,1282000.0,819.0,Excellent,Lower-middle,Approved,Approved,0.94,True
-83,West,Maharashtra,Nagpur,Vehicle Loan,1993000.0,699.0,Good,Lower-middle,Approved,Rejected,0.355,False
-2228,West,Maharashtra,Pune,Personal Loan,1080000.0,699.0,Good,High,Approved,Approved,0.76,True
-1395,West,Maharashtra,Mumbai,Personal Loan,181000.0,736.0,Good,Lower-middle,Rejected,Approved,0.675,False
-3034,North,Uttar Pradesh,Noida,Business Loan,1143000.0,643.0,Fair,Lower-middle,Approved,Rejected,0.465,False
-3126,West,Maharashtra,Thane,MSME Loan,1870000.0,625.0,Fair,Upper-middle,Rejected,Rejected,0.255,True
-3304,South,Tamil Nadu,Madurai,Agriculture Loan,1359000.0,635.0,Fair,Lower-middle,Rejected,Rejected,0.115,True
-777,North,Delhi,New Delhi,Personal Loan,1203000.0,768.0,Excellent,Lower-middle,Approved,Approved,0.77,True
-1113,West,Gujarat,Ahmedabad,MSME Loan,212000.0,729.0,Good,High,Approved,Approved,0.775,True
-3670,East,Assam,Guwahati,MSME Loan,3555000.0,659.0,Good,High,Rejected,Rejected,0.46,True
-2047,Central,Madhya Pradesh,Indore,Personal Loan,1394000.0,680.0,Good,Lower-middle,Rejected,Rejected,0.41,True
-4468,South,Karnataka,Hubballi,Business Loan,1726000.0,654.0,Good,Lower-middle,Rejected,Rejected,0.295,True
-1820,South,Kerala,Kozhikode,Personal Loan,178000.0,795.0,Excellent,Lower-middle,Approved,Approved,0.91,True
-42,North,Punjab,Ludhiana,Personal Loan,1295000.0,751.0,Excellent,High,Approved,Approved,0.895,True
-4568,West,Maharashtra,Nashik,Home Loan,11507000.0,788.0,Excellent,Low,Approved,Approved,0.56,True
-93,North,Uttar Pradesh,Kanpur,MSME Loan,3633000.0,476.0,Low,Upper-middle,Rejected,Rejected,0.085,True
-2156,West,Maharashtra,Mumbai,Vehicle Loan,1393000.0,608.0,Fair,Upper-middle,Rejected,Rejected,0.2,True
-4642,South,Telangana,Warangal,Home Loan,5568000.0,840.0,Excellent,High,Approved,Approved,0.735,True
-1026,West,Maharashtra,Pune,Personal Loan,158000.0,642.0,Fair,High,Rejected,Approved,0.7,False
-3877,North,Delhi,Rohini,Vehicle Loan,1359000.0,741.0,Good,Lower-middle,Rejected,Approved,0.51,False
-1465,East,West Bengal,Kolkata,Personal Loan,1397000.0,768.0,Excellent,Low,Approved,Approved,0.535,True
-4778,South,Karnataka,Mangaluru,Home Loan,5885000.0,735.0,Good,Upper-middle,Approved,Approved,0.715,True
-1777,North,Uttar Pradesh,Noida,Business Loan,969000.0,653.0,Good,Upper-middle,Approved,Rejected,0.275,False
-1802,South,Karnataka,Hubballi,Vehicle Loan,861000.0,749.0,Good,High,Approved,Approved,0.75,True
-4351,West,Maharashtra,Nagpur,Home Loan,9998000.0,510.0,Low,Upper-middle,Rejected,Rejected,0.085,True
-3016,East,West Bengal,Kolkata,Home Loan,8581000.0,741.0,Good,High,Approved,Approved,0.91,True
-4397,West,Maharashtra,Pune,Vehicle Loan,435000.0,547.0,Low,Upper-middle,Rejected,Rejected,0.055,True
-4993,North,Delhi,Dwarka,MSME Loan,1947000.0,594.0,Fair,Lower-middle,Rejected,Rejected,0.125,True
-1814,North,Uttar Pradesh,Kanpur,Home Loan,4882000.0,654.0,Good,Lower-middle,Rejected,Rejected,0.235,True
-3507,South,Tamil Nadu,Coimbatore,Home Loan,3074000.0,639.0,Fair,Upper-middle,Approved,Rejected,0.165,False
-4913,West,Maharashtra,Pune,MSME Loan,1346000.0,691.0,Good,Upper-middle,Rejected,Rejected,0.45,True
-4130,North,Uttar Pradesh,Kanpur,Business Loan,904000.0,699.0,Good,Lower-middle,Rejected,Rejected,0.39,True
-883,West,Gujarat,Ahmedabad,Personal Loan,1191000.0,821.0,Excellent,Lower-middle,Approved,Approved,0.815,True
-2874,South,Kerala,Kozhikode,Vehicle Loan,1000000.0,726.0,Good,Upper-middle,Approved,Approved,0.53,True
-112,North,Uttar Pradesh,Kanpur,Home Loan,5775000.0,754.0,Excellent,Upper-middle,Approved,Approved,0.89,True
-4527,West,Rajasthan,Jodhpur,Home Loan,1185000.0,724.0,Good,Upper-middle,Rejected,Approved,0.83,False
-2673,East,Bihar,Gaya,Vehicle Loan,406000.0,716.0,Good,Upper-middle,Approved,Approved,0.67,True
-3099,North,Delhi,New Delhi,Home Loan,1900000.0,780.0,Excellent,Upper-middle,Approved,Approved,0.885,True
-3793,West,Gujarat,Surat,Vehicle Loan,1006000.0,624.0,Fair,Low,Rejected,Rejected,0.155,True
-1824,East,Odisha,Bhubaneswar,Business Loan,3716000.0,750.0,Excellent,Lower-middle,Rejected,Approved,0.75,False
-4903,South,Telangana,Hyderabad,Home Loan,11392000.0,631.0,Fair,High,Approved,Approved,0.68,True
-3978,West,Gujarat,Vadodara,Personal Loan,995000.0,718.0,Good,Lower-middle,Approved,Approved,0.71,True
-1035,South,Andhra Pradesh,Visakhapatnam,Home Loan,2792000.0,612.0,Fair,Lower-middle,Rejected,Rejected,0.14,True
-782,West,Maharashtra,Nagpur,Home Loan,9032000.0,738.0,Good,Upper-middle,Rejected,Approved,0.915,False
-4589,South,Karnataka,Hubballi,Personal Loan,451000.0,767.0,Excellent,High,Approved,Approved,0.855,True
-670,South,Kerala,Thiruvananthapuram,Personal Loan,786000.0,662.0,Good,High,Approved,Approved,0.695,True
-4350,West,Maharashtra,Pune,Personal Loan,769000.0,674.0,Good,Upper-middle,Rejected,Approved,0.65,False
-789,North,Delhi,Rohini,Vehicle Loan,1022000.0,652.0,Good,Lower-middle,Rejected,Rejected,0.4,True
-4142,East,West Bengal,Howrah,Business Loan,588000.0,663.0,Good,Lower-middle,Approved,Rejected,0.265,False
-1651,North,Haryana,Gurugram,Personal Loan,909000.0,725.0,Good,Lower-middle,Approved,Approved,0.64,True
-963,South,Tamil Nadu,Coimbatore,Vehicle Loan,437000.0,649.0,Fair,Upper-middle,Rejected,Rejected,0.43,True
-1507,North,Delhi,New Delhi,Business Loan,4100000.0,608.0,Fair,High,Rejected,Rejected,0.25,True
-1572,South,Kerala,Kozhikode,Vehicle Loan,478000.0,694.0,Good,Lower-middle,Approved,Rejected,0.415,False
-3395,South,Andhra Pradesh,Vijayawada,Personal Loan,1247000.0,672.0,Good,Upper-middle,Approved,Rejected,0.315,False
-3378,South,Karnataka,Mysuru,Home Loan,2896000.0,814.0,Excellent,Lower-middle,Approved,Approved,0.92,True
-1143,West,Maharashtra,Mumbai,Personal Loan,1032000.0,764.0,Excellent,Upper-middle,Approved,Approved,0.815,True
-1010,South,Kerala,Kozhikode,Home Loan,10718000.0,766.0,Excellent,Lower-middle,Approved,Approved,0.89,True
-3076,North,Uttar Pradesh,Varanasi,Home Loan,7180000.0,572.0,Fair,Lower-middle,Rejected,Rejected,0.02,True
-2746,North,Uttar Pradesh,Kanpur,Home Loan,7579000.0,664.0,Good,Low,Rejected,Rejected,0.27,True
-3674,West,Maharashtra,Nashik,MSME Loan,1394000.0,570.0,Fair,Upper-middle,Rejected,Rejected,0.195,True
-4281,East,Odisha,Bhubaneswar,Agriculture Loan,747000.0,587.0,Fair,Lower-middle,Rejected,Rejected,0.01,True
-3238,South,Tamil Nadu,Coimbatore,Home Loan,9132000.0,718.0,Good,Upper-middle,Approved,Approved,0.945,True
-461,West,Rajasthan,Jodhpur,Business Loan,4142000.0,705.0,Good,Upper-middle,Rejected,Approved,0.625,False
-3645,North,Haryana,Gurugram,MSME Loan,1785000.0,734.0,Good,Lower-middle,Approved,Rejected,0.48,False
-4730,West,Gujarat,Ahmedabad,Home Loan,5557000.0,632.0,Fair,Low,Approved,Rejected,0.15,False
-1793,South,Telangana,Warangal,Business Loan,2387000.0,783.0,Excellent,Lower-middle,Approved,Approved,0.885,True
-4276,West,Rajasthan,Udaipur,Vehicle Loan,1376000.0,839.0,Excellent,High,Approved,Approved,0.975,True
-2299,North,Delhi,New Delhi,Personal Loan,986000.0,644.0,Fair,Upper-middle,Approved,Approved,0.55,True
-1079,West,Maharashtra,Thane,Personal Loan,479000.0,653.0,Good,Upper-middle,Rejected,Rejected,0.435,True
-2658,South,Tamil Nadu,Chennai,Personal Loan,835000.0,663.0,Good,Upper-middle,Approved,Rejected,0.385,False
-4915,North,Delhi,New Delhi,Vehicle Loan,2069000.0,694.0,Good,Upper-middle,Approved,Approved,0.73,True
-1929,North,Delhi,New Delhi,MSME Loan,3941000.0,739.0,Good,Lower-middle,Approved,Approved,0.645,True
-3859,West,Maharashtra,Mumbai,Personal Loan,608000.0,781.0,Excellent,Upper-middle,Approved,Approved,0.92,True
-233,West,Maharashtra,Mumbai,Personal Loan,133000.0,861.0,Excellent,Lower-middle,Approved,Approved,0.935,True
-3448,South,Tamil Nadu,Chennai,Vehicle Loan,1224000.0,581.0,Fair,Low,Rejected,Rejected,0.05,True
-2032,West,Maharashtra,Pune,Agriculture Loan,111000.0,721.0,Good,Lower-middle,Rejected,Approved,0.645,False
-4754,North,Uttar Pradesh,Varanasi,Personal Loan,792000.0,632.0,Fair,Lower-middle,Approved,Rejected,0.155,False
-1359,South,Tamil Nadu,Coimbatore,Home Loan,2963000.0,583.0,Fair,Upper-middle,Rejected,Rejected,0.19,True
-1682,South,Telangana,Hyderabad,MSME Loan,2827000.0,613.0,Fair,Upper-middle,Rejected,Rejected,0.045,True
-4509,East,Odisha,Cuttack,Home Loan,9751000.0,741.0,Good,Upper-middle,Approved,Approved,0.775,True
-4354,West,Rajasthan,Jaipur,Home Loan,8313000.0,854.0,Excellent,Lower-middle,Approved,Approved,0.74,True
-3760,East,West Bengal,Kolkata,Personal Loan,227000.0,819.0,Excellent,Lower-middle,Approved,Approved,0.945,True
-3210,South,Tamil Nadu,Coimbatore,Personal Loan,92000.0,576.0,Fair,Lower-middle,Rejected,Rejected,0.03,True
-516,West,Gujarat,Ahmedabad,MSME Loan,3661000.0,717.0,Good,Lower-middle,Approved,Approved,0.635,True
-4015,South,Telangana,Warangal,MSME Loan,3445000.0,743.0,Good,Lower-middle,Rejected,Approved,0.55,False
-2384,North,Punjab,Amritsar,Business Loan,3661000.0,603.0,Fair,Lower-middle,Rejected,Rejected,0.075,True
-2609,North,Uttar Pradesh,Kanpur,Personal Loan,561000.0,610.0,Fair,Lower-middle,Rejected,Rejected,0.08,True
-2908,South,Andhra Pradesh,Visakhapatnam,Vehicle Loan,178000.0,782.0,Excellent,Upper-middle,Approved,Approved,0.825,True
-881,East,Assam,Dibrugarh,MSME Loan,3803000.0,810.0,Excellent,Upper-middle,Approved,Approved,0.96,True
-3475,South,Telangana,Hyderabad,Personal Loan,270000.0,751.0,Excellent,High,Approved,Approved,0.93,True
-2037,South,Karnataka,Hubballi,Vehicle Loan,591000.0,630.0,Fair,Lower-middle,Rejected,Rejected,0.16,True
-2293,West,Maharashtra,Nashik,Vehicle Loan,679000.0,669.0,Good,High,Approved,Approved,0.755,True
-2395,West,Gujarat,Ahmedabad,Business Loan,4327000.0,692.0,Good,Lower-middle,Rejected,Approved,0.58,False
-808,West,Gujarat,Ahmedabad,Personal Loan,1062000.0,698.0,Good,Upper-middle,Rejected,Rejected,0.46,True
-2750,West,Maharashtra,Pune,Personal Loan,950000.0,713.0,Good,Low,Approved,Rejected,0.335,False
-252,South,Karnataka,Mangaluru,Business Loan,675000.0,756.0,Excellent,Upper-middle,Approved,Approved,0.755,True
-3980,North,Haryana,Panipat,Business Loan,4318000.0,767.0,Excellent,Upper-middle,Approved,Approved,0.895,True
-4771,West,Maharashtra,Thane,Home Loan,6623000.0,639.0,Fair,Lower-middle,Rejected,Rejected,0.12,True
-4876,South,Tamil Nadu,Madurai,Agriculture Loan,1367000.0,630.0,Fair,Lower-middle,Approved,Rejected,0.295,False
-2134,West,Gujarat,Vadodara,Vehicle Loan,1848000.0,698.0,Good,Lower-middle,Approved,Rejected,0.445,False
-847,West,Maharashtra,Nashik,Personal Loan,203000.0,824.0,Excellent,Low,Rejected,Approved,0.9,False
-4919,South,Kerala,Thiruvananthapuram,Personal Loan,755000.0,573.0,Fair,Lower-middle,Rejected,Rejected,0.04,True
-2246,Central,Madhya Pradesh,Indore,MSME Loan,600000.0,774.0,Excellent,Upper-middle,Rejected,Approved,0.845,False
-1704,West,Maharashtra,Mumbai,Home Loan,1134000.0,658.0,Good,High,Rejected,Approved,0.72,False
-3010,East,Odisha,Bhubaneswar,Business Loan,742000.0,656.0,Good,High,Rejected,Approved,0.62,False
-168,North,Delhi,Dwarka,Business Loan,4296000.0,717.0,Good,Upper-middle,Rejected,Approved,0.64,False
-2016,South,Tamil Nadu,Coimbatore,Vehicle Loan,2456000.0,696.0,Good,Low,Approved,Rejected,0.295,False
-1039,North,Uttar Pradesh,Varanasi,Agriculture Loan,1459000.0,656.0,Good,Upper-middle,Rejected,Rejected,0.34,True
-3869,North,Delhi,New Delhi,Business Loan,2351000.0,757.0,Excellent,High,Approved,Approved,0.835,True
-473,South,Karnataka,Hubballi,Business Loan,2855000.0,804.0,Excellent,Lower-middle,Rejected,Approved,0.89,False
-491,South,Kerala,Kozhikode,Business Loan,1577000.0,703.0,Good,Upper-middle,Approved,Approved,0.7,True
-3691,East,West Bengal,Howrah,Personal Loan,1119000.0,718.0,Good,Upper-middle,Approved,Approved,0.74,True
-4985,North,Delhi,Dwarka,Personal Loan,1156000.0,717.0,Good,High,Approved,Approved,0.735,True
-2054,North,Uttar Pradesh,Noida,Personal Loan,1251000.0,513.0,Low,Lower-middle,Rejected,Rejected,0.025,True
-2607,South,Tamil Nadu,Chennai,Personal Loan,1321000.0,870.0,Excellent,Upper-middle,Approved,Approved,0.925,True
-4744,West,Gujarat,Surat,Business Loan,549000.0,697.0,Good,High,Rejected,Approved,0.705,False
-855,West,Maharashtra,Nashik,Personal Loan,442000.0,659.0,Good,Upper-middle,Rejected,Rejected,0.34,True
-4681,West,Gujarat,Vadodara,MSME Loan,3048000.0,730.0,Good,Upper-middle,Approved,Approved,0.61,True
-3354,West,Gujarat,Surat,Vehicle Loan,1161000.0,691.0,Good,Upper-middle,Rejected,Approved,0.57,False
-735,South,Kerala,Kochi,Business Loan,3532000.0,626.0,Fair,Low,Rejected,Rejected,0.14,True
-159,Central,Madhya Pradesh,Indore,Vehicle Loan,2057000.0,900.0,Excellent,Upper-middle,Approved,Approved,0.93,True
-2365,West,Maharashtra,Pune,Agriculture Loan,1468000.0,719.0,Good,High,Approved,Approved,0.86,True
-2701,North,Haryana,Panipat,Business Loan,3838000.0,579.0,Fair,Upper-middle,Rejected,Rejected,0.265,True
-1292,West,Maharashtra,Nashik,Home Loan,8464000.0,647.0,Fair,Upper-middle,Rejected,Rejected,0.395,True
-180,North,Uttar Pradesh,Varanasi,Home Loan,9331000.0,610.0,Fair,Lower-middle,Rejected,Rejected,0.085,True
-1318,Central,Madhya Pradesh,Indore,MSME Loan,2242000.0,645.0,Fair,Lower-middle,Approved,Rejected,0.115,False
-4193,North,Uttar Pradesh,Noida,Personal Loan,573000.0,719.0,Good,Upper-middle,Approved,Approved,0.725,True
-2161,East,Assam,Dibrugarh,Business Loan,2883000.0,775.0,Excellent,Lower-middle,Approved,Approved,0.805,True
-4166,South,Kerala,Thiruvananthapuram,Business Loan,3184000.0,694.0,Good,Upper-middle,Approved,Approved,0.745,True
-3972,South,Kerala,Kochi,Personal Loan,829000.0,707.0,Good,Upper-middle,Rejected,Approved,0.685,False
-3179,South,Karnataka,Hubballi,Business Loan,3934000.0,608.0,Fair,High,Rejected,Rejected,0.255,True
-3224,West,Maharashtra,Mumbai,Personal Loan,209000.0,579.0,Fair,Lower-middle,Rejected,Rejected,0.065,True
-3995,South,Kerala,Kozhikode,Agriculture Loan,1179000.0,596.0,Fair,High,Rejected,Rejected,0.27,True
-3753,West,Rajasthan,Jodhpur,MSME Loan,3944000.0,573.0,Fair,Upper-middle,Rejected,Rejected,0.04,True
-4485,North,Punjab,Ludhiana,Personal Loan,1006000.0,880.0,Excellent,Upper-middle,Approved,Approved,0.945,True
-3436,North,Delhi,New Delhi,Business Loan,4529000.0,795.0,Excellent,High,Rejected,Approved,0.79,False
-1141,West,Gujarat,Surat,Personal Loan,945000.0,592.0,Fair,Lower-middle,Approved,Rejected,0.075,False
-1714,North,Delhi,New Delhi,Business Loan,2121000.0,814.0,Excellent,Lower-middle,Approved,Approved,0.965,True
-2004,South,Karnataka,Mysuru,Business Loan,2092000.0,786.0,Excellent,Low,Rejected,Approved,0.65,False
-2273,North,Delhi,Rohini,MSME Loan,781000.0,708.0,Good,Lower-middle,Approved,Rejected,0.395,False
-1887,East,West Bengal,Kolkata,Vehicle Loan,982000.0,644.0,Fair,High,Rejected,Rejected,0.495,True
-1419,South,Tamil Nadu,Coimbatore,Home Loan,5823000.0,683.0,Good,Upper-middle,Approved,Rejected,0.38,False
-3159,West,Gujarat,Vadodara,Personal Loan,885000.0,750.0,Excellent,Lower-middle,Approved,Approved,0.765,True
-3719,South,Andhra Pradesh,Visakhapatnam,MSME Loan,2805000.0,569.0,Fair,Lower-middle,Rejected,Rejected,0.13,True
-4352,North,Delhi,Rohini,Personal Loan,471000.0,873.0,Excellent,Upper-middle,Approved,Approved,0.885,True
-2577,South,Tamil Nadu,Madurai,MSME Loan,780000.0,687.0,Good,High,Rejected,Approved,0.6,False
-2130,South,Telangana,Hyderabad,Home Loan,9574000.0,692.0,Good,Lower-middle,Approved,Approved,0.68,True
-749,East,West Bengal,Kolkata,Personal Loan,215000.0,617.0,Fair,Upper-middle,Approved,Rejected,0.16,False
-110,South,Telangana,Hyderabad,Agriculture Loan,1410000.0,748.0,Good,Lower-middle,Rejected,Approved,0.62,False
-401,East,Bihar,Gaya,MSME Loan,895000.0,702.0,Good,Upper-middle,Approved,Approved,0.54,True
-3318,North,Haryana,Panipat,Personal Loan,1155000.0,673.0,Good,High,Approved,Approved,0.705,True
-2153,North,Haryana,Panipat,Personal Loan,1202000.0,742.0,Good,Lower-middle,Approved,Rejected,0.48,False
-4174,West,Rajasthan,Jaipur,Agriculture Loan,1239000.0,669.0,Good,Lower-middle,Rejected,Approved,0.515,False
-2893,East,Odisha,Bhubaneswar,Home Loan,3013000.0,687.0,Good,Low,Approved,Rejected,0.44,False
-3844,East,Assam,Dibrugarh,Business Loan,971000.0,780.0,Excellent,Low,Approved,Approved,0.93,True
-3577,South,Tamil Nadu,Coimbatore,Home Loan,1310000.0,713.0,Good,Upper-middle,Approved,Approved,0.83,True
-4517,North,Delhi,Rohini,Personal Loan,1037000.0,734.0,Good,Lower-middle,Approved,Approved,0.785,True
-1184,Central,Madhya Pradesh,Bhopal,Vehicle Loan,1726000.0,667.0,Good,Lower-middle,Rejected,Approved,0.52,False
-712,South,Karnataka,Hubballi,Home Loan,7753000.0,666.0,Good,Lower-middle,Approved,Rejected,0.26,False
-3077,East,West Bengal,Howrah,Home Loan,10801000.0,671.0,Good,High,Approved,Approved,0.77,True
-3933,West,Gujarat,Ahmedabad,MSME Loan,2292000.0,590.0,Fair,Upper-middle,Rejected,Rejected,0.055,True
-2393,West,Maharashtra,Pune,Vehicle Loan,1451000.0,674.0,Good,Upper-middle,Approved,Rejected,0.27,False
-1650,South,Telangana,Warangal,Vehicle Loan,385000.0,721.0,Good,Upper-middle,Approved,Approved,0.715,True
-3168,South,Tamil Nadu,Madurai,Business Loan,3643000.0,698.0,Good,Upper-middle,Rejected,Approved,0.61,False
-368,Central,Madhya Pradesh,Indore,Business Loan,4912000.0,683.0,Good,Upper-middle,Rejected,Approved,0.555,False
-2950,South,Telangana,Hyderabad,Vehicle Loan,1048000.0,647.0,Fair,Upper-middle,Rejected,Rejected,0.215,True
-2768,North,Haryana,Gurugram,MSME Loan,2179000.0,735.0,Good,Upper-middle,Approved,Approved,0.75,True
-3994,South,Kerala,Kozhikode,Vehicle Loan,2330000.0,627.0,Fair,High,Rejected,Rejected,0.36,True
-4219,South,Karnataka,Bengaluru,Home Loan,1543000.0,741.0,Good,Lower-middle,Approved,Approved,0.565,True
-4818,South,Karnataka,Bengaluru,Vehicle Loan,1536000.0,734.0,Good,Lower-middle,Approved,Approved,0.51,True
-3171,South,Andhra Pradesh,Guntur,Personal Loan,1488000.0,765.0,Excellent,Upper-middle,Approved,Approved,0.795,True
-2269,North,Delhi,Dwarka,Agriculture Loan,645000.0,778.0,Excellent,Low,Approved,Approved,0.79,True
-910,South,Telangana,Hyderabad,Personal Loan,484000.0,646.0,Fair,Low,Rejected,Rejected,0.09,True
-3316,West,Maharashtra,Mumbai,Home Loan,4137000.0,665.0,Good,Upper-middle,Rejected,Rejected,0.235,True
-1394,West,Gujarat,Vadodara,Personal Loan,785000.0,704.0,Good,Lower-middle,Rejected,Rejected,0.43,True
-3442,East,West Bengal,Howrah,Personal Loan,1472000.0,664.0,Good,High,Approved,Approved,0.79,True
-2407,North,Uttar Pradesh,Kanpur,Personal Loan,475000.0,661.0,Good,Lower-middle,Rejected,Approved,0.505,False
-1093,West,Gujarat,Surat,Personal Loan,790000.0,756.0,Excellent,High,Approved,Approved,0.905,True
-413,Central,Madhya Pradesh,Indore,MSME Loan,3000000.0,733.0,Good,High,Approved,Approved,0.83,True
-3339,North,Uttar Pradesh,Lucknow,Vehicle Loan,1196000.0,746.0,Good,Upper-middle,Approved,Approved,0.745,True
-1844,West,Maharashtra,Nashik,Agriculture Loan,587000.0,639.0,Fair,Lower-middle,Approved,Rejected,0.11,False
-4033,West,Maharashtra,Thane,Business Loan,1225000.0,649.0,Fair,Low,Rejected,Rejected,0.225,True
-2724,South,Karnataka,Mangaluru,MSME Loan,3111000.0,696.0,Good,Upper-middle,Approved,Approved,0.555,True
-1983,West,Gujarat,Vadodara,Home Loan,9089000.0,653.0,Good,Lower-middle,Rejected,Rejected,0.305,True
-4643,South,Telangana,Hyderabad,MSME Loan,667000.0,602.0,Fair,Upper-middle,Rejected,Rejected,0.09,True
-3653,West,Gujarat,Vadodara,Vehicle Loan,2216000.0,608.0,Fair,Lower-middle,Rejected,Rejected,0.21,True
-2920,North,Punjab,Amritsar,Business Loan,1096000.0,653.0,Good,Upper-middle,Approved,Rejected,0.325,False
-3522,East,West Bengal,Howrah,Business Loan,3274000.0,508.0,Low,High,Rejected,Rejected,0.055,True
-3783,North,Uttar Pradesh,Kanpur,Vehicle Loan,2200000.0,634.0,Fair,High,Approved,Rejected,0.21,False
-3146,South,Karnataka,Mysuru,Vehicle Loan,480000.0,786.0,Excellent,Upper-middle,Approved,Approved,0.775,True
-3418,East,Odisha,Bhubaneswar,Business Loan,3030000.0,656.0,Good,Lower-middle,Rejected,Rejected,0.36,True
-240,East,West Bengal,Howrah,Personal Loan,149000.0,708.0,Good,Upper-middle,Rejected,Approved,0.65,False
-4520,West,Maharashtra,Mumbai,Home Loan,4563000.0,513.0,Low,Low,Rejected,Rejected,0.045,True
-468,West,Maharashtra,Mumbai,Business Loan,2993000.0,731.0,Good,Upper-middle,Rejected,Approved,0.615,False
-1171,North,Delhi,Rohini,Home Loan,8723000.0,744.0,Good,Upper-middle,Rejected,Approved,0.855,False
-3599,East,Bihar,Patna,Home Loan,8410000.0,692.0,Good,High,Approved,Approved,0.85,True
-1647,West,Gujarat,Surat,Agriculture Loan,392000.0,620.0,Fair,Upper-middle,Rejected,Rejected,0.13,True
-2830,North,Uttar Pradesh,Lucknow,MSME Loan,1361000.0,680.0,Good,Lower-middle,Approved,Rejected,0.44,False
-1845,South,Karnataka,Mangaluru,Personal Loan,173000.0,703.0,Good,Lower-middle,Rejected,Approved,0.555,False
-4963,South,Karnataka,Mysuru,Home Loan,7358000.0,470.0,Low,Upper-middle,Rejected,Rejected,0.04,True
-2160,Central,Madhya Pradesh,Jabalpur,MSME Loan,2120000.0,680.0,Good,Lower-middle,Rejected,Rejected,0.37,True
-4235,West,Rajasthan,Jaipur,Business Loan,3803000.0,674.0,Good,Upper-middle,Rejected,Rejected,0.2,True
-2789,South,Karnataka,Bengaluru,Personal Loan,304000.0,842.0,Excellent,High,Approved,Approved,0.9,True
-2090,North,Uttar Pradesh,Lucknow,Vehicle Loan,1726000.0,652.0,Good,Low,Rejected,Rejected,0.245,True
-4994,South,Karnataka,Mysuru,Personal Loan,105000.0,677.0,Good,High,Rejected,Approved,0.675,False
-3693,West,Maharashtra,Pune,MSME Loan,1771000.0,871.0,Excellent,Lower-middle,Approved,Approved,0.945,True
-3525,Central,Madhya Pradesh,Jabalpur,Home Loan,1441000.0,769.0,Excellent,Upper-middle,Approved,Approved,0.94,True
-661,South,Kerala,Thiruvananthapuram,Business Loan,4608000.0,712.0,Good,High,Approved,Approved,0.77,True
-3496,North,Punjab,Amritsar,MSME Loan,3141000.0,649.0,Fair,Lower-middle,Rejected,Rejected,0.32,True
-960,East,Bihar,Gaya,Home Loan,7798000.0,712.0,Good,Upper-middle,Approved,Approved,0.75,True
-2672,West,Maharashtra,Pune,Vehicle Loan,1875000.0,760.0,Excellent,High,Rejected,Approved,0.89,False
-3293,South,Karnataka,Mysuru,Business Loan,4378000.0,701.0,Good,Upper-middle,Approved,Approved,0.685,True
-3417,North,Punjab,Ludhiana,Business Loan,2441000.0,753.0,Excellent,Lower-middle,Approved,Approved,0.79,True
-3051,West,Maharashtra,Thane,Personal Loan,364000.0,584.0,Fair,High,Rejected,Rejected,0.215,True
-2804,West,Gujarat,Vadodara,MSME Loan,3473000.0,655.0,Good,Lower-middle,Rejected,Rejected,0.245,True
-3198,West,Maharashtra,Nashik,Home Loan,4656000.0,625.0,Fair,Lower-middle,Rejected,Rejected,0.245,True
-2183,South,Telangana,Warangal,MSME Loan,1606000.0,738.0,Good,Upper-middle,Approved,Approved,0.9,True
-3338,East,Odisha,Cuttack,Business Loan,4756000.0,815.0,Excellent,Lower-middle,Rejected,Approved,0.885,False
-199,South,Kerala,Thiruvananthapuram,Home Loan,3463000.0,837.0,Excellent,Upper-middle,Approved,Approved,0.965,True
-4044,South,Kerala,Kochi,Agriculture Loan,554000.0,779.0,Excellent,Lower-middle,Approved,Approved,0.875,True
-2471,North,Punjab,Mohali,Personal Loan,1456000.0,597.0,Fair,High,Rejected,Rejected,0.23,True
-448,South,Karnataka,Mysuru,Vehicle Loan,2296000.0,674.0,Good,Upper-middle,Rejected,Rejected,0.305,True
-89,South,Karnataka,Mangaluru,Home Loan,11500000.0,749.0,Good,Upper-middle,Approved,Approved,0.725,True
-4141,Central,Madhya Pradesh,Indore,Personal Loan,1281000.0,734.0,Good,Lower-middle,Rejected,Approved,0.705,False
-2568,West,Gujarat,Vadodara,MSME Loan,1933000.0,673.0,Good,Low,Approved,Rejected,0.265,False
-1226,West,Maharashtra,Thane,Vehicle Loan,466000.0,718.0,Good,Lower-middle,Rejected,Approved,0.605,False
-134,West,Gujarat,Vadodara,Vehicle Loan,2072000.0,751.0,Excellent,Low,Approved,Approved,0.61,True
-2050,South,Andhra Pradesh,Visakhapatnam,Home Loan,3496000.0,646.0,Fair,Lower-middle,Rejected,Rejected,0.195,True
-2346,West,Rajasthan,Udaipur,MSME Loan,3637000.0,688.0,Good,Low,Rejected,Rejected,0.275,True
-2744,North,Haryana,Faridabad,Home Loan,3821000.0,702.0,Good,Upper-middle,Approved,Approved,0.755,True
-4161,West,Gujarat,Vadodara,Home Loan,1686000.0,709.0,Good,Lower-middle,Rejected,Approved,0.73,False
-2041,South,Telangana,Warangal,Home Loan,5988000.0,555.0,Fair,Upper-middle,Rejected,Rejected,0.06,True
-2419,West,Maharashtra,Pune,Home Loan,1091000.0,671.0,Good,Lower-middle,Rejected,Approved,0.565,False
-3623,South,Tamil Nadu,Madurai,Vehicle Loan,177000.0,716.0,Good,Upper-middle,Approved,Approved,0.67,True
-3280,South,Karnataka,Mysuru,Business Loan,1581000.0,778.0,Excellent,Lower-middle,Approved,Approved,0.805,True
-762,West,Maharashtra,Pune,Business Loan,1019000.0,823.0,Excellent,Low,Rejected,Approved,0.815,False
-4295,East,Odisha,Bhubaneswar,Vehicle Loan,2245000.0,767.0,Excellent,High,Approved,Approved,0.945,True
-4530,West,Maharashtra,Thane,Personal Loan,681000.0,734.0,Good,Lower-middle,Rejected,Approved,0.56,False
-4038,West,Maharashtra,Thane,MSME Loan,3213000.0,609.0,Fair,Upper-middle,Rejected,Rejected,0.095,True
-2735,East,West Bengal,Howrah,Personal Loan,822000.0,646.0,Fair,Low,Approved,Rejected,0.17,False
-3709,West,Maharashtra,Nagpur,MSME Loan,1818000.0,677.0,Good,Low,Rejected,Rejected,0.305,True
-2968,West,Rajasthan,Jodhpur,MSME Loan,1659000.0,659.0,Good,Lower-middle,Rejected,Rejected,0.26,True
-2809,West,Maharashtra,Thane,Personal Loan,1363000.0,763.0,Excellent,Low,Approved,Approved,0.585,True
-1022,Central,Madhya Pradesh,Indore,Business Loan,1652000.0,630.0,Fair,Upper-middle,Approved,Rejected,0.13,False
-835,West,Maharashtra,Mumbai,MSME Loan,1614000.0,708.0,Good,High,Approved,Approved,0.77,True
-3047,East,Assam,Dibrugarh,MSME Loan,1571000.0,731.0,Good,High,Approved,Approved,0.8,True
-1501,East,Assam,Dibrugarh,Personal Loan,1030000.0,703.0,Good,Lower-middle,Approved,Rejected,0.405,False
-3117,North,Punjab,Mohali,Business Loan,3238000.0,662.0,Good,Low,Approved,Rejected,0.29,False
-2520,South,Kerala,Thiruvananthapuram,Home Loan,1118000.0,730.0,Good,Upper-middle,Approved,Approved,0.715,True
-2762,West,Gujarat,Vadodara,MSME Loan,113000.0,623.0,Fair,High,Approved,Approved,0.635,True
-3052,West,Maharashtra,Nagpur,Personal Loan,346000.0,647.0,Fair,Low,Rejected,Rejected,0.14,True
-3001,West,Maharashtra,Thane,Agriculture Loan,786000.0,607.0,Fair,Upper-middle,Approved,Rejected,0.16,False
-2235,South,Telangana,Hyderabad,Personal Loan,1478000.0,730.0,Good,Lower-middle,Rejected,Approved,0.695,False
-2627,North,Haryana,Faridabad,Vehicle Loan,2465000.0,875.0,Excellent,Lower-middle,Approved,Approved,0.84,True
-3853,South,Karnataka,Hubballi,MSME Loan,3645000.0,716.0,Good,Lower-middle,Approved,Approved,0.59,True
-3186,North,Uttar Pradesh,Noida,Personal Loan,436000.0,686.0,Good,Upper-middle,Rejected,Rejected,0.43,True
-3260,South,Telangana,Hyderabad,Vehicle Loan,2351000.0,604.0,Fair,Lower-middle,Rejected,Rejected,0.185,True
-3110,North,Uttar Pradesh,Varanasi,Business Loan,1516000.0,703.0,Good,Upper-middle,Approved,Approved,0.695,True
-1499,North,Punjab,Ludhiana,Business Loan,2756000.0,771.0,Excellent,Upper-middle,Approved,Approved,0.94,True
-2191,West,Maharashtra,Mumbai,Home Loan,5840000.0,721.0,Good,Upper-middle,Approved,Approved,0.72,True
-2253,North,Uttar Pradesh,Noida,Agriculture Loan,1289000.0,765.0,Excellent,Upper-middle,Approved,Approved,0.845,True
-1642,West,Maharashtra,Thane,Personal Loan,833000.0,686.0,Good,Upper-middle,Rejected,Approved,0.66,False
-728,South,Karnataka,Hubballi,Personal Loan,584000.0,613.0,Fair,Upper-middle,Approved,Rejected,0.245,False
-1433,East,West Bengal,Kolkata,MSME Loan,687000.0,730.0,Good,Lower-middle,Rejected,Approved,0.595,False
-2867,South,Karnataka,Hubballi,Personal Loan,216000.0,688.0,Good,Upper-middle,Rejected,Rejected,0.37,True
-4939,South,Telangana,Hyderabad,Personal Loan,1467000.0,726.0,Good,Upper-middle,Approved,Approved,0.82,True
-2201,South,Telangana,Hyderabad,Vehicle Loan,1550000.0,697.0,Good,Low,Approved,Rejected,0.325,False
-3544,North,Uttar Pradesh,Noida,Personal Loan,1062000.0,733.0,Good,Upper-middle,Rejected,Approved,0.795,False
-2120,West,Maharashtra,Thane,Vehicle Loan,590000.0,796.0,Excellent,Lower-middle,Approved,Approved,0.885,True
-3657,South,Karnataka,Hubballi,Personal Loan,842000.0,801.0,Excellent,Lower-middle,Approved,Approved,0.865,True
-4654,South,Karnataka,Hubballi,Personal Loan,244000.0,501.0,Low,Upper-middle,Rejected,Rejected,0.02,True
-3301,West,Maharashtra,Thane,Business Loan,1804000.0,679.0,Good,Lower-middle,Approved,Rejected,0.36,False
-2474,West,Maharashtra,Mumbai,Home Loan,10450000.0,638.0,Fair,Upper-middle,Rejected,Rejected,0.46,True
-337,North,Uttar Pradesh,Kanpur,Business Loan,4056000.0,800.0,Excellent,Upper-middle,Approved,Approved,0.935,True
-1244,West,Maharashtra,Nashik,Agriculture Loan,593000.0,685.0,Good,High,Approved,Approved,0.755,True
-16,West,Maharashtra,Mumbai,Personal Loan,1122000.0,718.0,Good,Upper-middle,Approved,Approved,0.695,True
-4769,South,Karnataka,Mysuru,Home Loan,1461000.0,687.0,Good,Lower-middle,Approved,Rejected,0.285,False
-722,North,Uttar Pradesh,Noida,Home Loan,5736000.0,765.0,Excellent,Upper-middle,Approved,Approved,0.935,True
-2460,West,Gujarat,Vadodara,Personal Loan,1190000.0,809.0,Excellent,Upper-middle,Approved,Approved,0.95,True
-2617,West,Maharashtra,Mumbai,Home Loan,6520000.0,674.0,Good,Lower-middle,Rejected,Rejected,0.435,True
-4880,North,Delhi,Dwarka,Personal Loan,869000.0,699.0,Good,Upper-middle,Approved,Approved,0.54,True
-1368,Central,Madhya Pradesh,Bhopal,MSME Loan,2029000.0,760.0,Excellent,Low,Approved,Approved,0.655,True
-2646,North,Delhi,Rohini,Home Loan,8561000.0,629.0,Fair,Lower-middle,Rejected,Rejected,0.075,True
-1108,South,Tamil Nadu,Coimbatore,MSME Loan,3058000.0,766.0,Excellent,Upper-middle,Rejected,Approved,0.895,False
-4051,South,Telangana,Warangal,Business Loan,304000.0,694.0,Good,Upper-middle,Rejected,Approved,0.59,False
-4238,South,Kerala,Kochi,Personal Loan,593000.0,666.0,Good,Upper-middle,Rejected,Rejected,0.495,True
-2891,East,Bihar,Gaya,MSME Loan,3336000.0,652.0,Good,Lower-middle,Rejected,Rejected,0.385,True
-2958,North,Uttar Pradesh,Noida,Agriculture Loan,632000.0,615.0,Fair,Low,Rejected,Rejected,0.105,True
-3215,South,Tamil Nadu,Coimbatore,Home Loan,1467000.0,581.0,Fair,Lower-middle,Rejected,Rejected,0.035,True
-1560,Central,Madhya Pradesh,Indore,Agriculture Loan,454000.0,697.0,Good,Upper-middle,Rejected,Rejected,0.495,True
-3459,South,Andhra Pradesh,Visakhapatnam,Personal Loan,308000.0,591.0,Fair,Low,Rejected,Rejected,0.07,True
-3987,North,Delhi,New Delhi,Vehicle Loan,606000.0,728.0,Good,Low,Approved,Approved,0.74,True
-1207,South,Tamil Nadu,Madurai,Personal Loan,1134000.0,683.0,Good,Lower-middle,Approved,Approved,0.515,True
-734,West,Gujarat,Surat,Vehicle Loan,1005000.0,702.0,Good,Lower-middle,Approved,Rejected,0.395,False
-4382,East,West Bengal,Kolkata,Personal Loan,403000.0,820.0,Excellent,Lower-middle,Approved,Approved,0.865,True
-975,South,Karnataka,Mangaluru,MSME Loan,2147000.0,820.0,Excellent,High,Approved,Approved,0.915,True
-2237,North,Uttar Pradesh,Lucknow,Personal Loan,254000.0,897.0,Excellent,High,Approved,Approved,0.745,True
-3612,South,Tamil Nadu,Chennai,Business Loan,4594000.0,607.0,Fair,Upper-middle,Rejected,Rejected,0.125,True
-4941,North,Delhi,Rohini,Personal Loan,776000.0,744.0,Good,Lower-middle,Rejected,Approved,0.705,False
-3761,North,Uttar Pradesh,Noida,Home Loan,8640000.0,756.0,Excellent,High,Approved,Approved,0.86,True
-2141,North,Punjab,Amritsar,Home Loan,3903000.0,806.0,Excellent,Upper-middle,Approved,Approved,0.93,True
-3351,West,Maharashtra,Nashik,Home Loan,2848000.0,645.0,Fair,Low,Rejected,Rejected,0.155,True
-1356,West,Maharashtra,Thane,Vehicle Loan,1637000.0,730.0,Good,Lower-middle,Approved,Approved,0.615,True
-2561,Central,Madhya Pradesh,Bhopal,Personal Loan,1386000.0,762.0,Excellent,Lower-middle,Approved,Approved,0.585,True
-3422,Central,Madhya Pradesh,Jabalpur,Personal Loan,319000.0,624.0,Fair,Lower-middle,Rejected,Rejected,0.13,True
-1617,West,Maharashtra,Thane,Personal Loan,1332000.0,786.0,Excellent,Lower-middle,Approved,Approved,0.82,True
-4257,South,Karnataka,Mysuru,Business Loan,1556000.0,687.0,Good,Lower-middle,Rejected,Rejected,0.285,True
-4363,North,Uttar Pradesh,Varanasi,MSME Loan,1115000.0,725.0,Good,Upper-middle,Rejected,Approved,0.865,False
-3055,Central,Madhya Pradesh,Bhopal,Vehicle Loan,742000.0,599.0,Fair,Upper-middle,Rejected,Rejected,0.19,True
-4804,West,Maharashtra,Mumbai,Personal Loan,643000.0,696.0,Good,Lower-middle,Rejected,Rejected,0.275,True
-4979,West,Maharashtra,Nashik,Vehicle Loan,1316000.0,577.0,Fair,Upper-middle,Rejected,Rejected,0.175,True
-3100,East,Assam,Guwahati,Personal Loan,1424000.0,701.0,Good,Lower-middle,Rejected,Rejected,0.435,True
-4655,North,Uttar Pradesh,Lucknow,Agriculture Loan,1125000.0,620.0,Fair,Upper-middle,Rejected,Rejected,0.4,True
-3894,Central,Madhya Pradesh,Jabalpur,Vehicle Loan,992000.0,626.0,Fair,Upper-middle,Approved,Rejected,0.22,False
-854,South,Telangana,Warangal,Business Loan,3614000.0,676.0,Good,Lower-middle,Approved,Rejected,0.43,False
-2175,South,Andhra Pradesh,Vijayawada,MSME Loan,449000.0,565.0,Fair,Upper-middle,Rejected,Rejected,0.12,True
-3274,West,Gujarat,Ahmedabad,Agriculture Loan,393000.0,692.0,Good,Low,Rejected,Rejected,0.37,True
-96,West,Rajasthan,Udaipur,Personal Loan,531000.0,834.0,Excellent,Lower-middle,Approved,Approved,0.825,True
-3675,East,Bihar,Patna,Personal Loan,877000.0,676.0,Good,High,Approved,Rejected,0.46,False
-584,North,Uttar Pradesh,Varanasi,Personal Loan,500000.0,701.0,Good,High,Approved,Approved,0.82,True
-3563,South,Tamil Nadu,Coimbatore,Personal Loan,365000.0,766.0,Excellent,Upper-middle,Rejected,Approved,0.895,False
-1268,West,Gujarat,Vadodara,Business Loan,4267000.0,735.0,Good,Low,Approved,Approved,0.535,True
-3644,South,Karnataka,Mysuru,Agriculture Loan,1487000.0,854.0,Excellent,Upper-middle,Approved,Approved,0.975,True
-1322,East,West Bengal,Kolkata,Personal Loan,968000.0,643.0,Fair,Low,Rejected,Rejected,0.48,True
-1985,North,Delhi,New Delhi,Personal Loan,1280000.0,770.0,Excellent,Lower-middle,Approved,Approved,0.735,True
-4940,North,Delhi,New Delhi,Personal Loan,1259000.0,683.0,Good,Lower-middle,Approved,Rejected,0.365,False
-1405,South,Telangana,Warangal,Agriculture Loan,785000.0,756.0,Excellent,Upper-middle,Approved,Approved,0.505,True
-2221,North,Delhi,New Delhi,Vehicle Loan,510000.0,715.0,Good,Low,Approved,Approved,0.57,True
-2325,South,Telangana,Warangal,Personal Loan,1194000.0,642.0,Fair,Upper-middle,Rejected,Rejected,0.21,True
-4315,North,Punjab,Ludhiana,Personal Loan,79000.0,794.0,Excellent,Upper-middle,Approved,Approved,0.87,True
-2391,West,Maharashtra,Nagpur,Business Loan,2402000.0,673.0,Good,Lower-middle,Rejected,Rejected,0.23,True
-537,South,Tamil Nadu,Coimbatore,Personal Loan,293000.0,679.0,Good,Upper-middle,Rejected,Rejected,0.32,True
-1466,West,Maharashtra,Mumbai,Home Loan,10591000.0,647.0,Fair,Lower-middle,Rejected,Rejected,0.35,True
-4646,East,West Bengal,Howrah,Business Loan,3910000.0,667.0,Good,Upper-middle,Approved,Rejected,0.26,False
-679,West,Gujarat,Ahmedabad,Business Loan,3532000.0,656.0,Good,Upper-middle,Rejected,Rejected,0.345,True
-4833,West,Maharashtra,Thane,Vehicle Loan,1796000.0,658.0,Good,High,Rejected,Approved,0.58,False
-1955,South,Karnataka,Mangaluru,Personal Loan,922000.0,664.0,Good,Lower-middle,Rejected,Approved,0.52,False
-3739,East,Bihar,Gaya,Personal Loan,524000.0,726.0,Good,Lower-middle,Approved,Approved,0.77,True
-2402,North,Uttar Pradesh,Varanasi,Home Loan,2555000.0,743.0,Good,Lower-middle,Approved,Approved,0.77,True
-2770,South,Karnataka,Mangaluru,MSME Loan,667000.0,657.0,Good,Upper-middle,Rejected,Approved,0.505,False
-720,North,Haryana,Gurugram,Vehicle Loan,1266000.0,645.0,Fair,Lower-middle,Approved,Rejected,0.295,False
-1878,West,Rajasthan,Jodhpur,Home Loan,10484000.0,704.0,Good,Upper-middle,Approved,Approved,0.91,True
-929,West,Gujarat,Surat,Vehicle Loan,1075000.0,772.0,Excellent,High,Approved,Approved,0.88,True
-436,East,Odisha,Cuttack,Vehicle Loan,1329000.0,690.0,Good,High,Approved,Approved,0.59,True
-4684,South,Tamil Nadu,Chennai,Vehicle Loan,2056000.0,766.0,Excellent,Lower-middle,Approved,Approved,0.84,True
-3827,West,Gujarat,Surat,MSME Loan,1544000.0,804.0,Excellent,Upper-middle,Approved,Approved,0.78,True
-2835,West,Maharashtra,Nashik,Vehicle Loan,1723000.0,774.0,Excellent,High,Approved,Approved,0.98,True
-740,West,Maharashtra,Thane,Home Loan,3883000.0,664.0,Good,Lower-middle,Rejected,Rejected,0.465,True
-723,North,Haryana,Gurugram,Vehicle Loan,442000.0,665.0,Good,Lower-middle,Approved,Rejected,0.325,False
-3349,South,Andhra Pradesh,Guntur,Agriculture Loan,217000.0,733.0,Good,Upper-middle,Approved,Approved,0.77,True
-1106,North,Delhi,Rohini,Vehicle Loan,347000.0,651.0,Good,Upper-middle,Approved,Approved,0.535,True
-1084,North,Punjab,Amritsar,Personal Loan,1392000.0,750.0,Excellent,Upper-middle,Approved,Approved,0.765,True
-4741,West,Rajasthan,Jaipur,Home Loan,937000.0,519.0,Low,Upper-middle,Rejected,Rejected,0.04,True
-833,South,Andhra Pradesh,Guntur,MSME Loan,758000.0,694.0,Good,Upper-middle,Rejected,Approved,0.615,False
-2535,West,Maharashtra,Thane,Personal Loan,613000.0,639.0,Fair,Lower-middle,Rejected,Rejected,0.21,True
-4359,West,Maharashtra,Pune,Business Loan,867000.0,715.0,Good,Upper-middle,Approved,Approved,0.565,True
-3807,South,Andhra Pradesh,Guntur,Vehicle Loan,2360000.0,754.0,Excellent,Upper-middle,Approved,Approved,0.725,True
-2222,East,Odisha,Bhubaneswar,Vehicle Loan,1304000.0,629.0,Fair,Upper-middle,Approved,Rejected,0.43,False
-2649,West,Maharashtra,Pune,MSME Loan,2552000.0,539.0,Low,High,Rejected,Rejected,0.035,True
-1443,South,Telangana,Warangal,Personal Loan,103000.0,710.0,Good,Upper-middle,Rejected,Approved,0.7,False
-3565,North,Delhi,New Delhi,Agriculture Loan,74000.0,799.0,Excellent,High,Approved,Approved,0.89,True
-954,North,Punjab,Amritsar,Home Loan,957000.0,576.0,Fair,High,Rejected,Rejected,0.125,True
-1988,South,Tamil Nadu,Coimbatore,Vehicle Loan,1711000.0,768.0,Excellent,Lower-middle,Approved,Approved,0.61,True
-4674,West,Maharashtra,Nagpur,MSME Loan,2700000.0,681.0,Good,High,Rejected,Approved,0.62,False
-1333,East,Odisha,Cuttack,Personal Loan,74000.0,644.0,Fair,Lower-middle,Rejected,Rejected,0.33,True
-3821,South,Karnataka,Bengaluru,Home Loan,5343000.0,680.0,Good,Upper-middle,Rejected,Rejected,0.315,True
-1659,North,Punjab,Mohali,Home Loan,1318000.0,874.0,Excellent,Low,Approved,Approved,0.87,True
-4474,South,Karnataka,Hubballi,Personal Loan,1362000.0,718.0,Good,Lower-middle,Approved,Rejected,0.335,False
-3882,North,Uttar Pradesh,Kanpur,Home Loan,8737000.0,639.0,Fair,Lower-middle,Rejected,Rejected,0.165,True
-2381,South,Kerala,Kozhikode,Personal Loan,1280000.0,692.0,Good,Lower-middle,Rejected,Rejected,0.445,True
-3970,South,Karnataka,Mysuru,MSME Loan,148000.0,753.0,Excellent,Lower-middle,Approved,Approved,0.9,True
-3931,West,Gujarat,Surat,Business Loan,2354000.0,699.0,Good,Lower-middle,Rejected,Approved,0.62,False
-1378,North,Punjab,Ludhiana,Business Loan,2159000.0,705.0,Good,Upper-middle,Approved,Approved,0.66,True
-1483,South,Karnataka,Mangaluru,Personal Loan,1359000.0,723.0,Good,Lower-middle,Approved,Approved,0.6,True
-2089,West,Gujarat,Vadodara,Personal Loan,1012000.0,766.0,Excellent,Upper-middle,Approved,Approved,0.845,True
-2929,South,Tamil Nadu,Chennai,Business Loan,709000.0,627.0,Fair,Lower-middle,Approved,Rejected,0.105,False
-1626,Central,Madhya Pradesh,Bhopal,Home Loan,9687000.0,762.0,Excellent,Upper-middle,Approved,Approved,0.93,True
-2996,East,West Bengal,Howrah,Home Loan,1550000.0,677.0,Good,Low,Approved,Rejected,0.425,False
-2444,North,Haryana,Gurugram,Agriculture Loan,1363000.0,788.0,Excellent,Low,Approved,Approved,0.73,True
-1864,South,Kerala,Thiruvananthapuram,Business Loan,2597000.0,678.0,Good,High,Rejected,Approved,0.57,False
-2017,South,Telangana,Hyderabad,MSME Loan,2142000.0,822.0,Excellent,Lower-middle,Approved,Approved,0.975,True
-59,East,Bihar,Patna,Vehicle Loan,2303000.0,697.0,Good,Upper-middle,Approved,Rejected,0.41,False
-1003,East,West Bengal,Kolkata,Vehicle Loan,2093000.0,605.0,Fair,Low,Approved,Rejected,0.115,False
-2147,West,Rajasthan,Jodhpur,Home Loan,2611000.0,669.0,Good,Upper-middle,Approved,Approved,0.57,True
-2648,South,Andhra Pradesh,Guntur,Vehicle Loan,1737000.0,713.0,Good,Lower-middle,Approved,Rejected,0.445,False
-3505,South,Tamil Nadu,Madurai,MSME Loan,3317000.0,607.0,Fair,Low,Rejected,Rejected,0.15,True
-2351,East,West Bengal,Howrah,Business Loan,1871000.0,636.0,Fair,Low,Approved,Rejected,0.12,False
-297,Central,Madhya Pradesh,Bhopal,Personal Loan,1455000.0,732.0,Good,High,Approved,Approved,0.82,True
-3071,East,Bihar,Patna,Personal Loan,805000.0,742.0,Good,Upper-middle,Approved,Approved,0.715,True
-3141,South,Kerala,Kochi,Agriculture Loan,419000.0,719.0,Good,Upper-middle,Approved,Approved,0.715,True
-2597,North,Punjab,Ludhiana,MSME Loan,3513000.0,806.0,Excellent,Upper-middle,Approved,Approved,0.91,True
-3794,South,Tamil Nadu,Coimbatore,MSME Loan,3341000.0,768.0,Excellent,High,Approved,Approved,0.865,True
-4067,East,West Bengal,Howrah,Vehicle Loan,1722000.0,687.0,Good,Lower-middle,Approved,Approved,0.545,True
-4326,North,Delhi,New Delhi,MSME Loan,207000.0,828.0,Excellent,Lower-middle,Approved,Approved,0.945,True
-4727,North,Punjab,Amritsar,Personal Loan,1122000.0,593.0,Fair,Lower-middle,Rejected,Rejected,0.08,True
-4559,South,Andhra Pradesh,Guntur,Personal Loan,605000.0,742.0,Good,High,Approved,Approved,0.78,True
-1736,South,Tamil Nadu,Coimbatore,Vehicle Loan,2274000.0,659.0,Good,Lower-middle,Rejected,Rejected,0.225,True
-944,South,Telangana,Hyderabad,Vehicle Loan,1003000.0,768.0,Excellent,Upper-middle,Approved,Approved,0.855,True
-411,West,Gujarat,Ahmedabad,Home Loan,11769000.0,674.0,Good,Upper-middle,Approved,Approved,0.795,True
-3909,South,Karnataka,Mysuru,MSME Loan,3653000.0,627.0,Fair,Lower-middle,Rejected,Rejected,0.08,True
-1817,South,Tamil Nadu,Coimbatore,Home Loan,2864000.0,546.0,Low,Low,Rejected,Rejected,0.025,True
-1294,North,Delhi,New Delhi,Vehicle Loan,1142000.0,773.0,Excellent,Lower-middle,Approved,Approved,0.84,True
-874,West,Maharashtra,Mumbai,Home Loan,7079000.0,632.0,Fair,Upper-middle,Approved,Rejected,0.12,False
-4624,North,Delhi,Rohini,Personal Loan,1209000.0,587.0,Fair,Upper-middle,Rejected,Rejected,0.075,True
-3185,South,Tamil Nadu,Chennai,Home Loan,2402000.0,623.0,Fair,Lower-middle,Rejected,Rejected,0.095,True
-281,North,Haryana,Gurugram,MSME Loan,3690000.0,527.0,Low,Upper-middle,Rejected,Rejected,0.06,True
-1298,North,Haryana,Panipat,Agriculture Loan,780000.0,721.0,Good,Upper-middle,Approved,Approved,0.65,True
-3183,West,Rajasthan,Udaipur,Home Loan,7765000.0,648.0,Fair,High,Approved,Rejected,0.455,False
-2239,South,Karnataka,Mangaluru,Personal Loan,495000.0,774.0,Excellent,Upper-middle,Approved,Approved,0.87,True
-4802,West,Maharashtra,Nagpur,Home Loan,7877000.0,581.0,Fair,Upper-middle,Approved,Rejected,0.14,False
-1144,East,West Bengal,Howrah,MSME Loan,2931000.0,770.0,Excellent,Lower-middle,Approved,Approved,0.84,True
-3685,East,West Bengal,Howrah,Home Loan,9452000.0,759.0,Excellent,Lower-middle,Rejected,Approved,0.945,False
-4590,East,West Bengal,Howrah,Personal Loan,1023000.0,828.0,Excellent,High,Approved,Approved,0.965,True
-1494,West,Maharashtra,Pune,Vehicle Loan,795000.0,742.0,Good,Low,Approved,Approved,0.695,True
-2225,South,Tamil Nadu,Coimbatore,Vehicle Loan,237000.0,856.0,Excellent,Lower-middle,Approved,Approved,0.96,True
-3006,South,Karnataka,Bengaluru,Home Loan,2516000.0,751.0,Excellent,Upper-middle,Approved,Approved,0.795,True
-4043,West,Rajasthan,Udaipur,Personal Loan,1323000.0,807.0,Excellent,Upper-middle,Approved,Approved,0.975,True
-3235,North,Uttar Pradesh,Noida,Personal Loan,823000.0,635.0,Fair,Upper-middle,Approved,Rejected,0.495,False
-4960,West,Rajasthan,Jaipur,Personal Loan,1213000.0,622.0,Fair,Lower-middle,Approved,Rejected,0.4,False
-4267,West,Gujarat,Surat,Home Loan,2647000.0,884.0,Excellent,Lower-middle,Approved,Approved,0.875,True
-2852,West,Maharashtra,Nagpur,Personal Loan,220000.0,777.0,Excellent,Upper-middle,Approved,Approved,0.93,True
-2480,West,Maharashtra,Nashik,Vehicle Loan,1561000.0,680.0,Good,Upper-middle,Rejected,Rejected,0.38,True
-620,South,Andhra Pradesh,Visakhapatnam,Business Loan,4795000.0,567.0,Fair,Lower-middle,Rejected,Rejected,0.05,True
-1118,South,Karnataka,Bengaluru,Personal Loan,155000.0,841.0,Excellent,Upper-middle,Approved,Approved,0.855,True
-2869,West,Maharashtra,Pune,Personal Loan,1475000.0,726.0,Good,Upper-middle,Rejected,Approved,0.765,False
-2794,West,Gujarat,Vadodara,Personal Loan,1445000.0,849.0,Excellent,Lower-middle,Approved,Approved,0.82,True
-3156,South,Kerala,Kochi,MSME Loan,2040000.0,697.0,Good,Lower-middle,Rejected,Rejected,0.4,True
-2965,South,Tamil Nadu,Madurai,Vehicle Loan,2405000.0,568.0,Fair,Upper-middle,Rejected,Rejected,0.14,True
-275,North,Uttar Pradesh,Noida,Personal Loan,529000.0,751.0,Excellent,Upper-middle,Rejected,Approved,0.81,False
-4323,North,Delhi,New Delhi,Personal Loan,492000.0,638.0,Fair,High,Approved,Approved,0.685,True
-315,East,West Bengal,Howrah,Personal Loan,535000.0,566.0,Fair,Upper-middle,Rejected,Rejected,0.08,True
-1622,South,Andhra Pradesh,Guntur,Personal Loan,1475000.0,823.0,Excellent,Upper-middle,Approved,Approved,0.905,True
-441,East,West Bengal,Howrah,Home Loan,11937000.0,724.0,Good,Upper-middle,Approved,Approved,0.795,True
-191,North,Delhi,Dwarka,Agriculture Loan,350000.0,850.0,Excellent,Upper-middle,Approved,Approved,0.865,True
-1163,South,Kerala,Thiruvananthapuram,Vehicle Loan,1755000.0,583.0,Fair,Low,Rejected,Rejected,0.025,True
-1598,South,Karnataka,Mangaluru,Personal Loan,1422000.0,708.0,Good,High,Approved,Approved,0.61,True
-2831,South,Karnataka,Bengaluru,Personal Loan,394000.0,775.0,Excellent,Low,Approved,Approved,0.855,True
-1421,East,Bihar,Gaya,Personal Loan,212000.0,779.0,Excellent,High,Approved,Approved,0.785,True
-613,South,Andhra Pradesh,Vijayawada,Vehicle Loan,1830000.0,770.0,Excellent,High,Rejected,Approved,0.92,False
-3423,West,Maharashtra,Nashik,Vehicle Loan,1183000.0,900.0,Excellent,Upper-middle,Approved,Approved,0.95,True
-4272,West,Rajasthan,Udaipur,MSME Loan,1981000.0,682.0,Good,Lower-middle,Approved,Approved,0.57,True
-2415,West,Maharashtra,Nashik,Home Loan,8596000.0,732.0,Good,Lower-middle,Approved,Approved,0.815,True
-3686,North,Haryana,Panipat,Home Loan,5616000.0,571.0,Fair,Lower-middle,Rejected,Rejected,0.12,True
-3365,North,Haryana,Faridabad,Personal Loan,1178000.0,674.0,Good,Low,Rejected,Rejected,0.185,True
-2512,South,Andhra Pradesh,Guntur,Vehicle Loan,2294000.0,762.0,Excellent,Upper-middle,Approved,Approved,0.8,True
-2863,South,Telangana,Warangal,Personal Loan,1201000.0,812.0,Excellent,Low,Rejected,Approved,0.73,False
-1519,Central,Madhya Pradesh,Indore,Home Loan,4352000.0,607.0,Fair,Upper-middle,Rejected,Rejected,0.115,True
-1030,South,Andhra Pradesh,Visakhapatnam,MSME Loan,689000.0,553.0,Fair,Upper-middle,Rejected,Rejected,0.1,True
-201,East,West Bengal,Kolkata,MSME Loan,1438000.0,733.0,Good,Upper-middle,Approved,Approved,0.915,True
-298,East,Bihar,Patna,Vehicle Loan,764000.0,693.0,Good,Upper-middle,Rejected,Approved,0.56,False
-1386,West,Maharashtra,Pune,Agriculture Loan,942000.0,718.0,Good,Lower-middle,Rejected,Approved,0.605,False
-4714,West,Maharashtra,Nagpur,Home Loan,9042000.0,700.0,Good,Upper-middle,Rejected,Approved,0.875,False
-1125,West,Maharashtra,Mumbai,Home Loan,2099000.0,709.0,Good,Upper-middle,Approved,Approved,0.76,True
-3111,East,Assam,Dibrugarh,Personal Loan,653000.0,823.0,Excellent,Lower-middle,Approved,Approved,0.895,True
-3291,North,Delhi,Dwarka,MSME Loan,2928000.0,723.0,Good,Lower-middle,Rejected,Approved,0.82,False
-3677,North,Delhi,Rohini,Vehicle Loan,527000.0,724.0,Good,Lower-middle,Approved,Approved,0.725,True
-64,North,Uttar Pradesh,Noida,Vehicle Loan,286000.0,617.0,Fair,Upper-middle,Rejected,Rejected,0.09,True
-181,Central,Madhya Pradesh,Bhopal,Vehicle Loan,2403000.0,792.0,Excellent,High,Rejected,Approved,0.9,False
-397,West,Maharashtra,Nashik,Home Loan,8596000.0,763.0,Excellent,Low,Approved,Approved,0.86,True
-3911,East,West Bengal,Howrah,Home Loan,9226000.0,525.0,Low,Upper-middle,Rejected,Rejected,0.065,True
-4683,West,Rajasthan,Udaipur,Agriculture Loan,237000.0,766.0,Excellent,Lower-middle,Approved,Approved,0.945,True
-2099,South,Andhra Pradesh,Vijayawada,Business Loan,689000.0,656.0,Good,Lower-middle,Approved,Rejected,0.385,False
-4686,West,Rajasthan,Jaipur,Personal Loan,1042000.0,634.0,Fair,Lower-middle,Rejected,Rejected,0.17,True
-4285,North,Uttar Pradesh,Noida,Agriculture Loan,290000.0,793.0,Excellent,Lower-middle,Approved,Approved,0.945,True
-4172,West,Rajasthan,Jaipur,MSME Loan,1832000.0,730.0,Good,Upper-middle,Approved,Approved,0.86,True
-1,North,Uttar Pradesh,Kanpur,Business Loan,4356000.0,727.0,Good,Lower-middle,Rejected,Approved,0.53,False
-950,East,Bihar,Gaya,Vehicle Loan,1682000.0,635.0,Fair,Lower-middle,Rejected,Rejected,0.15,True
-1803,North,Haryana,Panipat,MSME Loan,1189000.0,695.0,Good,Upper-middle,Approved,Approved,0.56,True
-4515,North,Delhi,New Delhi,Business Loan,2765000.0,633.0,Fair,Lower-middle,Rejected,Rejected,0.18,True
-456,South,Kerala,Thiruvananthapuram,MSME Loan,737000.0,738.0,Good,Upper-middle,Approved,Approved,0.79,True
-1236,South,Andhra Pradesh,Visakhapatnam,Personal Loan,242000.0,762.0,Excellent,High,Approved,Approved,0.9,True
-465,East,Odisha,Cuttack,MSME Loan,2830000.0,777.0,Excellent,Low,Approved,Approved,0.59,True
-1842,West,Maharashtra,Nashik,Personal Loan,1183000.0,797.0,Excellent,Upper-middle,Rejected,Approved,0.935,False
-2675,West,Maharashtra,Thane,Business Loan,384000.0,601.0,Fair,High,Rejected,Rejected,0.13,True
-2942,North,Uttar Pradesh,Kanpur,MSME Loan,1218000.0,672.0,Good,Lower-middle,Approved,Rejected,0.425,False
-3790,West,Maharashtra,Nagpur,Personal Loan,178000.0,638.0,Fair,Upper-middle,Rejected,Rejected,0.205,True
-371,West,Maharashtra,Pune,Vehicle Loan,2359000.0,702.0,Good,Upper-middle,Approved,Approved,0.625,True
-4732,North,Uttar Pradesh,Noida,Personal Loan,1009000.0,803.0,Excellent,Lower-middle,Approved,Approved,0.83,True
-4329,West,Maharashtra,Thane,Personal Loan,543000.0,630.0,Fair,Lower-middle,Approved,Rejected,0.14,False
-39,East,Assam,Guwahati,Home Loan,5393000.0,772.0,Excellent,Upper-middle,Approved,Approved,0.925,True
-1253,Central,Madhya Pradesh,Jabalpur,Home Loan,9726000.0,646.0,Fair,Lower-middle,Rejected,Rejected,0.24,True
-3607,East,Bihar,Patna,Personal Loan,309000.0,699.0,Good,Upper-middle,Rejected,Approved,0.565,False
-600,West,Maharashtra,Thane,MSME Loan,2257000.0,715.0,Good,Lower-middle,Rejected,Approved,0.555,False
-1769,South,Andhra Pradesh,Vijayawada,Business Loan,3685000.0,794.0,Excellent,Upper-middle,Approved,Approved,0.865,True
-431,North,Uttar Pradesh,Noida,Agriculture Loan,1450000.0,663.0,Good,High,Approved,Approved,0.775,True
-2123,West,Maharashtra,Nashik,Personal Loan,1494000.0,712.0,Good,Low,Approved,Rejected,0.445,False
-647,North,Uttar Pradesh,Varanasi,MSME Loan,2542000.0,772.0,Excellent,Upper-middle,Approved,Approved,0.825,True
-4481,West,Maharashtra,Mumbai,Vehicle Loan,819000.0,812.0,Excellent,Lower-middle,Approved,Approved,0.885,True
-2751,East,Assam,Guwahati,Agriculture Loan,1003000.0,753.0,Excellent,Upper-middle,Approved,Approved,0.72,True
-717,North,Punjab,Amritsar,Personal Loan,208000.0,691.0,Good,Upper-middle,Approved,Approved,0.6,True
-4725,South,Tamil Nadu,Coimbatore,Personal Loan,698000.0,618.0,Fair,Lower-middle,Rejected,Rejected,0.145,True
-2598,West,Gujarat,Surat,Personal Loan,964000.0,693.0,Good,High,Approved,Approved,0.85,True
-3856,West,Maharashtra,Thane,Vehicle Loan,1534000.0,657.0,Good,Lower-middle,Approved,Approved,0.545,True
-4282,South,Tamil Nadu,Chennai,Personal Loan,715000.0,700.0,Good,Lower-middle,Approved,Rejected,0.295,False
-2164,South,Telangana,Hyderabad,Personal Loan,944000.0,631.0,Fair,Lower-middle,Rejected,Rejected,0.32,True
-327,East,West Bengal,Kolkata,Agriculture Loan,770000.0,581.0,Fair,High,Rejected,Rejected,0.305,True
-1133,South,Kerala,Kochi,Agriculture Loan,173000.0,671.0,Good,Low,Rejected,Rejected,0.225,True
-974,West,Maharashtra,Thane,Vehicle Loan,2003000.0,786.0,Excellent,Lower-middle,Approved,Approved,0.78,True
-4146,South,Tamil Nadu,Chennai,Personal Loan,1339000.0,763.0,Excellent,Upper-middle,Approved,Approved,0.83,True
-745,West,Gujarat,Surat,Home Loan,7215000.0,696.0,Good,Lower-middle,Rejected,Approved,0.65,False
-4252,North,Delhi,Dwarka,Vehicle Loan,1928000.0,753.0,Excellent,Lower-middle,Rejected,Approved,0.725,False
-4483,West,Maharashtra,Mumbai,Agriculture Loan,263000.0,875.0,Excellent,Lower-middle,Approved,Approved,0.945,True
-2910,West,Gujarat,Surat,Business Loan,3194000.0,744.0,Good,Upper-middle,Approved,Approved,0.75,True
-1291,South,Karnataka,Bengaluru,Personal Loan,554000.0,592.0,Fair,Low,Rejected,Rejected,0.035,True
-4056,North,Punjab,Mohali,MSME Loan,1930000.0,732.0,Good,Upper-middle,Approved,Approved,0.805,True
-4118,West,Gujarat,Vadodara,Vehicle Loan,358000.0,646.0,Fair,Lower-middle,Approved,Approved,0.52,True
-2926,East,Bihar,Patna,MSME Loan,1137000.0,554.0,Fair,Lower-middle,Rejected,Rejected,0.09,True
-2506,South,Kerala,Kochi,Personal Loan,475000.0,595.0,Fair,Upper-middle,Rejected,Rejected,0.13,True
-3042,North,Uttar Pradesh,Lucknow,Home Loan,6054000.0,741.0,Good,Lower-middle,Rejected,Approved,0.805,False
-1357,South,Telangana,Hyderabad,Vehicle Loan,2475000.0,589.0,Fair,Lower-middle,Rejected,Rejected,0.01,True
-1902,West,Maharashtra,Nashik,MSME Loan,274000.0,762.0,Excellent,Lower-middle,Approved,Approved,0.84,True
-2425,West,Maharashtra,Mumbai,Business Loan,437000.0,607.0,Fair,Lower-middle,Rejected,Rejected,0.2,True
-1866,South,Tamil Nadu,Madurai,Home Loan,6599000.0,663.0,Good,High,Rejected,Approved,0.735,False
-3147,North,Delhi,Dwarka,Business Loan,4192000.0,696.0,Good,Lower-middle,Rejected,Rejected,0.49,True
-2899,East,West Bengal,Howrah,MSME Loan,2206000.0,622.0,Fair,Upper-middle,Rejected,Rejected,0.085,True
-3808,South,Tamil Nadu,Coimbatore,Home Loan,2355000.0,751.0,Excellent,Upper-middle,Approved,Approved,0.815,True
-4227,North,Delhi,Rohini,Business Loan,4819000.0,688.0,Good,Lower-middle,Rejected,Approved,0.52,False
-3129,South,Karnataka,Mangaluru,Vehicle Loan,160000.0,767.0,Excellent,Upper-middle,Approved,Approved,0.77,True
-4904,West,Gujarat,Ahmedabad,Personal Loan,237000.0,675.0,Good,Low,Rejected,Rejected,0.14,True
-3050,North,Uttar Pradesh,Varanasi,Business Loan,4495000.0,817.0,Excellent,High,Rejected,Approved,0.895,False
-4536,West,Maharashtra,Nashik,Personal Loan,55000.0,524.0,Low,Upper-middle,Rejected,Rejected,0.135,True
-4338,North,Punjab,Mohali,Home Loan,8026000.0,733.0,Good,Lower-middle,Rejected,Approved,0.795,False
-592,East,West Bengal,Kolkata,Home Loan,7319000.0,700.0,Good,Upper-middle,Rejected,Approved,0.725,False
-2667,North,Delhi,Dwarka,Vehicle Loan,944000.0,722.0,Good,Upper-middle,Approved,Approved,0.755,True
-2127,East,West Bengal,Howrah,Business Loan,4310000.0,731.0,Good,Lower-middle,Approved,Approved,0.55,True
-4236,East,West Bengal,Kolkata,Home Loan,10104000.0,684.0,Good,Lower-middle,Approved,Approved,0.565,True
-4165,West,Maharashtra,Mumbai,Business Loan,2465000.0,687.0,Good,Upper-middle,Rejected,Rejected,0.425,True
-292,South,Telangana,Hyderabad,Home Loan,2891000.0,752.0,Excellent,Lower-middle,Approved,Approved,0.745,True
-3815,South,Telangana,Hyderabad,Vehicle Loan,2489000.0,785.0,Excellent,Upper-middle,Approved,Approved,0.76,True
-255,South,Karnataka,Mysuru,Home Loan,9925000.0,774.0,Excellent,High,Approved,Approved,0.88,True
-1448,West,Maharashtra,Pune,MSME Loan,1499000.0,708.0,Good,High,Rejected,Approved,0.715,False
-1049,South,Kerala,Kozhikode,Vehicle Loan,369000.0,611.0,Fair,Lower-middle,Rejected,Rejected,0.055,True
-904,East,Bihar,Patna,Agriculture Loan,636000.0,723.0,Good,Lower-middle,Rejected,Approved,0.59,False
-2877,West,Maharashtra,Pune,Business Loan,374000.0,852.0,Excellent,Lower-middle,Approved,Approved,0.915,True
-2451,North,Uttar Pradesh,Kanpur,Personal Loan,116000.0,732.0,Good,High,Rejected,Approved,0.685,False
-2710,North,Haryana,Panipat,Home Loan,11428000.0,649.0,Fair,Lower-middle,Approved,Rejected,0.345,False
-4534,East,Assam,Guwahati,Vehicle Loan,1758000.0,695.0,Good,Upper-middle,Approved,Approved,0.725,True
-1698,South,Kerala,Kozhikode,MSME Loan,1993000.0,749.0,Good,High,Approved,Approved,0.655,True
-4045,Central,Madhya Pradesh,Bhopal,Business Loan,3523000.0,676.0,Good,Upper-middle,Approved,Rejected,0.37,False
-2554,South,Andhra Pradesh,Visakhapatnam,Agriculture Loan,1267000.0,770.0,Excellent,High,Approved,Approved,0.815,True
-1329,South,Andhra Pradesh,Visakhapatnam,Personal Loan,1394000.0,729.0,Good,Upper-middle,Approved,Approved,0.665,True
-4048,South,Kerala,Kochi,Home Loan,4801000.0,628.0,Fair,High,Rejected,Rejected,0.445,True
-172,North,Uttar Pradesh,Noida,Home Loan,5710000.0,865.0,Excellent,Upper-middle,Approved,Approved,0.935,True
-1187,South,Telangana,Warangal,Business Loan,1990000.0,725.0,Good,Upper-middle,Rejected,Approved,0.805,False
-2139,North,Uttar Pradesh,Kanpur,Vehicle Loan,869000.0,556.0,Fair,Upper-middle,Rejected,Rejected,0.26,True
-4459,West,Gujarat,Vadodara,Business Loan,2029000.0,634.0,Fair,Lower-middle,Rejected,Rejected,0.06,True
-3245,West,Rajasthan,Jodhpur,Home Loan,2707000.0,767.0,Excellent,Lower-middle,Approved,Approved,0.815,True
-852,East,Bihar,Patna,Home Loan,6240000.0,849.0,Excellent,High,Rejected,Approved,0.855,False
-1966,East,Assam,Guwahati,Personal Loan,1062000.0,787.0,Excellent,Upper-middle,Rejected,Approved,0.94,False
-4496,West,Rajasthan,Jodhpur,MSME Loan,3978000.0,653.0,Good,Lower-middle,Rejected,Rejected,0.315,True
-965,South,Tamil Nadu,Chennai,Vehicle Loan,1289000.0,684.0,Good,Lower-middle,Rejected,Rejected,0.465,True
-2012,North,Uttar Pradesh,Lucknow,Home Loan,11241000.0,776.0,Excellent,Upper-middle,Approved,Approved,0.975,True
-158,North,Delhi,Dwarka,MSME Loan,2067000.0,652.0,Good,Lower-middle,Approved,Rejected,0.455,False
-870,East,Odisha,Bhubaneswar,Vehicle Loan,2100000.0,637.0,Fair,High,Rejected,Rejected,0.39,True
-1993,East,West Bengal,Howrah,Vehicle Loan,2433000.0,668.0,Good,Lower-middle,Rejected,Rejected,0.36,True
-4452,East,Bihar,Patna,Business Loan,2195000.0,568.0,Fair,Upper-middle,Rejected,Rejected,0.095,True
-3020,South,Tamil Nadu,Coimbatore,Personal Loan,1422000.0,681.0,Good,Upper-middle,Rejected,Rejected,0.425,True
-4777,East,Bihar,Patna,Vehicle Loan,1846000.0,691.0,Good,High,Approved,Approved,0.855,True
-1379,North,Punjab,Amritsar,Vehicle Loan,1429000.0,693.0,Good,Lower-middle,Rejected,Approved,0.555,False
-3376,South,Karnataka,Hubballi,Personal Loan,754000.0,780.0,Excellent,Lower-middle,Rejected,Approved,0.745,False
-1899,South,Telangana,Hyderabad,Home Loan,4942000.0,759.0,Excellent,Upper-middle,Approved,Approved,0.86,True
-3883,West,Maharashtra,Pune,Personal Loan,1470000.0,750.0,Excellent,Upper-middle,Approved,Approved,0.7,True
-3887,South,Kerala,Thiruvananthapuram,Home Loan,3288000.0,666.0,Good,Low,Approved,Rejected,0.335,False
-1984,South,Tamil Nadu,Chennai,Home Loan,1801000.0,733.0,Good,Upper-middle,Approved,Approved,0.85,True
-3891,North,Haryana,Faridabad,Vehicle Loan,1818000.0,732.0,Good,Lower-middle,Rejected,Approved,0.625,False
-4313,North,Delhi,Rohini,MSME Loan,1125000.0,674.0,Good,Lower-middle,Rejected,Approved,0.545,False
-1990,South,Telangana,Hyderabad,Personal Loan,688000.0,697.0,Good,High,Rejected,Approved,0.825,False
-309,North,Delhi,Rohini,Home Loan,6820000.0,755.0,Excellent,Upper-middle,Approved,Approved,0.925,True
-3172,North,Punjab,Mohali,Personal Loan,293000.0,750.0,Excellent,High,Rejected,Approved,0.965,False
-3219,South,Kerala,Kochi,MSME Loan,901000.0,673.0,Good,Lower-middle,Rejected,Rejected,0.31,True
-220,South,Telangana,Hyderabad,Home Loan,8612000.0,774.0,Excellent,Lower-middle,Approved,Approved,0.95,True
-4637,Central,Madhya Pradesh,Jabalpur,Agriculture Loan,571000.0,742.0,Good,Upper-middle,Approved,Approved,0.665,True
-3454,West,Gujarat,Ahmedabad,Vehicle Loan,486000.0,685.0,Good,High,Rejected,Approved,0.64,False
-2988,West,Maharashtra,Thane,Business Loan,3761000.0,591.0,Fair,Lower-middle,Rejected,Rejected,0.065,True
-4779,South,Karnataka,Mangaluru,Personal Loan,334000.0,660.0,Good,Upper-middle,Rejected,Rejected,0.455,True
-3335,West,Maharashtra,Nashik,MSME Loan,2767000.0,633.0,Fair,Upper-middle,Rejected,Rejected,0.155,True
-1539,East,West Bengal,Howrah,Personal Loan,1199000.0,657.0,Good,Lower-middle,Rejected,Rejected,0.305,True
-2571,Central,Madhya Pradesh,Indore,Personal Loan,1275000.0,732.0,Good,Low,Approved,Approved,0.675,True
-1663,Central,Madhya Pradesh,Bhopal,Personal Loan,756000.0,738.0,Good,Upper-middle,Rejected,Approved,0.55,False
-981,West,Rajasthan,Jodhpur,Agriculture Loan,390000.0,692.0,Good,High,Rejected,Approved,0.7,False
-4247,East,Bihar,Patna,Personal Loan,1141000.0,693.0,Good,Upper-middle,Rejected,Approved,0.765,False
-2494,South,Tamil Nadu,Coimbatore,MSME Loan,2239000.0,657.0,Good,Lower-middle,Rejected,Rejected,0.445,True
-4121,West,Maharashtra,Pune,MSME Loan,3078000.0,711.0,Good,High,Approved,Approved,0.735,True
-608,South,Karnataka,Bengaluru,MSME Loan,2774000.0,760.0,Excellent,High,Approved,Approved,0.93,True
-543,West,Gujarat,Vadodara,Personal Loan,1440000.0,690.0,Good,Lower-middle,Rejected,Approved,0.515,False
-2756,West,Gujarat,Ahmedabad,Personal Loan,1426000.0,708.0,Good,Low,Approved,Rejected,0.49,False
-1775,West,Maharashtra,Nashik,Agriculture Loan,657000.0,542.0,Low,Upper-middle,Rejected,Rejected,0.065,True
-348,East,Assam,Dibrugarh,Business Loan,1222000.0,790.0,Excellent,Upper-middle,Approved,Approved,0.96,True
-1337,North,Haryana,Gurugram,Business Loan,542000.0,759.0,Excellent,Lower-middle,Approved,Approved,0.63,True
-4410,North,Uttar Pradesh,Kanpur,Business Loan,4305000.0,730.0,Good,Lower-middle,Approved,Approved,0.73,True
-923,North,Delhi,Dwarka,MSME Loan,1345000.0,581.0,Fair,Low,Rejected,Rejected,0.025,True
-3128,West,Gujarat,Ahmedabad,Personal Loan,1266000.0,664.0,Good,Lower-middle,Rejected,Rejected,0.2,True
-4478,South,Andhra Pradesh,Visakhapatnam,Home Loan,2077000.0,574.0,Fair,Low,Rejected,Rejected,0.025,True
-1177,South,Andhra Pradesh,Guntur,Vehicle Loan,1052000.0,764.0,Excellent,Lower-middle,Approved,Approved,0.635,True
-2522,North,Uttar Pradesh,Kanpur,Personal Loan,982000.0,657.0,Good,Lower-middle,Rejected,Rejected,0.29,True
-526,North,Uttar Pradesh,Varanasi,Vehicle Loan,1680000.0,670.0,Good,High,Approved,Approved,0.71,True
-136,South,Tamil Nadu,Coimbatore,Vehicle Loan,1157000.0,784.0,Excellent,High,Approved,Approved,0.945,True
-2082,South,Andhra Pradesh,Guntur,Business Loan,4575000.0,720.0,Good,High,Approved,Approved,0.775,True
-4467,West,Rajasthan,Jodhpur,Agriculture Loan,1375000.0,756.0,Excellent,Lower-middle,Rejected,Approved,0.525,False
-1048,West,Gujarat,Vadodara,Vehicle Loan,2031000.0,722.0,Good,Lower-middle,Approved,Rejected,0.445,False
-1191,Central,Madhya Pradesh,Bhopal,Home Loan,2554000.0,794.0,Excellent,Lower-middle,Approved,Approved,0.935,True
-1962,Central,Madhya Pradesh,Bhopal,Personal Loan,676000.0,662.0,Good,Upper-middle,Approved,Rejected,0.42,False
-3786,South,Telangana,Hyderabad,Business Loan,3103000.0,694.0,Good,Upper-middle,Approved,Approved,0.66,True
-374,North,Delhi,New Delhi,Vehicle Loan,298000.0,745.0,Good,Upper-middle,Approved,Approved,0.63,True
-1942,West,Maharashtra,Nashik,Personal Loan,1117000.0,815.0,Excellent,Upper-middle,Approved,Approved,0.93,True
-3982,East,Bihar,Patna,Agriculture Loan,967000.0,567.0,Fair,Lower-middle,Rejected,Rejected,0.095,True
-2886,South,Karnataka,Bengaluru,Agriculture Loan,1052000.0,745.0,Good,Upper-middle,Rejected,Approved,0.725,False
-4651,West,Maharashtra,Thane,Personal Loan,1397000.0,768.0,Excellent,Upper-middle,Approved,Approved,0.905,True
-2361,West,Maharashtra,Pune,Personal Loan,104000.0,592.0,Fair,Upper-middle,Rejected,Rejected,0.165,True
-1246,Central,Madhya Pradesh,Indore,MSME Loan,3754000.0,759.0,Excellent,Upper-middle,Approved,Approved,0.785,True
-1172,North,Haryana,Panipat,Personal Loan,645000.0,545.0,Low,Lower-middle,Rejected,Rejected,0.035,True
-67,East,West Bengal,Howrah,Vehicle Loan,1813000.0,663.0,Good,High,Approved,Approved,0.85,True
-4137,West,Gujarat,Vadodara,Business Loan,3058000.0,650.0,Good,Lower-middle,Rejected,Rejected,0.265,True
-4298,West,Gujarat,Vadodara,MSME Loan,2582000.0,682.0,Good,Low,Rejected,Rejected,0.395,True
-61,East,Assam,Guwahati,Agriculture Loan,931000.0,728.0,Good,Upper-middle,Approved,Approved,0.73,True
-4599,West,Maharashtra,Pune,Business Loan,3516000.0,680.0,Good,Lower-middle,Rejected,Rejected,0.385,True
-3897,East,West Bengal,Kolkata,Business Loan,229000.0,774.0,Excellent,Upper-middle,Approved,Approved,0.92,True
-1994,South,Tamil Nadu,Chennai,Personal Loan,544000.0,700.0,Good,Lower-middle,Rejected,Approved,0.53,False
-4888,Central,Madhya Pradesh,Bhopal,MSME Loan,114000.0,803.0,Excellent,Upper-middle,Approved,Approved,0.79,True
-1615,North,Uttar Pradesh,Lucknow,MSME Loan,121000.0,757.0,Excellent,Upper-middle,Approved,Approved,0.82,True
-3684,West,Maharashtra,Nashik,Personal Loan,1130000.0,805.0,Excellent,Upper-middle,Approved,Approved,0.975,True
-1924,North,Delhi,Dwarka,Home Loan,3838000.0,717.0,Good,Upper-middle,Rejected,Approved,0.64,False
-591,South,Telangana,Hyderabad,Agriculture Loan,777000.0,638.0,Fair,Upper-middle,Rejected,Rejected,0.14,True
-381,South,Telangana,Hyderabad,Agriculture Loan,1302000.0,659.0,Good,Lower-middle,Rejected,Rejected,0.335,True
-2476,North,Delhi,New Delhi,MSME Loan,1958000.0,684.0,Good,Upper-middle,Rejected,Rejected,0.35,True
-4156,East,West Bengal,Kolkata,Vehicle Loan,308000.0,654.0,Good,Low,Rejected,Rejected,0.235,True
-4780,South,Andhra Pradesh,Vijayawada,Personal Loan,415000.0,748.0,Good,Lower-middle,Approved,Approved,0.65,True
-2567,Central,Madhya Pradesh,Indore,MSME Loan,3811000.0,614.0,Fair,Low,Rejected,Rejected,0.13,True
-1648,West,Gujarat,Surat,Home Loan,2877000.0,688.0,Good,High,Approved,Approved,0.525,True
-896,South,Telangana,Hyderabad,Agriculture Loan,1345000.0,606.0,Fair,Lower-middle,Rejected,Rejected,0.14,True
-4961,East,West Bengal,Kolkata,Business Loan,4292000.0,727.0,Good,High,Approved,Approved,0.66,True
-4984,Central,Madhya Pradesh,Indore,MSME Loan,508000.0,589.0,Fair,Upper-middle,Rejected,Rejected,0.155,True
-4133,North,Haryana,Gurugram,Personal Loan,1483000.0,769.0,Excellent,Upper-middle,Approved,Approved,0.94,True
-3134,South,Karnataka,Mysuru,Vehicle Loan,985000.0,661.0,Good,Upper-middle,Rejected,Rejected,0.35,True
-2840,West,Gujarat,Vadodara,Personal Loan,135000.0,812.0,Excellent,Lower-middle,Approved,Approved,0.94,True
-1275,South,Karnataka,Hubballi,Home Loan,7436000.0,598.0,Fair,Upper-middle,Rejected,Rejected,0.115,True
-4860,South,Tamil Nadu,Chennai,MSME Loan,2165000.0,730.0,Good,Upper-middle,Approved,Approved,0.775,True
-2296,East,Odisha,Cuttack,MSME Loan,3766000.0,694.0,Good,Upper-middle,Rejected,Approved,0.645,False
-935,East,West Bengal,Kolkata,Personal Loan,806000.0,760.0,Excellent,Upper-middle,Approved,Approved,0.605,True
-3667,South,Tamil Nadu,Madurai,Vehicle Loan,641000.0,745.0,Good,Lower-middle,Rejected,Approved,0.635,False
-1950,East,Odisha,Bhubaneswar,Vehicle Loan,202000.0,634.0,Fair,Upper-middle,Rejected,Rejected,0.39,True
-1403,South,Andhra Pradesh,Guntur,Personal Loan,465000.0,697.0,Good,Lower-middle,Approved,Rejected,0.495,False
-2468,West,Maharashtra,Nagpur,Home Loan,6450000.0,690.0,Good,Low,Approved,Approved,0.55,True
-4437,North,Haryana,Panipat,Business Loan,1177000.0,693.0,Good,Low,Approved,Approved,0.51,True
-4533,South,Andhra Pradesh,Vijayawada,Personal Loan,550000.0,811.0,Excellent,Low,Approved,Approved,0.895,True
-3401,North,Delhi,Dwarka,Vehicle Loan,1683000.0,782.0,Excellent,High,Approved,Approved,0.955,True
-605,South,Karnataka,Hubballi,Personal Loan,253000.0,787.0,Excellent,Lower-middle,Approved,Approved,0.935,True
-4059,West,Maharashtra,Pune,Personal Loan,1482000.0,746.0,Good,Lower-middle,Approved,Approved,0.625,True
-3488,North,Uttar Pradesh,Varanasi,MSME Loan,2278000.0,690.0,Good,High,Approved,Approved,0.825,True
-3990,South,Kerala,Kozhikode,Home Loan,1122000.0,647.0,Fair,Lower-middle,Rejected,Rejected,0.295,True
-3273,Central,Madhya Pradesh,Jabalpur,MSME Loan,1770000.0,726.0,Good,Upper-middle,Approved,Approved,0.635,True
-2659,East,Assam,Guwahati,Business Loan,3774000.0,645.0,Fair,High,Approved,Rejected,0.4,False
-2859,North,Delhi,New Delhi,Business Loan,3917000.0,534.0,Low,High,Rejected,Rejected,0.04,True
-742,North,Delhi,Rohini,Business Loan,2557000.0,702.0,Good,Upper-middle,Approved,Approved,0.81,True
-3290,West,Gujarat,Ahmedabad,Agriculture Loan,79000.0,688.0,Good,Upper-middle,Rejected,Rejected,0.325,True
-2220,South,Karnataka,Mysuru,Personal Loan,816000.0,698.0,Good,Lower-middle,Rejected,Rejected,0.38,True
-2726,West,Maharashtra,Mumbai,MSME Loan,3677000.0,701.0,Good,High,Approved,Approved,0.77,True
-1473,West,Maharashtra,Nagpur,Personal Loan,1298000.0,620.0,Fair,High,Approved,Rejected,0.33,False
-403,Central,Madhya Pradesh,Bhopal,Business Loan,1169000.0,743.0,Good,Lower-middle,Approved,Rejected,0.495,False
-626,South,Telangana,Hyderabad,Vehicle Loan,2491000.0,677.0,Good,High,Rejected,Approved,0.53,False
-3950,North,Haryana,Gurugram,Vehicle Loan,1428000.0,786.0,Excellent,High,Approved,Approved,0.92,True
-131,West,Gujarat,Ahmedabad,Vehicle Loan,1389000.0,820.0,Excellent,Lower-middle,Approved,Approved,0.91,True
-336,West,Maharashtra,Nagpur,Vehicle Loan,1650000.0,752.0,Excellent,Upper-middle,Approved,Approved,0.9,True
-264,North,Haryana,Gurugram,MSME Loan,1480000.0,648.0,Fair,Lower-middle,Rejected,Rejected,0.4,True
-460,West,Maharashtra,Mumbai,Personal Loan,1322000.0,736.0,Good,Upper-middle,Rejected,Approved,0.705,False
-2898,South,Andhra Pradesh,Vijayawada,MSME Loan,2557000.0,700.0,Good,Upper-middle,Approved,Approved,0.645,True
-1885,East,Bihar,Patna,Agriculture Loan,76000.0,712.0,Good,Upper-middle,Approved,Approved,0.75,True
-3332,East,West Bengal,Howrah,Home Loan,6166000.0,726.0,Good,Lower-middle,Rejected,Approved,0.68,False
-844,South,Karnataka,Hubballi,Agriculture Loan,1055000.0,618.0,Fair,Lower-middle,Rejected,Rejected,0.15,True
-3588,North,Haryana,Panipat,Vehicle Loan,2178000.0,591.0,Fair,Upper-middle,Rejected,Rejected,0.04,True
-3833,North,Delhi,New Delhi,MSME Loan,3786000.0,689.0,Good,Lower-middle,Approved,Approved,0.53,True
-538,North,Uttar Pradesh,Varanasi,Business Loan,2694000.0,599.0,Fair,Lower-middle,Rejected,Rejected,0.045,True
-1540,East,Odisha,Bhubaneswar,Home Loan,3466000.0,647.0,Fair,Lower-middle,Approved,Rejected,0.265,False
-1530,West,Gujarat,Vadodara,Personal Loan,885000.0,821.0,Excellent,Lower-middle,Approved,Approved,0.8,True
-3053,North,Uttar Pradesh,Lucknow,Vehicle Loan,1037000.0,674.0,Good,Lower-middle,Rejected,Rejected,0.265,True
-1160,West,Rajasthan,Jodhpur,Vehicle Loan,246000.0,717.0,Good,Lower-middle,Approved,Approved,0.685,True
-2530,North,Haryana,Faridabad,Personal Loan,240000.0,847.0,Excellent,Lower-middle,Approved,Approved,0.925,True
-3767,South,Kerala,Kochi,Home Loan,4857000.0,772.0,Excellent,Upper-middle,Approved,Approved,0.955,True
-3177,East,West Bengal,Howrah,MSME Loan,3783000.0,767.0,Excellent,Upper-middle,Approved,Approved,0.86,True
-2661,Central,Madhya Pradesh,Indore,Personal Loan,154000.0,829.0,Excellent,Upper-middle,Approved,Approved,0.895,True
-1261,East,Odisha,Bhubaneswar,Vehicle Loan,498000.0,590.0,Fair,Low,Rejected,Rejected,0.02,True
-3706,West,Gujarat,Vadodara,Home Loan,5044000.0,597.0,Fair,Lower-middle,Rejected,Rejected,0.165,True
-2377,North,Punjab,Mohali,MSME Loan,976000.0,786.0,Excellent,Upper-middle,Approved,Approved,0.87,True
-1105,North,Delhi,Rohini,Business Loan,1326000.0,648.0,Fair,Lower-middle,Approved,Rejected,0.295,False
-2428,South,Tamil Nadu,Chennai,Personal Loan,94000.0,690.0,Good,Upper-middle,Rejected,Approved,0.51,False
-176,East,Bihar,Patna,Vehicle Loan,261000.0,583.0,Fair,High,Approved,Rejected,0.135,False
-1271,East,West Bengal,Kolkata,Personal Loan,725000.0,622.0,Fair,Upper-middle,Rejected,Rejected,0.385,True
-953,West,Rajasthan,Jodhpur,Vehicle Loan,1360000.0,688.0,Good,Lower-middle,Rejected,Rejected,0.33,True
-4283,East,Assam,Dibrugarh,Personal Loan,714000.0,699.0,Good,Lower-middle,Rejected,Rejected,0.33,True
-3043,South,Kerala,Kozhikode,Personal Loan,921000.0,768.0,Excellent,Upper-middle,Approved,Approved,0.905,True
-4013,South,Tamil Nadu,Chennai,Personal Loan,112000.0,785.0,Excellent,High,Rejected,Approved,0.96,False
-1837,West,Maharashtra,Nagpur,Vehicle Loan,282000.0,771.0,Excellent,Upper-middle,Approved,Approved,0.86,True
-2813,North,Delhi,New Delhi,Personal Loan,1319000.0,806.0,Excellent,Upper-middle,Approved,Approved,0.895,True
-4989,Central,Madhya Pradesh,Indore,Agriculture Loan,1356000.0,678.0,Good,Lower-middle,Rejected,Approved,0.5,False
-4519,South,Telangana,Hyderabad,MSME Loan,3423000.0,852.0,Excellent,Lower-middle,Approved,Approved,0.8,True
-1599,South,Telangana,Warangal,Personal Loan,1253000.0,588.0,Fair,Low,Rejected,Rejected,0.04,True
-637,North,Uttar Pradesh,Varanasi,Business Loan,2128000.0,633.0,Fair,Lower-middle,Rejected,Rejected,0.255,True
-3109,West,Rajasthan,Jaipur,Personal Loan,244000.0,697.0,Good,Lower-middle,Rejected,Rejected,0.46,True
-4890,South,Telangana,Warangal,Business Loan,4022000.0,572.0,Fair,Lower-middle,Rejected,Rejected,0.015,True
-2704,West,Gujarat,Vadodara,MSME Loan,1009000.0,706.0,Good,Lower-middle,Rejected,Rejected,0.435,True
-3029,East,West Bengal,Howrah,Business Loan,4089000.0,634.0,Fair,Lower-middle,Rejected,Rejected,0.285,True
-2182,West,Gujarat,Vadodara,Personal Loan,1032000.0,652.0,Good,Upper-middle,Rejected,Rejected,0.355,True
-1066,West,Maharashtra,Pune,Home Loan,2967000.0,610.0,Fair,Low,Rejected,Rejected,0.09,True
-913,South,Tamil Nadu,Coimbatore,Home Loan,3835000.0,772.0,Excellent,High,Approved,Approved,0.96,True
-3643,Central,Madhya Pradesh,Jabalpur,MSME Loan,1548000.0,668.0,Good,Lower-middle,Rejected,Rejected,0.325,True
-4113,South,Telangana,Warangal,MSME Loan,1294000.0,581.0,Fair,Lower-middle,Rejected,Rejected,0.01,True
-1060,South,Andhra Pradesh,Vijayawada,Personal Loan,82000.0,896.0,Excellent,Upper-middle,Approved,Approved,0.785,True
-123,West,Maharashtra,Pune,MSME Loan,2849000.0,713.0,Good,Upper-middle,Approved,Approved,0.73,True
+218,South,Telangana,Hyderabad,MSME Loan,397000.0,767.0,Excellent,Lower-middle,Approved,Approved,0.7725,True
+4874,North,Delhi,Rohini,Personal Loan,369000.0,606.0,Fair,Upper-middle,Approved,Rejected,0.1515,False
+3257,South,Andhra Pradesh,Guntur,Personal Loan,1431000.0,606.0,Fair,Lower-middle,Rejected,Rejected,0.1197,True
+2816,North,Uttar Pradesh,Varanasi,Personal Loan,168000.0,737.0,Good,Lower-middle,Approved,Approved,0.6514,True
+4303,South,Telangana,Warangal,Home Loan,10893000.0,733.0,Good,Lower-middle,Approved,Approved,0.7094,True
+3509,West,Rajasthan,Udaipur,Vehicle Loan,162000.0,650.0,Good,High,Rejected,Rejected,0.4035,True
+4740,Central,Madhya Pradesh,Bhopal,Business Loan,1961000.0,691.0,Good,Lower-middle,Approved,Rejected,0.3997,False
+4611,East,West Bengal,Howrah,Personal Loan,360000.0,792.0,Excellent,Upper-middle,Approved,Approved,0.9048,True
+3470,South,Telangana,Warangal,Home Loan,10528000.0,685.0,Good,Upper-middle,Approved,Approved,0.5652,True
+1477,North,Delhi,Dwarka,Personal Loan,963000.0,874.0,Excellent,Low,Approved,Approved,0.9695,True
+2111,West,Maharashtra,Pune,Personal Loan,1176000.0,572.0,Fair,Low,Rejected,Rejected,0.0341,True
+1018,South,Kerala,Kochi,Home Loan,6318000.0,750.0,Excellent,Low,Approved,Approved,0.6918,True
+4819,North,Delhi,Dwarka,MSME Loan,991000.0,741.0,Good,Upper-middle,Rejected,Approved,0.757,False
+3504,East,West Bengal,Howrah,Agriculture Loan,568000.0,663.0,Good,Lower-middle,Rejected,Rejected,0.2837,True
+4964,North,Delhi,Rohini,Vehicle Loan,2038000.0,844.0,Excellent,Upper-middle,Approved,Approved,0.9632,True
+3946,East,Bihar,Gaya,Agriculture Loan,209000.0,772.0,Excellent,Lower-middle,Approved,Approved,0.788,True
+3926,East,Odisha,Bhubaneswar,MSME Loan,2075000.0,657.0,Good,Lower-middle,Rejected,Rejected,0.2407,True
+4916,East,West Bengal,Kolkata,Business Loan,4989000.0,664.0,Good,Lower-middle,Approved,Rejected,0.2923,False
+1967,East,Odisha,Bhubaneswar,Home Loan,1171000.0,707.0,Good,Upper-middle,Approved,Approved,0.5982,True
+3015,North,Delhi,Rohini,Personal Loan,1077000.0,670.0,Good,High,Approved,Approved,0.6263,True
+1814,North,Uttar Pradesh,Kanpur,Home Loan,4882000.0,654.0,Good,Lower-middle,Rejected,Rejected,0.2336,True
+2349,South,Kerala,Thiruvananthapuram,Vehicle Loan,1828000.0,601.0,Fair,High,Rejected,Rejected,0.226,True
+2805,South,Karnataka,Mangaluru,Home Loan,4029000.0,813.0,Excellent,Upper-middle,Approved,Approved,0.9464,True
+1257,South,Kerala,Thiruvananthapuram,Vehicle Loan,825000.0,647.0,Fair,Upper-middle,Rejected,Rejected,0.2556,True
+4377,North,Punjab,Amritsar,Home Loan,8920000.0,679.0,Good,Upper-middle,Rejected,Rejected,0.4804,True
+1935,West,Maharashtra,Nagpur,Personal Loan,733000.0,586.0,Fair,Upper-middle,Rejected,Rejected,0.0731,True
+1186,East,West Bengal,Kolkata,Home Loan,9559000.0,688.0,Good,High,Approved,Approved,0.7816,True
+1596,North,Uttar Pradesh,Varanasi,Home Loan,1527000.0,845.0,Excellent,Lower-middle,Approved,Approved,0.9549,True
+3402,West,Maharashtra,Nashik,Vehicle Loan,837000.0,713.0,Good,High,Approved,Approved,0.7746,True
+4896,West,Gujarat,Ahmedabad,Personal Loan,54000.0,685.0,Good,Upper-middle,Rejected,Rejected,0.3424,True
+607,South,Tamil Nadu,Coimbatore,Personal Loan,242000.0,664.0,Good,Upper-middle,Rejected,Rejected,0.3363,True
+1013,North,Delhi,New Delhi,Agriculture Loan,874000.0,744.0,Good,High,Approved,Approved,0.8744,True
+4378,North,Delhi,Dwarka,Vehicle Loan,2036000.0,678.0,Good,Low,Rejected,Rejected,0.2631,True
+1021,West,Rajasthan,Jodhpur,Business Loan,3733000.0,599.0,Fair,Upper-middle,Approved,Rejected,0.1036,False
+3735,South,Kerala,Kochi,Personal Loan,94000.0,827.0,Excellent,Upper-middle,Rejected,Approved,0.9473,False
+3289,West,Maharashtra,Nashik,Vehicle Loan,947000.0,694.0,Good,Lower-middle,Approved,Rejected,0.4133,False
+1882,East,Bihar,Gaya,Home Loan,6981000.0,666.0,Good,Lower-middle,Approved,Rejected,0.3238,False
+2212,West,Gujarat,Vadodara,Agriculture Loan,1234000.0,667.0,Good,Upper-middle,Rejected,Rejected,0.3854,True
+2846,South,Andhra Pradesh,Guntur,Home Loan,5533000.0,708.0,Good,Upper-middle,Rejected,Approved,0.6245,False
+914,West,Maharashtra,Pune,Business Loan,2168000.0,652.0,Good,Upper-middle,Approved,Rejected,0.3216,False
+1891,North,Uttar Pradesh,Noida,Agriculture Loan,1349000.0,746.0,Good,Upper-middle,Approved,Approved,0.8248,True
+83,West,Maharashtra,Nagpur,Vehicle Loan,1993000.0,699.0,Good,Lower-middle,Approved,Rejected,0.4437,False
+1080,West,Maharashtra,Nashik,Business Loan,4034000.0,731.0,Good,Lower-middle,Approved,Approved,0.6335,True
+96,West,Rajasthan,Udaipur,Personal Loan,531000.0,834.0,Excellent,Lower-middle,Approved,Approved,0.9377,True
+2233,North,Delhi,Dwarka,Vehicle Loan,232000.0,745.0,Good,Upper-middle,Approved,Approved,0.7611,True
+1402,East,Assam,Dibrugarh,Personal Loan,305000.0,741.0,Good,Upper-middle,Rejected,Approved,0.7279,False
+3046,South,Tamil Nadu,Madurai,Vehicle Loan,1369000.0,755.0,Excellent,Lower-middle,Approved,Approved,0.7277,True
+3134,South,Karnataka,Mysuru,Vehicle Loan,985000.0,661.0,Good,Upper-middle,Rejected,Rejected,0.3073,True
+3308,North,Delhi,Rohini,Business Loan,4705000.0,644.0,Fair,Upper-middle,Rejected,Rejected,0.2832,True
+786,West,Maharashtra,Pune,Personal Loan,1285000.0,755.0,Excellent,High,Approved,Approved,0.9515,True
+1119,South,Karnataka,Mangaluru,Vehicle Loan,1403000.0,726.0,Good,High,Approved,Approved,0.801,True
+3685,East,West Bengal,Howrah,Home Loan,9452000.0,759.0,Excellent,Lower-middle,Rejected,Approved,0.8278,False
+2054,North,Uttar Pradesh,Noida,Personal Loan,1251000.0,513.0,Low,Lower-middle,Rejected,Rejected,0.0038,True
+4473,East,Bihar,Patna,Vehicle Loan,1256000.0,759.0,Excellent,Lower-middle,Rejected,Approved,0.7396,False
+1825,South,Telangana,Warangal,Vehicle Loan,1022000.0,783.0,Excellent,Upper-middle,Approved,Approved,0.8755,True
+55,South,Andhra Pradesh,Guntur,Home Loan,7686000.0,670.0,Good,Upper-middle,Approved,Rejected,0.4508,False
+4576,South,Karnataka,Hubballi,Home Loan,4404000.0,622.0,Fair,High,Approved,Rejected,0.4153,False
+97,West,Maharashtra,Nagpur,MSME Loan,658000.0,793.0,Excellent,Lower-middle,Rejected,Approved,0.8826,False
+2163,West,Maharashtra,Nashik,MSME Loan,3687000.0,658.0,Good,Upper-middle,Rejected,Rejected,0.2923,True
+4651,West,Maharashtra,Thane,Personal Loan,1397000.0,768.0,Excellent,Upper-middle,Approved,Approved,0.8434,True
+1029,South,Kerala,Thiruvananthapuram,Personal Loan,1003000.0,647.0,Fair,Upper-middle,Rejected,Rejected,0.2693,True
+3889,South,Tamil Nadu,Madurai,Home Loan,11490000.0,685.0,Good,Upper-middle,Rejected,Approved,0.5802,False
+1473,West,Maharashtra,Nagpur,Personal Loan,1298000.0,620.0,Fair,High,Approved,Rejected,0.3197,False
+4786,South,Tamil Nadu,Madurai,Business Loan,3627000.0,702.0,Good,Lower-middle,Approved,Rejected,0.471,False
+1785,North,Uttar Pradesh,Lucknow,Personal Loan,1389000.0,736.0,Good,High,Approved,Approved,0.8575,True
+1810,North,Punjab,Mohali,Home Loan,1177000.0,604.0,Fair,High,Approved,Approved,0.5557,True
+4356,South,Tamil Nadu,Coimbatore,MSME Loan,1368000.0,691.0,Good,Low,Rejected,Rejected,0.3243,True
+3031,South,Kerala,Kozhikode,MSME Loan,3729000.0,692.0,Good,Upper-middle,Approved,Approved,0.5288,True
+4413,South,Karnataka,Mangaluru,MSME Loan,1538000.0,680.0,Good,Upper-middle,Rejected,Rejected,0.4529,True
+4996,South,Kerala,Thiruvananthapuram,Home Loan,4566000.0,690.0,Good,Upper-middle,Rejected,Approved,0.5318,False
+1819,West,Maharashtra,Nagpur,MSME Loan,408000.0,889.0,Excellent,High,Rejected,Approved,0.993,False
+3516,South,Telangana,Hyderabad,Home Loan,11153000.0,758.0,Excellent,Upper-middle,Approved,Approved,0.8643,True
+4919,South,Kerala,Thiruvananthapuram,Personal Loan,755000.0,573.0,Fair,Lower-middle,Rejected,Rejected,0.0478,True
+4137,West,Gujarat,Vadodara,Business Loan,3058000.0,650.0,Good,Lower-middle,Rejected,Rejected,0.1821,True
+894,West,Maharashtra,Mumbai,Business Loan,3923000.0,877.0,Excellent,Upper-middle,Approved,Approved,0.9874,True
+2889,South,Telangana,Warangal,Agriculture Loan,439000.0,773.0,Excellent,Lower-middle,Approved,Approved,0.7946,True
+122,North,Haryana,Gurugram,Personal Loan,1022000.0,731.0,Good,Upper-middle,Approved,Approved,0.7272,True
+4530,West,Maharashtra,Thane,Personal Loan,681000.0,734.0,Good,Lower-middle,Rejected,Approved,0.6369,False
+2678,South,Telangana,Hyderabad,Home Loan,11315000.0,631.0,Fair,High,Approved,Approved,0.6012,True
+3111,East,Assam,Dibrugarh,Personal Loan,653000.0,823.0,Excellent,Lower-middle,Approved,Approved,0.9273,True
+3799,West,Maharashtra,Nashik,Personal Loan,485000.0,618.0,Fair,Lower-middle,Rejected,Rejected,0.1321,True
+1834,East,Odisha,Cuttack,Personal Loan,1035000.0,590.0,Fair,Upper-middle,Rejected,Rejected,0.0827,True
+4911,North,Delhi,Dwarka,Home Loan,2439000.0,649.0,Fair,Upper-middle,Approved,Rejected,0.3231,False
+3983,West,Gujarat,Ahmedabad,MSME Loan,2069000.0,722.0,Good,Upper-middle,Approved,Approved,0.6797,True
+1049,South,Kerala,Kozhikode,Vehicle Loan,369000.0,611.0,Fair,Lower-middle,Rejected,Rejected,0.1131,True
+787,South,Tamil Nadu,Coimbatore,Home Loan,9879000.0,711.0,Good,Low,Rejected,Rejected,0.4669,True
+4596,South,Karnataka,Bengaluru,Agriculture Loan,1301000.0,626.0,Fair,Upper-middle,Approved,Rejected,0.2092,False
+686,East,Assam,Dibrugarh,MSME Loan,1133000.0,676.0,Good,Upper-middle,Approved,Rejected,0.4841,False
+4355,West,Rajasthan,Jodhpur,Home Loan,915000.0,635.0,Fair,Lower-middle,Rejected,Rejected,0.1927,True
+797,West,Maharashtra,Pune,Personal Loan,1038000.0,667.0,Good,Upper-middle,Rejected,Rejected,0.3837,True
+4152,West,Gujarat,Vadodara,MSME Loan,3686000.0,657.0,Good,Upper-middle,Approved,Rejected,0.2732,False
+1662,North,Delhi,New Delhi,Business Loan,1166000.0,731.0,Good,Upper-middle,Approved,Approved,0.6829,True
+967,South,Kerala,Kochi,Home Loan,9861000.0,650.0,Good,Upper-middle,Rejected,Rejected,0.3595,True
+1510,East,Bihar,Gaya,Personal Loan,765000.0,573.0,Fair,Lower-middle,Rejected,Rejected,0.0455,True
+1576,North,Uttar Pradesh,Varanasi,Business Loan,936000.0,683.0,Good,Upper-middle,Approved,Rejected,0.4336,False
+3400,South,Andhra Pradesh,Guntur,Vehicle Loan,1013000.0,656.0,Good,Upper-middle,Approved,Rejected,0.2829,False
+3386,South,Andhra Pradesh,Visakhapatnam,MSME Loan,1036000.0,689.0,Good,Lower-middle,Approved,Rejected,0.388,False
+1149,East,Bihar,Gaya,Personal Loan,334000.0,789.0,Excellent,High,Approved,Approved,0.9346,True
+1015,East,West Bengal,Kolkata,Personal Loan,256000.0,825.0,Excellent,Lower-middle,Approved,Approved,0.9274,True
+3080,West,Maharashtra,Mumbai,Vehicle Loan,1159000.0,730.0,Good,High,Rejected,Approved,0.9502,False
+2752,West,Gujarat,Vadodara,Vehicle Loan,333000.0,613.0,Fair,Lower-middle,Rejected,Rejected,0.113,True
+3688,Central,Madhya Pradesh,Bhopal,Personal Loan,1211000.0,765.0,Excellent,High,Rejected,Approved,0.8922,False
+4288,West,Maharashtra,Mumbai,Vehicle Loan,1859000.0,643.0,Fair,Upper-middle,Rejected,Rejected,0.3141,True
+3243,West,Rajasthan,Jaipur,Home Loan,10542000.0,699.0,Good,High,Approved,Approved,0.7652,True
+468,West,Maharashtra,Mumbai,Business Loan,2993000.0,731.0,Good,Upper-middle,Rejected,Approved,0.7249,False
+3651,North,Delhi,New Delhi,Personal Loan,393000.0,708.0,Good,Lower-middle,Approved,Rejected,0.4859,False
+4738,North,Uttar Pradesh,Noida,Business Loan,298000.0,610.0,Fair,Lower-middle,Approved,Rejected,0.1032,False
+1802,South,Karnataka,Hubballi,Vehicle Loan,861000.0,749.0,Good,High,Approved,Approved,0.8777,True
+4285,North,Uttar Pradesh,Noida,Agriculture Loan,290000.0,793.0,Excellent,Lower-middle,Approved,Approved,0.8651,True
+2304,West,Maharashtra,Nashik,Personal Loan,818000.0,730.0,Good,Lower-middle,Approved,Approved,0.6326,True
+1087,West,Maharashtra,Mumbai,Home Loan,10545000.0,781.0,Excellent,Low,Rejected,Approved,0.8123,False
+2665,North,Uttar Pradesh,Lucknow,Home Loan,6363000.0,843.0,Excellent,Lower-middle,Approved,Approved,0.9581,True
+4922,South,Karnataka,Mysuru,Business Loan,2592000.0,878.0,Excellent,Upper-middle,Approved,Approved,0.9856,True
+1942,West,Maharashtra,Nashik,Personal Loan,1117000.0,815.0,Excellent,Upper-middle,Approved,Approved,0.9558,True
+3866,North,Delhi,Dwarka,Agriculture Loan,1236000.0,750.0,Excellent,Lower-middle,Approved,Approved,0.725,True
+244,West,Maharashtra,Thane,Vehicle Loan,1956000.0,757.0,Excellent,Lower-middle,Approved,Approved,0.7486,True
+3458,South,Karnataka,Hubballi,MSME Loan,1866000.0,741.0,Good,Upper-middle,Rejected,Approved,0.7327,False
+2037,South,Karnataka,Hubballi,Vehicle Loan,591000.0,630.0,Fair,Lower-middle,Rejected,Rejected,0.1676,True
+4760,North,Punjab,Amritsar,Home Loan,11953000.0,655.0,Good,Low,Approved,Rejected,0.2529,False
+1362,South,Tamil Nadu,Madurai,Personal Loan,1365000.0,585.0,Fair,Low,Rejected,Rejected,0.0448,True
+1689,South,Tamil Nadu,Coimbatore,Agriculture Loan,639000.0,683.0,Good,Upper-middle,Rejected,Rejected,0.4192,True
+4518,West,Maharashtra,Pune,Business Loan,1995000.0,632.0,Fair,Lower-middle,Approved,Rejected,0.1686,False
+4360,North,Uttar Pradesh,Kanpur,Personal Loan,451000.0,690.0,Good,High,Approved,Approved,0.6259,True
+3765,South,Tamil Nadu,Chennai,Personal Loan,464000.0,771.0,Excellent,Low,Approved,Approved,0.725,True
+3216,South,Karnataka,Mangaluru,MSME Loan,3616000.0,548.0,Low,High,Rejected,Rejected,0.0384,True
+523,South,Tamil Nadu,Coimbatore,Home Loan,10057000.0,744.0,Good,Upper-middle,Approved,Approved,0.8255,True
+4022,North,Punjab,Amritsar,Agriculture Loan,592000.0,562.0,Fair,Upper-middle,Rejected,Rejected,0.0554,True
+2391,West,Maharashtra,Nagpur,Business Loan,2402000.0,673.0,Good,Lower-middle,Rejected,Rejected,0.3107,True
+2615,West,Rajasthan,Jodhpur,Agriculture Loan,777000.0,719.0,Good,Upper-middle,Rejected,Approved,0.6264,False
+2916,West,Maharashtra,Nashik,Business Loan,1100000.0,703.0,Good,Upper-middle,Approved,Approved,0.6122,True
+893,South,Karnataka,Bengaluru,Home Loan,7222000.0,675.0,Good,High,Approved,Approved,0.6386,True
+3484,South,Tamil Nadu,Madurai,Personal Loan,766000.0,892.0,Excellent,Upper-middle,Approved,Approved,0.9867,True
+2041,South,Telangana,Warangal,Home Loan,5988000.0,555.0,Fair,Upper-middle,Rejected,Rejected,0.0564,True
+2299,North,Delhi,New Delhi,Personal Loan,986000.0,644.0,Fair,Upper-middle,Approved,Rejected,0.3197,False
+2404,South,Andhra Pradesh,Guntur,Personal Loan,1301000.0,621.0,Fair,Lower-middle,Rejected,Rejected,0.1254,True
+815,East,Bihar,Gaya,Personal Loan,407000.0,717.0,Good,Lower-middle,Rejected,Approved,0.5602,False
+2761,East,Odisha,Cuttack,Vehicle Loan,867000.0,829.0,Excellent,Upper-middle,Approved,Approved,0.9557,True
+272,West,Maharashtra,Nagpur,Home Loan,6733000.0,662.0,Good,Lower-middle,Approved,Rejected,0.3332,False
+3987,North,Delhi,New Delhi,Vehicle Loan,606000.0,728.0,Good,Low,Approved,Approved,0.5479,True
+4782,North,Uttar Pradesh,Kanpur,Home Loan,9281000.0,614.0,Fair,Upper-middle,Rejected,Rejected,0.186,True
+4880,North,Delhi,Dwarka,Personal Loan,869000.0,699.0,Good,Upper-middle,Approved,Approved,0.5102,True
+2143,South,Telangana,Hyderabad,Personal Loan,1355000.0,787.0,Excellent,High,Approved,Approved,0.9612,True
+852,East,Bihar,Patna,Home Loan,6240000.0,849.0,Excellent,High,Rejected,Approved,0.9867,False
+4930,South,Karnataka,Mangaluru,Personal Loan,711000.0,581.0,Fair,Upper-middle,Rejected,Rejected,0.0816,True
+2254,North,Uttar Pradesh,Lucknow,Personal Loan,501000.0,775.0,Excellent,Lower-middle,Rejected,Approved,0.816,False
+1707,North,Delhi,Rohini,Vehicle Loan,2498000.0,660.0,Good,Lower-middle,Rejected,Rejected,0.2714,True
+3013,South,Kerala,Thiruvananthapuram,Home Loan,1889000.0,731.0,Good,Lower-middle,Rejected,Approved,0.6422,False
+171,West,Maharashtra,Mumbai,Vehicle Loan,643000.0,570.0,Fair,Upper-middle,Rejected,Rejected,0.0655,True
+2025,South,Tamil Nadu,Chennai,Business Loan,720000.0,687.0,Good,Upper-middle,Approved,Approved,0.5074,True
+1051,North,Delhi,New Delhi,Personal Loan,777000.0,674.0,Good,Lower-middle,Rejected,Rejected,0.3271,True
+3878,South,Karnataka,Bengaluru,Home Loan,8435000.0,763.0,Excellent,Upper-middle,Approved,Approved,0.8457,True
+478,West,Maharashtra,Pune,Vehicle Loan,847000.0,706.0,Good,Lower-middle,Rejected,Approved,0.5165,False
+506,West,Maharashtra,Mumbai,Agriculture Loan,1127000.0,828.0,Excellent,Upper-middle,Approved,Approved,0.9497,True
+3696,East,Bihar,Gaya,Home Loan,10656000.0,701.0,Good,Low,Approved,Rejected,0.4436,False
+4997,South,Tamil Nadu,Madurai,Vehicle Loan,1575000.0,823.0,Excellent,Low,Approved,Approved,0.8987,True
+2060,East,West Bengal,Howrah,Home Loan,1977000.0,637.0,Fair,Lower-middle,Rejected,Rejected,0.2447,True
+2612,East,West Bengal,Howrah,Personal Loan,1266000.0,692.0,Good,Upper-middle,Approved,Rejected,0.4964,False
+4750,South,Telangana,Hyderabad,Agriculture Loan,398000.0,615.0,Fair,High,Rejected,Rejected,0.2478,True
+864,West,Rajasthan,Jodhpur,Personal Loan,1004000.0,693.0,Good,Lower-middle,Rejected,Rejected,0.4333,True
+4685,North,Uttar Pradesh,Varanasi,Personal Loan,466000.0,683.0,Good,Low,Approved,Rejected,0.2812,False
+3360,West,Maharashtra,Nagpur,Home Loan,10431000.0,504.0,Low,Lower-middle,Rejected,Rejected,0.0059,True
+739,North,Delhi,Dwarka,Personal Loan,58000.0,639.0,Fair,Lower-middle,Rejected,Rejected,0.1337,True
+176,East,Bihar,Patna,Vehicle Loan,261000.0,583.0,Fair,High,Approved,Rejected,0.1332,False
+2370,East,Assam,Guwahati,Vehicle Loan,667000.0,716.0,Good,Upper-middle,Approved,Approved,0.6467,True
+2709,West,Rajasthan,Udaipur,Personal Loan,952000.0,554.0,Fair,Upper-middle,Rejected,Rejected,0.0593,True
+1304,South,Andhra Pradesh,Guntur,Home Loan,1342000.0,510.0,Low,Lower-middle,Rejected,Rejected,0.0036,True
+188,South,Telangana,Warangal,Personal Loan,970000.0,569.0,Fair,Lower-middle,Rejected,Rejected,0.0434,True
+1323,South,Kerala,Kozhikode,Personal Loan,468000.0,786.0,Excellent,Upper-middle,Approved,Approved,0.901,True
+4200,East,Odisha,Cuttack,Personal Loan,159000.0,774.0,Excellent,Lower-middle,Approved,Approved,0.7927,True
+2168,South,Tamil Nadu,Madurai,Personal Loan,1347000.0,750.0,Excellent,Upper-middle,Approved,Approved,0.7777,True
+4172,West,Rajasthan,Jaipur,MSME Loan,1832000.0,730.0,Good,Upper-middle,Approved,Approved,0.7627,True
+3982,East,Bihar,Patna,Agriculture Loan,967000.0,567.0,Fair,Lower-middle,Rejected,Rejected,0.045,True
+3185,South,Tamil Nadu,Chennai,Home Loan,2402000.0,623.0,Fair,Lower-middle,Rejected,Rejected,0.1611,True
+3233,South,Karnataka,Mysuru,Agriculture Loan,958000.0,593.0,Fair,Lower-middle,Rejected,Rejected,0.0745,True
+4005,East,West Bengal,Howrah,MSME Loan,267000.0,614.0,Fair,Low,Rejected,Rejected,0.0822,True
+3758,South,Karnataka,Bengaluru,MSME Loan,3211000.0,707.0,Good,Upper-middle,Rejected,Approved,0.58,False
+4492,South,Karnataka,Bengaluru,Home Loan,6145000.0,762.0,Excellent,High,Approved,Approved,0.8927,True
+3439,East,West Bengal,Howrah,Personal Loan,850000.0,640.0,Fair,Lower-middle,Rejected,Rejected,0.1842,True
+1148,East,West Bengal,Kolkata,Personal Loan,1090000.0,781.0,Excellent,High,Approved,Approved,0.9379,True
+1722,West,Rajasthan,Jaipur,Agriculture Loan,211000.0,770.0,Excellent,Lower-middle,Approved,Approved,0.7846,True
+2009,South,Karnataka,Mangaluru,MSME Loan,1362000.0,713.0,Good,Lower-middle,Rejected,Rejected,0.4882,True
+2285,West,Gujarat,Surat,Personal Loan,1189000.0,634.0,Fair,Lower-middle,Approved,Rejected,0.1751,False
+1893,East,Assam,Dibrugarh,Personal Loan,310000.0,677.0,Good,Upper-middle,Rejected,Rejected,0.3567,True
+1426,South,Karnataka,Bengaluru,Home Loan,5607000.0,677.0,Good,Upper-middle,Approved,Approved,0.5025,True
+3164,South,Tamil Nadu,Chennai,Personal Loan,383000.0,760.0,Excellent,Lower-middle,Approved,Approved,0.7523,True
+3724,West,Gujarat,Vadodara,MSME Loan,3469000.0,638.0,Fair,Lower-middle,Rejected,Rejected,0.1985,True
+4359,West,Maharashtra,Pune,Business Loan,867000.0,715.0,Good,Upper-middle,Approved,Approved,0.682,True
+2583,West,Gujarat,Ahmedabad,Home Loan,3761000.0,649.0,Fair,Upper-middle,Rejected,Rejected,0.3627,True
+2141,North,Punjab,Amritsar,Home Loan,3903000.0,806.0,Excellent,Upper-middle,Approved,Approved,0.926,True
+756,South,Tamil Nadu,Chennai,Personal Loan,448000.0,703.0,Good,Upper-middle,Approved,Approved,0.5575,True
+118,North,Uttar Pradesh,Kanpur,MSME Loan,1201000.0,600.0,Fair,Upper-middle,Rejected,Rejected,0.1305,True
+407,East,West Bengal,Kolkata,Personal Loan,297000.0,722.0,Good,Lower-middle,Approved,Approved,0.5697,True
+3327,South,Andhra Pradesh,Vijayawada,Business Loan,345000.0,715.0,Good,Upper-middle,Approved,Approved,0.6173,True
+2159,South,Telangana,Hyderabad,Business Loan,2100000.0,780.0,Excellent,Upper-middle,Approved,Approved,0.8865,True
+4181,West,Gujarat,Vadodara,Home Loan,6003000.0,635.0,Fair,Low,Rejected,Rejected,0.1418,True
+2902,East,Odisha,Cuttack,Home Loan,5507000.0,721.0,Good,Low,Approved,Approved,0.5386,True
+3850,North,Delhi,Rohini,Home Loan,9151000.0,699.0,Good,Low,Approved,Rejected,0.3748,False
+3581,West,Rajasthan,Jaipur,MSME Loan,3994000.0,765.0,Excellent,Low,Approved,Approved,0.6909,True
+4523,East,West Bengal,Howrah,Personal Loan,1364000.0,776.0,Excellent,High,Approved,Approved,0.9099,True
+1188,West,Maharashtra,Pune,Vehicle Loan,2018000.0,654.0,Good,Lower-middle,Rejected,Rejected,0.2111,True
+720,North,Haryana,Gurugram,Vehicle Loan,1266000.0,645.0,Fair,Lower-middle,Approved,Rejected,0.2642,False
+3088,South,Tamil Nadu,Chennai,Personal Loan,172000.0,731.0,Good,Upper-middle,Approved,Approved,0.6754,True
+3936,South,Andhra Pradesh,Guntur,MSME Loan,2178000.0,677.0,Good,Lower-middle,Rejected,Rejected,0.3424,True
+2399,South,Karnataka,Mysuru,Home Loan,11761000.0,648.0,Fair,High,Approved,Approved,0.6025,True
+1659,North,Punjab,Mohali,Home Loan,1318000.0,874.0,Excellent,Low,Approved,Approved,0.9736,True
+3179,South,Karnataka,Hubballi,Business Loan,3934000.0,608.0,Fair,High,Rejected,Rejected,0.24,True
+377,South,Karnataka,Hubballi,Business Loan,614000.0,780.0,Excellent,Lower-middle,Rejected,Approved,0.8125,False
+2956,South,Karnataka,Hubballi,MSME Loan,1415000.0,518.0,Low,High,Rejected,Rejected,0.023,True
+2776,North,Uttar Pradesh,Varanasi,Agriculture Loan,61000.0,753.0,Excellent,Lower-middle,Approved,Approved,0.6506,True
+4004,South,Karnataka,Hubballi,Personal Loan,509000.0,768.0,Excellent,Lower-middle,Rejected,Approved,0.7715,False
+4236,East,West Bengal,Kolkata,Home Loan,10104000.0,684.0,Good,Lower-middle,Approved,Rejected,0.4768,False
+4829,East,Assam,Dibrugarh,Business Loan,4611000.0,655.0,Good,High,Approved,Approved,0.5202,True
+3177,East,West Bengal,Howrah,MSME Loan,3783000.0,767.0,Excellent,Upper-middle,Approved,Approved,0.8522,True
+2284,East,Assam,Guwahati,Personal Loan,105000.0,858.0,Excellent,Upper-middle,Approved,Approved,0.9772,True
+918,North,Uttar Pradesh,Lucknow,Business Loan,2005000.0,666.0,Good,Lower-middle,Rejected,Rejected,0.2809,True
+3322,Central,Madhya Pradesh,Indore,MSME Loan,775000.0,735.0,Good,Low,Rejected,Approved,0.5693,False
+1401,South,Andhra Pradesh,Visakhapatnam,Personal Loan,566000.0,761.0,Excellent,Lower-middle,Rejected,Approved,0.7612,False
+3450,West,Maharashtra,Mumbai,Home Loan,11835000.0,784.0,Excellent,Upper-middle,Approved,Approved,0.9481,True
+2414,East,Assam,Dibrugarh,Personal Loan,1446000.0,592.0,Fair,Upper-middle,Rejected,Rejected,0.0899,True
+1097,South,Kerala,Kochi,Vehicle Loan,2176000.0,768.0,Excellent,Upper-middle,Approved,Approved,0.8451,True
+423,South,Karnataka,Mangaluru,Home Loan,1988000.0,653.0,Good,Lower-middle,Approved,Rejected,0.2374,False
+3345,West,Maharashtra,Pune,Personal Loan,651000.0,806.0,Excellent,High,Approved,Approved,0.9551,True
+1850,South,Tamil Nadu,Madurai,Home Loan,3134000.0,659.0,Good,Lower-middle,Approved,Rejected,0.2752,False
+4037,East,West Bengal,Howrah,Personal Loan,630000.0,583.0,Fair,Lower-middle,Rejected,Rejected,0.0528,True
+2730,West,Gujarat,Ahmedabad,Agriculture Loan,463000.0,768.0,Excellent,Upper-middle,Approved,Approved,0.8543,True
+1993,East,West Bengal,Howrah,Vehicle Loan,2433000.0,668.0,Good,Lower-middle,Rejected,Rejected,0.2824,True
+4648,North,Haryana,Faridabad,Personal Loan,387000.0,561.0,Fair,Lower-middle,Rejected,Rejected,0.0378,True
+3656,West,Maharashtra,Pune,Vehicle Loan,1012000.0,566.0,Fair,Upper-middle,Rejected,Rejected,0.0557,True
+2929,South,Tamil Nadu,Chennai,Business Loan,709000.0,627.0,Fair,Lower-middle,Approved,Rejected,0.137,False
+3527,West,Maharashtra,Nashik,Vehicle Loan,332000.0,685.0,Good,Lower-middle,Rejected,Rejected,0.3603,True
+3789,West,Maharashtra,Thane,Personal Loan,1178000.0,727.0,Good,Lower-middle,Approved,Approved,0.6213,True
+3155,North,Uttar Pradesh,Varanasi,MSME Loan,3851000.0,675.0,Good,High,Approved,Approved,0.7034,True
+3424,Central,Madhya Pradesh,Bhopal,Personal Loan,281000.0,701.0,Good,Lower-middle,Rejected,Rejected,0.4572,True
+248,South,Andhra Pradesh,Vijayawada,Personal Loan,1348000.0,500.0,Low,Upper-middle,Rejected,Rejected,0.0042,True
+4526,West,Gujarat,Surat,Business Loan,3968000.0,593.0,Fair,Low,Rejected,Rejected,0.0566,True
+472,South,Tamil Nadu,Madurai,Home Loan,7589000.0,529.0,Low,High,Rejected,Rejected,0.0281,True
+1176,South,Telangana,Hyderabad,Personal Loan,1149000.0,700.0,Good,Low,Rejected,Rejected,0.3808,True
+3606,South,Telangana,Warangal,Home Loan,2443000.0,751.0,Excellent,Upper-middle,Approved,Approved,0.7871,True
+1655,West,Maharashtra,Nagpur,Personal Loan,891000.0,730.0,Good,Upper-middle,Rejected,Approved,0.7081,False
+2836,West,Maharashtra,Nashik,Personal Loan,757000.0,644.0,Fair,Upper-middle,Approved,Rejected,0.2545,False
+1853,South,Karnataka,Mangaluru,Agriculture Loan,366000.0,631.0,Fair,Lower-middle,Rejected,Rejected,0.1476,True
+4971,South,Tamil Nadu,Coimbatore,Personal Loan,1404000.0,602.0,Fair,Lower-middle,Rejected,Rejected,0.087,True
+2166,North,Uttar Pradesh,Lucknow,Personal Loan,756000.0,597.0,Fair,Upper-middle,Rejected,Rejected,0.1068,True
+4241,South,Kerala,Kozhikode,MSME Loan,1683000.0,600.0,Fair,Lower-middle,Rejected,Rejected,0.1027,True
+2794,West,Gujarat,Vadodara,Personal Loan,1445000.0,849.0,Excellent,Lower-middle,Approved,Approved,0.9578,True
+2097,West,Maharashtra,Thane,Personal Loan,570000.0,765.0,Excellent,High,Rejected,Approved,0.9011,False
+1,North,Uttar Pradesh,Kanpur,Business Loan,4356000.0,727.0,Good,Lower-middle,Rejected,Approved,0.6039,False
+3699,Central,Madhya Pradesh,Jabalpur,MSME Loan,1170000.0,769.0,Excellent,Lower-middle,Approved,Approved,0.7906,True
+3532,South,Karnataka,Mysuru,Home Loan,11698000.0,782.0,Excellent,Lower-middle,Approved,Approved,0.8692,True
+670,South,Kerala,Thiruvananthapuram,Personal Loan,786000.0,662.0,Good,High,Approved,Approved,0.5775,True
+3501,West,Maharashtra,Mumbai,Vehicle Loan,818000.0,642.0,Fair,Upper-middle,Rejected,Rejected,0.2777,True
+968,East,Assam,Guwahati,Personal Loan,642000.0,693.0,Good,Lower-middle,Approved,Rejected,0.3989,False
+2682,Central,Madhya Pradesh,Bhopal,Home Loan,3674000.0,740.0,Good,Upper-middle,Rejected,Approved,0.753,False
+3301,West,Maharashtra,Thane,Business Loan,1804000.0,679.0,Good,Lower-middle,Approved,Rejected,0.3643,False
+3425,South,Tamil Nadu,Coimbatore,Personal Loan,353000.0,745.0,Good,Lower-middle,Approved,Approved,0.7356,True
+3054,South,Tamil Nadu,Chennai,Personal Loan,228000.0,617.0,Fair,Upper-middle,Rejected,Rejected,0.1803,True
+2811,West,Maharashtra,Mumbai,Home Loan,9658000.0,633.0,Fair,Low,Rejected,Rejected,0.1374,True
+3201,West,Gujarat,Surat,Home Loan,982000.0,718.0,Good,Lower-middle,Rejected,Approved,0.5656,False
+2188,West,Gujarat,Surat,Business Loan,4090000.0,647.0,Fair,Lower-middle,Approved,Rejected,0.2454,False
+3347,West,Maharashtra,Nagpur,Personal Loan,887000.0,656.0,Good,Upper-middle,Rejected,Rejected,0.2839,True
+205,West,Maharashtra,Nagpur,Vehicle Loan,1312000.0,708.0,Good,Upper-middle,Approved,Approved,0.6261,True
+4050,South,Andhra Pradesh,Visakhapatnam,MSME Loan,2630000.0,883.0,Excellent,High,Approved,Approved,0.9973,True
+2475,East,West Bengal,Kolkata,MSME Loan,1113000.0,724.0,Good,Upper-middle,Rejected,Approved,0.7303,False
+455,Central,Madhya Pradesh,Indore,Business Loan,1662000.0,661.0,Good,Low,Rejected,Rejected,0.1697,True
+101,South,Tamil Nadu,Chennai,Business Loan,4327000.0,601.0,Fair,High,Approved,Rejected,0.2534,False
+4147,West,Maharashtra,Mumbai,Home Loan,7885000.0,631.0,Fair,Lower-middle,Rejected,Rejected,0.1771,True
+2574,South,Karnataka,Mysuru,Vehicle Loan,275000.0,810.0,Excellent,Upper-middle,Approved,Approved,0.9205,True
+1231,West,Maharashtra,Nashik,Home Loan,6181000.0,666.0,Good,Low,Rejected,Rejected,0.2089,True
+143,West,Rajasthan,Jaipur,Agriculture Loan,586000.0,770.0,Excellent,High,Approved,Approved,0.9432,True
+2058,West,Maharashtra,Pune,Personal Loan,163000.0,730.0,Good,Lower-middle,Rejected,Approved,0.6149,False
+2352,South,Tamil Nadu,Madurai,Agriculture Loan,1168000.0,675.0,Good,Low,Rejected,Rejected,0.2517,True
+2751,East,Assam,Guwahati,Agriculture Loan,1003000.0,753.0,Excellent,Upper-middle,Approved,Approved,0.7922,True
+4165,West,Maharashtra,Mumbai,Business Loan,2465000.0,687.0,Good,Upper-middle,Rejected,Rejected,0.4543,True
+2044,West,Gujarat,Ahmedabad,MSME Loan,2468000.0,700.0,Good,Lower-middle,Rejected,Rejected,0.4632,True
+2426,North,Delhi,Dwarka,Business Loan,2765000.0,590.0,Fair,Upper-middle,Rejected,Rejected,0.1205,True
+3627,North,Punjab,Ludhiana,Home Loan,11646000.0,760.0,Excellent,Lower-middle,Approved,Approved,0.8252,True
+3287,Central,Madhya Pradesh,Bhopal,MSME Loan,1420000.0,781.0,Excellent,Lower-middle,Approved,Approved,0.8299,True
+767,North,Uttar Pradesh,Kanpur,Business Loan,2640000.0,611.0,Fair,Low,Rejected,Rejected,0.0763,True
+4305,South,Tamil Nadu,Coimbatore,Personal Loan,955000.0,657.0,Good,High,Approved,Approved,0.9222,True
+4535,North,Haryana,Panipat,Home Loan,9983000.0,645.0,Fair,Upper-middle,Rejected,Rejected,0.2994,True
+4047,South,Karnataka,Mangaluru,MSME Loan,3802000.0,666.0,Good,Upper-middle,Rejected,Rejected,0.3475,True
+2739,West,Maharashtra,Mumbai,Business Loan,2922000.0,731.0,Good,Upper-middle,Approved,Approved,0.7172,True
+3712,South,Telangana,Warangal,Home Loan,8929000.0,631.0,Fair,Lower-middle,Rejected,Rejected,0.2203,True
+2975,West,Maharashtra,Thane,Home Loan,4217000.0,653.0,Good,Upper-middle,Rejected,Rejected,0.3567,True
+2814,North,Uttar Pradesh,Noida,Home Loan,1469000.0,699.0,Good,Upper-middle,Approved,Approved,0.5414,True
+1031,South,Karnataka,Hubballi,Personal Loan,1121000.0,816.0,Excellent,Lower-middle,Approved,Approved,0.9186,True
+845,West,Maharashtra,Mumbai,Personal Loan,934000.0,778.0,Excellent,Upper-middle,Approved,Approved,0.8507,True
+3061,South,Kerala,Kochi,Home Loan,6047000.0,737.0,Good,High,Approved,Approved,0.8879,True
+1511,Central,Madhya Pradesh,Bhopal,Home Loan,9327000.0,788.0,Excellent,Low,Approved,Approved,0.8265,True
+3129,South,Karnataka,Mangaluru,Vehicle Loan,160000.0,767.0,Excellent,Upper-middle,Approved,Approved,0.8348,True
+2525,West,Maharashtra,Pune,Home Loan,5564000.0,737.0,Good,Low,Approved,Approved,0.6665,True
+2768,North,Haryana,Gurugram,MSME Loan,2179000.0,735.0,Good,Upper-middle,Approved,Approved,0.741,True
+3055,Central,Madhya Pradesh,Bhopal,Vehicle Loan,742000.0,599.0,Fair,Upper-middle,Rejected,Rejected,0.1272,True
+3006,South,Karnataka,Bengaluru,Home Loan,2516000.0,751.0,Excellent,Upper-middle,Approved,Approved,0.7704,True
+2243,Central,Madhya Pradesh,Jabalpur,Personal Loan,982000.0,709.0,Good,Lower-middle,Rejected,Approved,0.5711,False
+2637,South,Kerala,Kozhikode,Agriculture Loan,243000.0,731.0,Good,Upper-middle,Approved,Approved,0.6721,True
+3857,West,Maharashtra,Thane,MSME Loan,1136000.0,722.0,Good,High,Approved,Approved,0.8259,True
+3196,South,Andhra Pradesh,Visakhapatnam,MSME Loan,3942000.0,645.0,Fair,Upper-middle,Rejected,Rejected,0.2871,True
+3263,West,Gujarat,Ahmedabad,Personal Loan,354000.0,655.0,Good,Lower-middle,Rejected,Rejected,0.2048,True
+3117,North,Punjab,Mohali,Business Loan,3238000.0,662.0,Good,Low,Approved,Rejected,0.1942,False
+1505,West,Maharashtra,Nagpur,Home Loan,6486000.0,757.0,Excellent,Lower-middle,Approved,Approved,0.8162,True
+2199,South,Andhra Pradesh,Visakhapatnam,Personal Loan,472000.0,728.0,Good,Upper-middle,Approved,Approved,0.6886,True
+2260,West,Gujarat,Surat,Personal Loan,457000.0,671.0,Good,Low,Approved,Rejected,0.2473,False
+1646,Central,Madhya Pradesh,Indore,Business Loan,3876000.0,642.0,Fair,Upper-middle,Rejected,Rejected,0.2636,True
+742,North,Delhi,Rohini,Business Loan,2557000.0,702.0,Good,Upper-middle,Approved,Approved,0.5645,True
+1438,North,Punjab,Amritsar,Vehicle Loan,214000.0,580.0,Fair,Upper-middle,Rejected,Rejected,0.075,True
+2873,West,Rajasthan,Udaipur,MSME Loan,3824000.0,720.0,Good,Upper-middle,Rejected,Approved,0.6675,False
+4948,North,Delhi,New Delhi,Home Loan,2924000.0,712.0,Good,Upper-middle,Approved,Approved,0.6539,True
+2205,West,Maharashtra,Nagpur,Home Loan,11774000.0,665.0,Good,Upper-middle,Approved,Rejected,0.4562,False
+3549,West,Maharashtra,Nashik,Personal Loan,185000.0,699.0,Good,Lower-middle,Rejected,Rejected,0.4301,True
+2124,South,Andhra Pradesh,Visakhapatnam,Vehicle Loan,1419000.0,765.0,Excellent,High,Approved,Approved,0.8797,True
+3663,South,Karnataka,Bengaluru,Personal Loan,541000.0,664.0,Good,High,Approved,Approved,0.717,True
+4657,West,Rajasthan,Jodhpur,Personal Loan,210000.0,672.0,Good,Upper-middle,Rejected,Rejected,0.3392,True
+3310,South,Karnataka,Mangaluru,Agriculture Loan,514000.0,690.0,Good,High,Approved,Approved,0.7712,True
+2478,East,Assam,Dibrugarh,Personal Loan,641000.0,704.0,Good,Lower-middle,Rejected,Rejected,0.4961,True
+345,South,Telangana,Warangal,MSME Loan,3770000.0,821.0,Excellent,Upper-middle,Approved,Approved,0.9402,True
+1248,North,Delhi,Rohini,Personal Loan,905000.0,800.0,Excellent,High,Approved,Approved,0.9529,True
+30,North,Delhi,Rohini,Vehicle Loan,2096000.0,775.0,Excellent,Lower-middle,Approved,Approved,0.8123,True
+4775,West,Rajasthan,Udaipur,Business Loan,1126000.0,771.0,Excellent,Upper-middle,Approved,Approved,0.8425,True
+733,South,Telangana,Hyderabad,MSME Loan,1161000.0,869.0,Excellent,Upper-middle,Approved,Approved,0.9856,True
+2468,West,Maharashtra,Nagpur,Home Loan,6450000.0,690.0,Good,Low,Approved,Rejected,0.382,False
+2622,South,Karnataka,Mangaluru,Home Loan,7163000.0,631.0,Fair,Lower-middle,Rejected,Rejected,0.1857,True
+4886,North,Uttar Pradesh,Varanasi,Vehicle Loan,751000.0,726.0,Good,High,Approved,Approved,0.777,True
+1372,West,Maharashtra,Thane,MSME Loan,2631000.0,755.0,Excellent,Upper-middle,Approved,Approved,0.7908,True
+2650,South,Tamil Nadu,Coimbatore,Personal Loan,62000.0,740.0,Good,Low,Rejected,Rejected,0.4697,True
+1115,East,Assam,Dibrugarh,Agriculture Loan,1193000.0,740.0,Good,Lower-middle,Rejected,Approved,0.7255,False
+4057,South,Telangana,Hyderabad,Home Loan,7432000.0,655.0,Good,Upper-middle,Rejected,Rejected,0.3952,True
+4247,East,Bihar,Patna,Personal Loan,1141000.0,693.0,Good,Upper-middle,Rejected,Approved,0.5717,False
+2899,East,West Bengal,Howrah,MSME Loan,2206000.0,622.0,Fair,Upper-middle,Rejected,Rejected,0.1789,True
+2965,South,Tamil Nadu,Madurai,Vehicle Loan,2405000.0,568.0,Fair,Upper-middle,Rejected,Rejected,0.0738,True
+3220,North,Haryana,Faridabad,Personal Loan,365000.0,542.0,Low,Low,Rejected,Rejected,0.0055,True
+1566,South,Kerala,Kozhikode,Personal Loan,1231000.0,663.0,Good,Upper-middle,Rejected,Rejected,0.3354,True
+3465,North,Punjab,Mohali,Business Loan,1049000.0,769.0,Excellent,Upper-middle,Rejected,Approved,0.8094,False
+3997,South,Karnataka,Mangaluru,Agriculture Loan,1371000.0,696.0,Good,Upper-middle,Approved,Approved,0.5091,True
+1218,South,Tamil Nadu,Chennai,Personal Loan,1179000.0,662.0,Good,High,Approved,Approved,0.572,True
+746,South,Karnataka,Mysuru,Personal Loan,1129000.0,642.0,Fair,Upper-middle,Approved,Rejected,0.289,False
+4387,Central,Madhya Pradesh,Indore,Business Loan,3537000.0,719.0,Good,Upper-middle,Approved,Approved,0.627,True
+985,North,Uttar Pradesh,Lucknow,Agriculture Loan,1307000.0,764.0,Excellent,Lower-middle,Approved,Approved,0.7744,True
+2245,South,Andhra Pradesh,Vijayawada,Personal Loan,173000.0,734.0,Good,Lower-middle,Approved,Approved,0.6356,True
+3618,West,Maharashtra,Pune,Agriculture Loan,1264000.0,521.0,Low,High,Rejected,Rejected,0.0135,True
+4946,East,West Bengal,Howrah,MSME Loan,3915000.0,732.0,Good,Lower-middle,Rejected,Approved,0.6487,False
+3766,West,Rajasthan,Jodhpur,Vehicle Loan,189000.0,831.0,Excellent,Upper-middle,Approved,Approved,0.9527,True
+2147,West,Rajasthan,Jodhpur,Home Loan,2611000.0,669.0,Good,Upper-middle,Approved,Rejected,0.4784,False
+3354,West,Gujarat,Surat,Vehicle Loan,1161000.0,691.0,Good,Upper-middle,Rejected,Rejected,0.4469,True
+1370,South,Karnataka,Bengaluru,Personal Loan,481000.0,740.0,Good,Lower-middle,Approved,Approved,0.6859,True
+2571,Central,Madhya Pradesh,Indore,Personal Loan,1275000.0,732.0,Good,Low,Approved,Approved,0.5774,True
+3428,North,Delhi,Rohini,Personal Loan,814000.0,627.0,Fair,Lower-middle,Rejected,Rejected,0.1386,True
+1624,West,Maharashtra,Mumbai,Vehicle Loan,382000.0,774.0,Excellent,Lower-middle,Approved,Approved,0.8115,True
+4266,West,Maharashtra,Pune,Vehicle Loan,294000.0,799.0,Excellent,Low,Rejected,Approved,0.8405,False
+4369,North,Punjab,Mohali,MSME Loan,3756000.0,624.0,Fair,Lower-middle,Rejected,Rejected,0.1483,True
+3058,West,Gujarat,Vadodara,Personal Loan,1114000.0,611.0,Fair,Upper-middle,Rejected,Rejected,0.1971,True
+4811,North,Uttar Pradesh,Lucknow,Home Loan,3899000.0,479.0,Low,Lower-middle,Rejected,Rejected,0.0016,True
+4989,Central,Madhya Pradesh,Indore,Agriculture Loan,1356000.0,678.0,Good,Lower-middle,Rejected,Rejected,0.3415,True
+3103,West,Rajasthan,Jodhpur,MSME Loan,2786000.0,688.0,Good,High,Rejected,Approved,0.6038,False
+4659,West,Maharashtra,Nagpur,Personal Loan,953000.0,663.0,Good,Upper-middle,Rejected,Rejected,0.301,True
+3898,East,Assam,Dibrugarh,Personal Loan,439000.0,656.0,Good,Lower-middle,Approved,Rejected,0.2235,False
+862,East,Assam,Dibrugarh,Home Loan,5974000.0,652.0,Good,Upper-middle,Approved,Rejected,0.308,False
+2185,North,Uttar Pradesh,Varanasi,Agriculture Loan,116000.0,673.0,Good,Lower-middle,Rejected,Rejected,0.307,True
+3279,South,Karnataka,Hubballi,Home Loan,11800000.0,612.0,Fair,Upper-middle,Rejected,Rejected,0.2911,True
+106,West,Maharashtra,Thane,Business Loan,428000.0,775.0,Excellent,Upper-middle,Approved,Approved,0.8213,True
+3679,West,Rajasthan,Jodhpur,Vehicle Loan,1844000.0,667.0,Good,Upper-middle,Approved,Rejected,0.4245,False
+603,South,Tamil Nadu,Madurai,Home Loan,5801000.0,812.0,Excellent,Lower-middle,Approved,Approved,0.9269,True
+3585,East,Bihar,Gaya,Business Loan,764000.0,603.0,Fair,Low,Rejected,Rejected,0.0615,True
+1277,South,Andhra Pradesh,Guntur,Personal Loan,654000.0,703.0,Good,Upper-middle,Approved,Approved,0.5578,True
+3650,South,Karnataka,Hubballi,Home Loan,10273000.0,772.0,Excellent,Lower-middle,Approved,Approved,0.838,True
+1333,East,Odisha,Cuttack,Personal Loan,74000.0,644.0,Fair,Lower-middle,Rejected,Rejected,0.2018,True
+1991,North,Uttar Pradesh,Noida,Personal Loan,1085000.0,752.0,Excellent,High,Approved,Approved,0.88,True
+4950,Central,Madhya Pradesh,Bhopal,Vehicle Loan,2137000.0,749.0,Good,Upper-middle,Approved,Approved,0.7986,True
+1413,South,Karnataka,Mysuru,Personal Loan,1389000.0,698.0,Good,Low,Approved,Rejected,0.358,False
+2225,South,Tamil Nadu,Coimbatore,Vehicle Loan,237000.0,856.0,Excellent,Lower-middle,Approved,Approved,0.9599,True
+2328,South,Andhra Pradesh,Visakhapatnam,Home Loan,3515000.0,668.0,Good,High,Rejected,Approved,0.5494,False
+4320,South,Karnataka,Mangaluru,Personal Loan,116000.0,727.0,Good,Low,Approved,Rejected,0.4813,False
+2400,East,Assam,Guwahati,Personal Loan,1458000.0,540.0,Low,Lower-middle,Rejected,Rejected,0.0073,True
+543,West,Gujarat,Vadodara,Personal Loan,1440000.0,690.0,Good,Lower-middle,Rejected,Rejected,0.4119,True
+1470,West,Maharashtra,Thane,Home Loan,6353000.0,670.0,Good,Low,Rejected,Rejected,0.2748,True
+4658,North,Uttar Pradesh,Lucknow,Vehicle Loan,1018000.0,813.0,Excellent,Upper-middle,Approved,Approved,0.926,True
+682,East,West Bengal,Kolkata,Vehicle Loan,1997000.0,633.0,Fair,Upper-middle,Rejected,Rejected,0.2493,True
+4838,East,Assam,Dibrugarh,Home Loan,4813000.0,594.0,Fair,Upper-middle,Rejected,Rejected,0.1431,True
+1963,South,Tamil Nadu,Chennai,Personal Loan,1191000.0,711.0,Good,Lower-middle,Rejected,Approved,0.5032,False
+3749,West,Maharashtra,Thane,MSME Loan,1894000.0,666.0,Good,Low,Approved,Rejected,0.2439,False
+2412,South,Tamil Nadu,Madurai,Vehicle Loan,2114000.0,632.0,Fair,Lower-middle,Approved,Rejected,0.1761,False
+2774,South,Tamil Nadu,Madurai,Home Loan,9493000.0,632.0,Fair,Upper-middle,Rejected,Rejected,0.3187,True
+725,South,Andhra Pradesh,Guntur,Home Loan,3993000.0,726.0,Good,High,Approved,Approved,0.8435,True
+1883,West,Maharashtra,Nashik,MSME Loan,2552000.0,745.0,Good,High,Approved,Approved,0.9145,True
+936,South,Telangana,Hyderabad,MSME Loan,3306000.0,735.0,Good,Lower-middle,Approved,Approved,0.6574,True
+443,East,Bihar,Gaya,Home Loan,4399000.0,740.0,Good,Lower-middle,Approved,Approved,0.7315,True
+4692,East,Bihar,Patna,Business Loan,4290000.0,724.0,Good,Upper-middle,Approved,Approved,0.6958,True
+3832,North,Delhi,Dwarka,Business Loan,3805000.0,784.0,Excellent,Upper-middle,Approved,Approved,0.9176,True
+2839,South,Kerala,Kozhikode,Home Loan,6364000.0,607.0,Fair,Lower-middle,Approved,Rejected,0.1245,False
+747,North,Uttar Pradesh,Varanasi,Business Loan,739000.0,691.0,Good,Lower-middle,Rejected,Approved,0.5028,False
+734,West,Gujarat,Surat,Vehicle Loan,1005000.0,702.0,Good,Lower-middle,Approved,Rejected,0.4823,False
+3361,South,Karnataka,Hubballi,Personal Loan,841000.0,742.0,Good,High,Approved,Approved,0.8546,True
+1112,West,Gujarat,Ahmedabad,Personal Loan,799000.0,686.0,Good,Upper-middle,Approved,Rejected,0.4438,False
+1089,North,Haryana,Gurugram,Personal Loan,1407000.0,787.0,Excellent,High,Approved,Approved,0.9377,True
+4744,West,Gujarat,Surat,Business Loan,549000.0,697.0,Good,High,Rejected,Approved,0.6652,False
+841,North,Delhi,New Delhi,Personal Loan,1427000.0,572.0,Fair,Lower-middle,Rejected,Rejected,0.0644,True
+2538,West,Maharashtra,Mumbai,Home Loan,1652000.0,742.0,Good,High,Rejected,Approved,0.9483,False
+4367,East,Odisha,Bhubaneswar,Home Loan,5030000.0,640.0,Fair,Lower-middle,Approved,Rejected,0.224,False
+3815,South,Telangana,Hyderabad,Vehicle Loan,2489000.0,785.0,Excellent,Upper-middle,Approved,Approved,0.874,True
+2226,North,Uttar Pradesh,Noida,Personal Loan,379000.0,680.0,Good,Low,Approved,Rejected,0.2892,False
+2652,West,Maharashtra,Mumbai,Home Loan,2396000.0,519.0,Low,Upper-middle,Rejected,Rejected,0.0063,True
+1448,West,Maharashtra,Pune,MSME Loan,1499000.0,708.0,Good,High,Rejected,Approved,0.9367,False
+3570,South,Karnataka,Mangaluru,Vehicle Loan,507000.0,772.0,Excellent,Upper-middle,Approved,Approved,0.8296,True
+963,South,Tamil Nadu,Coimbatore,Vehicle Loan,437000.0,649.0,Fair,Upper-middle,Rejected,Rejected,0.2628,True
+1997,West,Maharashtra,Pune,Personal Loan,616000.0,864.0,Excellent,Upper-middle,Approved,Approved,0.9784,True
+4680,West,Maharashtra,Thane,Personal Loan,490000.0,637.0,Fair,High,Rejected,Approved,0.5288,False
+1336,North,Uttar Pradesh,Kanpur,Vehicle Loan,1791000.0,737.0,Good,Upper-middle,Rejected,Approved,0.7508,False
+3829,Central,Madhya Pradesh,Indore,Agriculture Loan,646000.0,588.0,Fair,High,Rejected,Rejected,0.1378,True
+1667,West,Maharashtra,Nagpur,Home Loan,8054000.0,642.0,Fair,Upper-middle,Approved,Rejected,0.3328,False
+4479,South,Telangana,Warangal,Personal Loan,1192000.0,688.0,Good,High,Approved,Approved,0.6551,True
+3891,North,Haryana,Faridabad,Vehicle Loan,1818000.0,732.0,Good,Lower-middle,Rejected,Approved,0.6527,False
+2386,East,West Bengal,Kolkata,Vehicle Loan,2082000.0,639.0,Fair,Lower-middle,Rejected,Rejected,0.2275,True
+3977,North,Uttar Pradesh,Lucknow,Home Loan,10716000.0,779.0,Excellent,Upper-middle,Approved,Approved,0.909,True
+3935,North,Delhi,New Delhi,Home Loan,860000.0,736.0,Good,Upper-middle,Rejected,Approved,0.7622,False
+1387,East,Bihar,Patna,Vehicle Loan,667000.0,741.0,Good,Upper-middle,Approved,Approved,0.7704,True
+1489,South,Kerala,Kochi,Business Loan,3014000.0,608.0,Fair,Low,Approved,Rejected,0.0771,False
+2095,West,Rajasthan,Jaipur,Business Loan,270000.0,740.0,Good,Lower-middle,Approved,Approved,0.69,True
+2938,North,Delhi,New Delhi,Vehicle Loan,772000.0,779.0,Excellent,Low,Approved,Approved,0.7818,True
+1632,South,Karnataka,Hubballi,Personal Loan,1102000.0,741.0,Good,Lower-middle,Approved,Approved,0.6821,True
+3000,Central,Madhya Pradesh,Jabalpur,Personal Loan,1140000.0,610.0,Fair,Low,Approved,Rejected,0.0818,False
+2453,West,Maharashtra,Pune,Home Loan,3550000.0,592.0,Fair,Upper-middle,Approved,Rejected,0.1631,False
+1872,South,Andhra Pradesh,Vijayawada,MSME Loan,1354000.0,728.0,Good,Low,Rejected,Approved,0.5533,False
+2027,West,Gujarat,Surat,Personal Loan,720000.0,886.0,Excellent,High,Approved,Approved,0.9917,True
+67,East,West Bengal,Howrah,Vehicle Loan,1813000.0,663.0,Good,High,Approved,Approved,0.5615,True
+1012,East,Bihar,Gaya,Personal Loan,558000.0,750.0,Excellent,Upper-middle,Approved,Approved,0.7852,True
+2152,North,Uttar Pradesh,Lucknow,Personal Loan,516000.0,740.0,Good,Lower-middle,Approved,Approved,0.6823,True
+2658,South,Tamil Nadu,Chennai,Personal Loan,835000.0,663.0,Good,Upper-middle,Approved,Rejected,0.3458,False
+3510,South,Telangana,Warangal,MSME Loan,2585000.0,706.0,Good,Lower-middle,Rejected,Rejected,0.496,True
+2363,South,Karnataka,Bengaluru,Personal Loan,1161000.0,829.0,Excellent,Upper-middle,Approved,Approved,0.9512,True
+307,East,Bihar,Patna,Home Loan,2234000.0,741.0,Good,Upper-middle,Approved,Approved,0.7726,True
+3083,West,Maharashtra,Nagpur,Agriculture Loan,692000.0,759.0,Excellent,Upper-middle,Approved,Approved,0.816,True
+3152,North,Uttar Pradesh,Varanasi,Personal Loan,729000.0,846.0,Excellent,Upper-middle,Approved,Approved,0.966,True
+2603,West,Maharashtra,Pune,Personal Loan,108000.0,749.0,Good,Lower-middle,Approved,Approved,0.7103,True
+3803,West,Maharashtra,Mumbai,Vehicle Loan,1596000.0,792.0,Excellent,Lower-middle,Approved,Approved,0.8766,True
+4071,North,Uttar Pradesh,Kanpur,Vehicle Loan,2251000.0,720.0,Good,Low,Approved,Approved,0.5181,True
+4332,West,Maharashtra,Mumbai,MSME Loan,992000.0,829.0,Excellent,Low,Approved,Approved,0.9135,True
+4733,West,Maharashtra,Nagpur,Vehicle Loan,1502000.0,606.0,Fair,Upper-middle,Rejected,Rejected,0.125,True
+4568,West,Maharashtra,Nashik,Home Loan,11507000.0,788.0,Excellent,Low,Approved,Approved,0.8345,True
+1739,West,Gujarat,Vadodara,Personal Loan,1382000.0,709.0,Good,Upper-middle,Rejected,Approved,0.5903,False
+948,North,Punjab,Mohali,Personal Loan,180000.0,782.0,Excellent,Lower-middle,Approved,Approved,0.8208,True
+421,South,Kerala,Thiruvananthapuram,Personal Loan,201000.0,760.0,Excellent,Lower-middle,Approved,Approved,0.7532,True
+3913,West,Gujarat,Ahmedabad,MSME Loan,2215000.0,678.0,Good,Lower-middle,Rejected,Rejected,0.3706,True
+1824,East,Odisha,Bhubaneswar,Business Loan,3716000.0,750.0,Excellent,Lower-middle,Rejected,Approved,0.6794,False
+1299,North,Haryana,Faridabad,MSME Loan,1599000.0,709.0,Good,Upper-middle,Approved,Approved,0.6809,True
+887,Central,Madhya Pradesh,Indore,Business Loan,287000.0,771.0,Excellent,Low,Approved,Approved,0.7088,True
+4630,East,Bihar,Gaya,Home Loan,10528000.0,699.0,Good,Lower-middle,Rejected,Approved,0.5314,False
+3192,North,Uttar Pradesh,Varanasi,Business Loan,3687000.0,683.0,Good,Lower-middle,Rejected,Rejected,0.436,True
+287,South,Telangana,Hyderabad,MSME Loan,3200000.0,674.0,Good,Lower-middle,Rejected,Rejected,0.3019,True
+1303,North,Uttar Pradesh,Kanpur,Personal Loan,554000.0,718.0,Good,Upper-middle,Approved,Approved,0.7076,True
+3189,West,Maharashtra,Nashik,MSME Loan,2911000.0,690.0,Good,High,Approved,Approved,0.6476,True
+2248,East,West Bengal,Kolkata,Agriculture Loan,334000.0,753.0,Excellent,High,Approved,Approved,0.9405,True
+4808,West,Rajasthan,Udaipur,MSME Loan,1008000.0,754.0,Excellent,Upper-middle,Approved,Approved,0.7835,True
+1151,West,Gujarat,Vadodara,Agriculture Loan,531000.0,797.0,Excellent,Lower-middle,Approved,Approved,0.8964,True
+3690,East,West Bengal,Kolkata,Business Loan,4388000.0,670.0,Good,Upper-middle,Rejected,Rejected,0.3542,True
+4601,South,Kerala,Kochi,Personal Loan,574000.0,722.0,Good,Lower-middle,Approved,Approved,0.5897,True
+1501,East,Assam,Dibrugarh,Personal Loan,1030000.0,703.0,Good,Lower-middle,Approved,Rejected,0.4948,False
+2229,South,Telangana,Warangal,Personal Loan,1009000.0,811.0,Excellent,Lower-middle,Approved,Approved,0.9261,True
+3016,East,West Bengal,Kolkata,Home Loan,8581000.0,741.0,Good,High,Approved,Approved,0.8986,True
+4049,West,Maharashtra,Nagpur,Personal Loan,1429000.0,813.0,Excellent,Low,Approved,Approved,0.8785,True
+3241,North,Delhi,New Delhi,Vehicle Loan,888000.0,799.0,Excellent,Upper-middle,Approved,Approved,0.9181,True
+4967,West,Maharashtra,Pune,Vehicle Loan,2165000.0,745.0,Good,Upper-middle,Approved,Approved,0.8344,True
+4277,South,Andhra Pradesh,Guntur,MSME Loan,1995000.0,747.0,Good,Upper-middle,Approved,Approved,0.821,True
+2858,East,West Bengal,Howrah,MSME Loan,1103000.0,781.0,Excellent,Lower-middle,Approved,Approved,0.8122,True
+2494,South,Tamil Nadu,Coimbatore,MSME Loan,2239000.0,657.0,Good,Lower-middle,Rejected,Rejected,0.2312,True
+625,South,Kerala,Kozhikode,MSME Loan,1296000.0,715.0,Good,High,Rejected,Approved,0.7707,False
+1124,South,Karnataka,Bengaluru,Vehicle Loan,1469000.0,744.0,Good,Low,Approved,Approved,0.6525,True
+2879,South,Tamil Nadu,Madurai,Agriculture Loan,1237000.0,801.0,Excellent,Lower-middle,Rejected,Approved,0.8753,False
+2801,West,Rajasthan,Jodhpur,MSME Loan,3775000.0,777.0,Excellent,Upper-middle,Approved,Approved,0.896,True
+3172,North,Punjab,Mohali,Personal Loan,293000.0,750.0,Excellent,High,Rejected,Approved,0.8832,False
+2973,North,Uttar Pradesh,Varanasi,Vehicle Loan,867000.0,704.0,Good,Lower-middle,Rejected,Rejected,0.4987,True
+281,North,Haryana,Gurugram,MSME Loan,3690000.0,527.0,Low,Upper-middle,Rejected,Rejected,0.0101,True
+4331,South,Telangana,Hyderabad,Vehicle Loan,1023000.0,653.0,Good,High,Approved,Approved,0.5567,True
+327,East,West Bengal,Kolkata,Agriculture Loan,770000.0,581.0,Fair,High,Rejected,Rejected,0.1501,True
+1626,Central,Madhya Pradesh,Bhopal,Home Loan,9687000.0,762.0,Excellent,Upper-middle,Approved,Approved,0.8839,True
+449,North,Haryana,Faridabad,Personal Loan,355000.0,724.0,Good,Lower-middle,Approved,Approved,0.5954,True
+199,South,Kerala,Thiruvananthapuram,Home Loan,3463000.0,837.0,Excellent,Upper-middle,Approved,Approved,0.9696,True
+1171,North,Delhi,Rohini,Home Loan,8723000.0,744.0,Good,Upper-middle,Rejected,Approved,0.8338,False
+1607,Central,Madhya Pradesh,Jabalpur,Personal Loan,918000.0,710.0,Good,High,Approved,Approved,0.7874,True
+2837,North,Delhi,New Delhi,Personal Loan,389000.0,876.0,Excellent,Lower-middle,Approved,Approved,0.9759,True
+1427,North,Haryana,Faridabad,MSME Loan,3090000.0,757.0,Excellent,Lower-middle,Approved,Approved,0.7197,True
+618,South,Karnataka,Hubballi,Personal Loan,1120000.0,667.0,Good,Lower-middle,Rejected,Rejected,0.3143,True
+3434,West,Rajasthan,Jodhpur,Personal Loan,783000.0,665.0,Good,Upper-middle,Approved,Rejected,0.4163,False
+4282,South,Tamil Nadu,Chennai,Personal Loan,715000.0,700.0,Good,Lower-middle,Approved,Rejected,0.4904,False
+2424,West,Maharashtra,Pune,Vehicle Loan,154000.0,701.0,Good,Upper-middle,Approved,Approved,0.5484,True
+3695,South,Kerala,Kochi,MSME Loan,2725000.0,701.0,Good,Upper-middle,Rejected,Approved,0.5592,False
+3373,West,Gujarat,Ahmedabad,MSME Loan,2873000.0,576.0,Fair,Lower-middle,Rejected,Rejected,0.0528,True
+2516,West,Maharashtra,Mumbai,Home Loan,2707000.0,713.0,Good,Lower-middle,Approved,Approved,0.5426,True
+2868,North,Uttar Pradesh,Noida,Vehicle Loan,2143000.0,677.0,Good,Low,Rejected,Rejected,0.2686,True
+1523,South,Karnataka,Bengaluru,MSME Loan,1953000.0,612.0,Fair,High,Rejected,Rejected,0.325,True
+1039,North,Uttar Pradesh,Varanasi,Agriculture Loan,1459000.0,656.0,Good,Upper-middle,Rejected,Rejected,0.2989,True
+207,West,Maharashtra,Thane,Business Loan,4410000.0,814.0,Excellent,Lower-middle,Approved,Approved,0.9198,True
+304,North,Punjab,Mohali,Personal Loan,1034000.0,580.0,Fair,Low,Rejected,Rejected,0.0391,True
+1392,Central,Madhya Pradesh,Jabalpur,MSME Loan,1486000.0,657.0,Good,Upper-middle,Rejected,Rejected,0.28,True
+4722,South,Kerala,Kochi,Agriculture Loan,83000.0,635.0,Fair,Low,Rejected,Rejected,0.1096,True
+1129,West,Maharashtra,Pune,Business Loan,4157000.0,790.0,Excellent,High,Approved,Approved,0.9449,True
+3118,South,Telangana,Warangal,Home Loan,3158000.0,820.0,Excellent,High,Approved,Approved,0.9668,True
+3296,East,West Bengal,Kolkata,Home Loan,1200000.0,692.0,Good,Lower-middle,Rejected,Rejected,0.4144,True
+3681,South,Andhra Pradesh,Visakhapatnam,MSME Loan,2109000.0,633.0,Fair,Lower-middle,Approved,Rejected,0.1985,False
+72,South,Tamil Nadu,Madurai,Personal Loan,183000.0,706.0,Good,Upper-middle,Rejected,Approved,0.5425,False
+189,West,Maharashtra,Nagpur,MSME Loan,208000.0,670.0,Good,Upper-middle,Rejected,Rejected,0.3591,True
+404,South,Kerala,Kozhikode,Vehicle Loan,1847000.0,759.0,Excellent,Upper-middle,Approved,Approved,0.8091,True
+3920,East,West Bengal,Howrah,Home Loan,7254000.0,640.0,Fair,Low,Rejected,Rejected,0.1703,True
+4690,North,Punjab,Mohali,Personal Loan,250000.0,776.0,Excellent,Lower-middle,Approved,Approved,0.7927,True
+2105,South,Tamil Nadu,Madurai,Personal Loan,1309000.0,653.0,Good,Lower-middle,Approved,Rejected,0.2258,False
+4691,South,Tamil Nadu,Coimbatore,Personal Loan,568000.0,699.0,Good,Low,Rejected,Rejected,0.3505,True
+4291,North,Delhi,Dwarka,Personal Loan,899000.0,900.0,Excellent,Upper-middle,Approved,Approved,0.9919,True
+4177,South,Karnataka,Bengaluru,Personal Loan,623000.0,687.0,Good,Lower-middle,Approved,Rejected,0.3845,False
+10,Central,Madhya Pradesh,Jabalpur,Vehicle Loan,679000.0,600.0,Fair,Upper-middle,Rejected,Rejected,0.1509,True
+956,North,Delhi,Dwarka,Personal Loan,810000.0,688.0,Good,Lower-middle,Rejected,Rejected,0.4025,True
+1811,South,Andhra Pradesh,Visakhapatnam,Vehicle Loan,967000.0,811.0,Excellent,Low,Approved,Approved,0.8804,True
+4521,East,Bihar,Gaya,Home Loan,7616000.0,570.0,Fair,Lower-middle,Rejected,Rejected,0.0626,True
+464,South,Karnataka,Hubballi,Vehicle Loan,342000.0,733.0,Good,Upper-middle,Approved,Approved,0.705,True
+1246,Central,Madhya Pradesh,Indore,MSME Loan,3754000.0,759.0,Excellent,Upper-middle,Approved,Approved,0.8047,True
+479,West,Rajasthan,Udaipur,Vehicle Loan,290000.0,738.0,Good,Upper-middle,Approved,Approved,0.7233,True
+1852,East,West Bengal,Howrah,Personal Loan,873000.0,687.0,Good,Lower-middle,Rejected,Rejected,0.3987,True
+2686,Central,Madhya Pradesh,Jabalpur,Home Loan,2658000.0,596.0,Fair,Lower-middle,Rejected,Rejected,0.094,True
+2946,West,Maharashtra,Pune,Business Loan,2498000.0,873.0,Excellent,High,Approved,Approved,0.9938,True
+3796,South,Karnataka,Mysuru,Personal Loan,685000.0,645.0,Fair,Lower-middle,Rejected,Rejected,0.2422,True
+379,West,Maharashtra,Nashik,Business Loan,3194000.0,843.0,Excellent,Low,Approved,Approved,0.9369,True
+4739,South,Karnataka,Mangaluru,Home Loan,11211000.0,758.0,Excellent,High,Approved,Approved,0.921,True
+4333,South,Telangana,Hyderabad,Vehicle Loan,608000.0,699.0,Good,Upper-middle,Approved,Approved,0.5702,True
+44,West,Maharashtra,Nashik,MSME Loan,1380000.0,679.0,Good,Upper-middle,Approved,Rejected,0.4449,False
+1261,East,Odisha,Bhubaneswar,Vehicle Loan,498000.0,590.0,Fair,Low,Rejected,Rejected,0.0498,True
+3612,South,Tamil Nadu,Chennai,Business Loan,4594000.0,607.0,Fair,Upper-middle,Rejected,Rejected,0.1496,True
+604,South,Tamil Nadu,Chennai,Personal Loan,353000.0,746.0,Good,Low,Rejected,Approved,0.6507,False
+1774,North,Uttar Pradesh,Lucknow,Personal Loan,531000.0,747.0,Good,High,Approved,Approved,0.9169,True
+437,West,Maharashtra,Pune,MSME Loan,143000.0,799.0,Excellent,Lower-middle,Approved,Approved,0.8788,True
+2130,South,Telangana,Hyderabad,Home Loan,9574000.0,692.0,Good,Lower-middle,Approved,Approved,0.5151,True
+656,South,Kerala,Kochi,Vehicle Loan,1672000.0,729.0,Good,Upper-middle,Approved,Approved,0.7365,True
+4489,West,Gujarat,Ahmedabad,Home Loan,5872000.0,743.0,Good,Upper-middle,Approved,Approved,0.8081,True
+2762,West,Gujarat,Vadodara,MSME Loan,113000.0,623.0,Fair,High,Approved,Approved,0.8585,True
+724,West,Gujarat,Surat,Home Loan,8779000.0,698.0,Good,Lower-middle,Approved,Approved,0.5211,True
+4729,West,Rajasthan,Jodhpur,Home Loan,7146000.0,559.0,Fair,Low,Rejected,Rejected,0.0251,True
+2604,West,Maharashtra,Nagpur,Personal Loan,137000.0,783.0,Excellent,Lower-middle,Approved,Approved,0.8019,True
+3860,South,Kerala,Kochi,Business Loan,418000.0,790.0,Excellent,Upper-middle,Approved,Approved,0.8905,True
+4289,Central,Madhya Pradesh,Bhopal,Home Loan,3465000.0,714.0,Good,High,Approved,Approved,0.7665,True
+2170,West,Gujarat,Vadodara,Vehicle Loan,1463000.0,627.0,Fair,Lower-middle,Rejected,Rejected,0.1492,True
+334,South,Karnataka,Mysuru,Agriculture Loan,1368000.0,646.0,Fair,Lower-middle,Rejected,Rejected,0.2313,True
+1145,North,Punjab,Mohali,Home Loan,3073000.0,747.0,Good,Lower-middle,Rejected,Approved,0.7347,False
+984,South,Karnataka,Bengaluru,Personal Loan,205000.0,681.0,Good,High,Approved,Approved,0.6155,True
+4158,North,Punjab,Amritsar,Home Loan,2128000.0,620.0,Fair,High,Approved,Rejected,0.4637,False
+752,North,Haryana,Panipat,Business Loan,2416000.0,624.0,Fair,High,Rejected,Rejected,0.3425,True
+4258,North,Punjab,Mohali,Home Loan,8463000.0,583.0,Fair,Lower-middle,Rejected,Rejected,0.0828,True
+4490,East,Odisha,Bhubaneswar,Business Loan,2133000.0,634.0,Fair,Upper-middle,Approved,Rejected,0.2748,False
+2920,North,Punjab,Amritsar,Business Loan,1096000.0,653.0,Good,Upper-middle,Approved,Rejected,0.2781,False
+1302,North,Haryana,Faridabad,Personal Loan,1115000.0,636.0,Fair,Upper-middle,Rejected,Rejected,0.2148,True
+4062,South,Andhra Pradesh,Visakhapatnam,Home Loan,10013000.0,793.0,Excellent,Lower-middle,Approved,Approved,0.9093,True
+4123,East,Bihar,Gaya,Personal Loan,839000.0,647.0,Fair,Upper-middle,Approved,Rejected,0.3439,False
+2931,East,Odisha,Cuttack,Home Loan,6008000.0,691.0,Good,Upper-middle,Rejected,Approved,0.613,False
+2517,East,West Bengal,Howrah,Agriculture Loan,802000.0,675.0,Good,Lower-middle,Rejected,Rejected,0.2825,True
+3050,North,Uttar Pradesh,Varanasi,Business Loan,4495000.0,817.0,Excellent,High,Rejected,Approved,0.972,False
+1360,East,West Bengal,Howrah,Business Loan,2314000.0,560.0,Fair,Lower-middle,Rejected,Rejected,0.0401,True
+1907,West,Maharashtra,Thane,Personal Loan,1462000.0,670.0,Good,High,Approved,Approved,0.5587,True
+2428,South,Tamil Nadu,Chennai,Personal Loan,94000.0,690.0,Good,Upper-middle,Rejected,Rejected,0.4298,True
+1875,South,Karnataka,Bengaluru,Vehicle Loan,518000.0,648.0,Fair,High,Rejected,Rejected,0.4324,True
+3151,South,Telangana,Hyderabad,Home Loan,8411000.0,721.0,Good,High,Rejected,Approved,0.8613,False
+2903,West,Maharashtra,Nashik,Vehicle Loan,253000.0,715.0,Good,Upper-middle,Rejected,Approved,0.5948,False
+3818,North,Uttar Pradesh,Noida,MSME Loan,3988000.0,727.0,Good,Lower-middle,Approved,Approved,0.6537,True
+4232,West,Maharashtra,Nashik,Personal Loan,390000.0,636.0,Fair,Upper-middle,Rejected,Rejected,0.2645,True
+3135,East,West Bengal,Kolkata,Personal Loan,1346000.0,604.0,Fair,Lower-middle,Approved,Rejected,0.0926,False
+4910,North,Uttar Pradesh,Varanasi,Home Loan,10674000.0,750.0,Excellent,High,Rejected,Approved,0.913,False
+3053,North,Uttar Pradesh,Lucknow,Vehicle Loan,1037000.0,674.0,Good,Lower-middle,Rejected,Rejected,0.3461,True
+4541,East,Assam,Dibrugarh,MSME Loan,447000.0,677.0,Good,Upper-middle,Rejected,Rejected,0.3969,True
+4345,South,Tamil Nadu,Coimbatore,Business Loan,3340000.0,616.0,Fair,Upper-middle,Rejected,Rejected,0.1723,True
+597,North,Haryana,Panipat,Home Loan,8476000.0,632.0,Fair,Upper-middle,Rejected,Rejected,0.3368,True
+2676,South,Tamil Nadu,Madurai,Business Loan,3164000.0,734.0,Good,Upper-middle,Approved,Approved,0.6907,True
+2135,North,Uttar Pradesh,Varanasi,Vehicle Loan,2385000.0,713.0,Good,High,Approved,Approved,0.7553,True
+4244,West,Gujarat,Ahmedabad,Personal Loan,704000.0,654.0,Good,High,Approved,Rejected,0.4349,False
+4174,West,Rajasthan,Jaipur,Agriculture Loan,1239000.0,669.0,Good,Lower-middle,Rejected,Rejected,0.3022,True
+297,Central,Madhya Pradesh,Bhopal,Personal Loan,1455000.0,732.0,Good,High,Approved,Approved,0.829,True
+3823,North,Punjab,Amritsar,Agriculture Loan,697000.0,683.0,Good,Lower-middle,Approved,Rejected,0.3547,False
+276,South,Tamil Nadu,Madurai,Business Loan,2156000.0,731.0,Good,Lower-middle,Approved,Approved,0.6242,True
+1456,West,Maharashtra,Pune,Home Loan,5600000.0,566.0,Fair,Lower-middle,Rejected,Rejected,0.0649,True
+1055,West,Rajasthan,Jodhpur,Home Loan,3561000.0,637.0,Fair,Lower-middle,Rejected,Rejected,0.1915,True
+910,South,Telangana,Hyderabad,Personal Loan,484000.0,646.0,Fair,Low,Rejected,Rejected,0.1728,True
+2893,East,Odisha,Bhubaneswar,Home Loan,3013000.0,687.0,Good,Low,Approved,Rejected,0.356,False
+2457,West,Gujarat,Vadodara,Personal Loan,1353000.0,730.0,Good,Low,Rejected,Approved,0.5845,False
+2716,West,Gujarat,Vadodara,Personal Loan,570000.0,631.0,Fair,Lower-middle,Approved,Rejected,0.164,False
+4545,North,Uttar Pradesh,Kanpur,Home Loan,11096000.0,697.0,Good,Upper-middle,Approved,Approved,0.6054,True
+1708,South,Andhra Pradesh,Guntur,MSME Loan,707000.0,625.0,Fair,High,Approved,Rejected,0.2682,False
+4052,West,Maharashtra,Mumbai,Business Loan,2342000.0,853.0,Excellent,Lower-middle,Approved,Approved,0.9692,True
+2561,Central,Madhya Pradesh,Bhopal,Personal Loan,1386000.0,762.0,Excellent,Lower-middle,Approved,Approved,0.7374,True
+1339,South,Tamil Nadu,Coimbatore,Business Loan,1941000.0,708.0,Good,Lower-middle,Approved,Approved,0.52,True
+4055,West,Rajasthan,Jodhpur,Personal Loan,744000.0,591.0,Fair,Lower-middle,Rejected,Rejected,0.0783,True
+179,West,Maharashtra,Thane,Home Loan,11789000.0,678.0,Good,Upper-middle,Approved,Approved,0.5906,True
+1196,North,Delhi,Dwarka,Personal Loan,819000.0,752.0,Excellent,Upper-middle,Rejected,Approved,0.7876,False
+2145,South,Tamil Nadu,Madurai,MSME Loan,1635000.0,741.0,Good,Upper-middle,Rejected,Approved,0.7507,False
+4467,West,Rajasthan,Jodhpur,Agriculture Loan,1375000.0,756.0,Excellent,Lower-middle,Rejected,Approved,0.7312,False
+3253,North,Delhi,New Delhi,Vehicle Loan,427000.0,703.0,Good,Upper-middle,Approved,Approved,0.6281,True
+861,North,Uttar Pradesh,Lucknow,Personal Loan,685000.0,640.0,Fair,Upper-middle,Rejected,Rejected,0.2883,True
+1976,West,Maharashtra,Mumbai,Business Loan,4134000.0,530.0,Low,Lower-middle,Rejected,Rejected,0.006,True
+4502,North,Uttar Pradesh,Noida,Vehicle Loan,2487000.0,653.0,Good,Upper-middle,Rejected,Rejected,0.3222,True
+973,Central,Madhya Pradesh,Indore,Agriculture Loan,913000.0,664.0,Good,Lower-middle,Rejected,Rejected,0.2765,True
+2017,South,Telangana,Hyderabad,MSME Loan,2142000.0,822.0,Excellent,Lower-middle,Approved,Approved,0.9333,True
+175,West,Maharashtra,Thane,Home Loan,2951000.0,752.0,Excellent,Upper-middle,Approved,Approved,0.8224,True
+877,North,Delhi,New Delhi,Personal Loan,257000.0,767.0,Excellent,High,Rejected,Approved,0.8986,False
+1996,West,Gujarat,Ahmedabad,Vehicle Loan,1206000.0,576.0,Fair,Upper-middle,Rejected,Rejected,0.0762,True
+4459,West,Gujarat,Vadodara,Business Loan,2029000.0,634.0,Fair,Lower-middle,Rejected,Rejected,0.1721,True
+3024,North,Uttar Pradesh,Noida,Agriculture Loan,1468000.0,680.0,Good,Lower-middle,Rejected,Rejected,0.3352,True
+4785,North,Haryana,Gurugram,Vehicle Loan,471000.0,746.0,Good,High,Approved,Approved,0.9624,True
+1384,South,Kerala,Kochi,Personal Loan,317000.0,672.0,Good,Upper-middle,Rejected,Rejected,0.4034,True
+3383,West,Maharashtra,Thane,Business Loan,1852000.0,660.0,Good,Upper-middle,Rejected,Rejected,0.3072,True
+1904,South,Karnataka,Bengaluru,Agriculture Loan,849000.0,806.0,Excellent,Upper-middle,Approved,Approved,0.9345,True
+3887,South,Kerala,Thiruvananthapuram,Home Loan,3288000.0,666.0,Good,Low,Approved,Rejected,0.2376,False
+3894,Central,Madhya Pradesh,Jabalpur,Vehicle Loan,992000.0,626.0,Fair,Upper-middle,Approved,Rejected,0.1881,False
+1989,West,Maharashtra,Pune,Home Loan,1849000.0,778.0,Excellent,Upper-middle,Approved,Approved,0.895,True
+3905,South,Telangana,Hyderabad,Vehicle Loan,1577000.0,631.0,Fair,Upper-middle,Rejected,Rejected,0.2325,True
+4325,North,Uttar Pradesh,Lucknow,Business Loan,1994000.0,750.0,Excellent,Upper-middle,Rejected,Approved,0.7832,False
+1995,South,Telangana,Warangal,Home Loan,11169000.0,720.0,Good,Lower-middle,Rejected,Approved,0.6753,False
+317,West,Maharashtra,Nashik,Business Loan,2573000.0,693.0,Good,Upper-middle,Approved,Approved,0.5391,True
+3181,North,Delhi,Rohini,Personal Loan,161000.0,700.0,Good,Upper-middle,Rejected,Approved,0.5074,False
+3225,West,Gujarat,Surat,Personal Loan,1048000.0,736.0,Good,Low,Rejected,Approved,0.6065,False
+225,South,Karnataka,Hubballi,Personal Loan,954000.0,769.0,Excellent,Upper-middle,Approved,Approved,0.8166,True
+4644,West,Gujarat,Surat,Agriculture Loan,147000.0,785.0,Excellent,Upper-middle,Approved,Approved,0.8549,True
+3459,South,Andhra Pradesh,Visakhapatnam,Personal Loan,308000.0,591.0,Fair,Low,Rejected,Rejected,0.0503,True
+2995,West,Rajasthan,Jaipur,Personal Loan,713000.0,552.0,Fair,Lower-middle,Rejected,Rejected,0.029,True
+4784,West,Maharashtra,Nashik,Agriculture Loan,818000.0,646.0,Fair,Low,Rejected,Rejected,0.1715,True
+3343,South,Telangana,Warangal,Vehicle Loan,701000.0,668.0,Good,Lower-middle,Rejected,Rejected,0.271,True
+1544,West,Maharashtra,Nashik,MSME Loan,2210000.0,696.0,Good,Upper-middle,Rejected,Approved,0.5974,False
+2576,North,Delhi,New Delhi,Home Loan,1348000.0,744.0,Good,Upper-middle,Approved,Approved,0.7611,True
+1671,West,Maharashtra,Pune,Agriculture Loan,212000.0,651.0,Good,Upper-middle,Rejected,Rejected,0.2531,True
+986,West,Maharashtra,Thane,Home Loan,11863000.0,543.0,Low,Lower-middle,Rejected,Rejected,0.0114,True
+4251,South,Tamil Nadu,Coimbatore,Business Loan,3648000.0,552.0,Fair,Lower-middle,Rejected,Rejected,0.0311,True
+2498,West,Maharashtra,Pune,Personal Loan,764000.0,644.0,Fair,Low,Rejected,Rejected,0.1461,True
+4127,Central,Madhya Pradesh,Jabalpur,Agriculture Loan,1033000.0,811.0,Excellent,Low,Approved,Approved,0.8597,True
+619,West,Gujarat,Vadodara,Home Loan,9120000.0,651.0,Good,Upper-middle,Approved,Rejected,0.3975,False
+548,West,Maharashtra,Pune,MSME Loan,3152000.0,718.0,Good,Low,Rejected,Rejected,0.4534,True
+2763,Central,Madhya Pradesh,Jabalpur,Personal Loan,1428000.0,732.0,Good,Low,Approved,Approved,0.5366,True
+1783,South,Karnataka,Bengaluru,Vehicle Loan,342000.0,619.0,Fair,Upper-middle,Rejected,Rejected,0.1498,True
+366,North,Delhi,Dwarka,Business Loan,3764000.0,724.0,Good,High,Approved,Approved,0.7809,True
+1346,West,Rajasthan,Jaipur,Personal Loan,674000.0,724.0,Good,Lower-middle,Approved,Approved,0.5863,True
+4415,East,Odisha,Bhubaneswar,Vehicle Loan,1264000.0,775.0,Excellent,Upper-middle,Approved,Approved,0.8856,True
+933,South,Karnataka,Mangaluru,Business Loan,1075000.0,602.0,Fair,Lower-middle,Rejected,Rejected,0.0935,True
+3137,East,Odisha,Cuttack,Home Loan,4960000.0,566.0,Fair,Lower-middle,Rejected,Rejected,0.0519,True
+4486,North,Uttar Pradesh,Noida,Personal Loan,453000.0,691.0,Good,Lower-middle,Rejected,Rejected,0.4037,True
+1189,South,Karnataka,Bengaluru,Home Loan,7209000.0,739.0,Good,Low,Approved,Approved,0.6507,True
+2529,West,Gujarat,Surat,Business Loan,4088000.0,664.0,Good,Upper-middle,Rejected,Rejected,0.3139,True
+540,North,Uttar Pradesh,Varanasi,Personal Loan,1200000.0,718.0,Good,Lower-middle,Approved,Approved,0.5864,True
+147,West,Maharashtra,Mumbai,Vehicle Loan,1435000.0,781.0,Excellent,Low,Approved,Approved,0.7829,True
+2089,West,Gujarat,Vadodara,Personal Loan,1012000.0,766.0,Excellent,Upper-middle,Approved,Approved,0.8294,True
+4472,Central,Madhya Pradesh,Bhopal,Business Loan,1254000.0,664.0,Good,Lower-middle,Rejected,Rejected,0.2918,True
+1056,West,Maharashtra,Pune,Personal Loan,1174000.0,740.0,Good,Lower-middle,Approved,Approved,0.7018,True
+1195,West,Gujarat,Surat,Business Loan,1709000.0,760.0,Excellent,Lower-middle,Approved,Approved,0.7322,True
+1968,West,Gujarat,Ahmedabad,Personal Loan,51000.0,708.0,Good,Upper-middle,Approved,Approved,0.5126,True
+3794,South,Tamil Nadu,Coimbatore,MSME Loan,3341000.0,768.0,Excellent,High,Approved,Approved,0.9183,True
+382,South,Karnataka,Mangaluru,Vehicle Loan,263000.0,679.0,Good,High,Approved,Approved,0.5618,True
+1948,South,Telangana,Warangal,Personal Loan,633000.0,724.0,Good,Lower-middle,Approved,Approved,0.5466,True
+3988,West,Gujarat,Vadodara,Home Loan,5245000.0,637.0,Fair,Lower-middle,Rejected,Rejected,0.2305,True
+2890,East,West Bengal,Kolkata,MSME Loan,2674000.0,767.0,Excellent,Low,Rejected,Approved,0.7112,False
+4663,South,Karnataka,Bengaluru,Personal Loan,603000.0,682.0,Good,Lower-middle,Approved,Rejected,0.357,False
+2371,Central,Madhya Pradesh,Indore,Home Loan,5012000.0,650.0,Good,Upper-middle,Rejected,Rejected,0.3389,True
+1252,North,Delhi,New Delhi,MSME Loan,110000.0,669.0,Good,High,Approved,Approved,0.5222,True
+1178,South,Kerala,Thiruvananthapuram,Vehicle Loan,2389000.0,669.0,Good,Lower-middle,Rejected,Rejected,0.2783,True
+74,West,Rajasthan,Udaipur,Agriculture Loan,455000.0,757.0,Excellent,Lower-middle,Approved,Approved,0.7107,True
+4140,East,West Bengal,Howrah,Personal Loan,1456000.0,731.0,Good,Lower-middle,Rejected,Approved,0.6483,False
+4304,North,Punjab,Ludhiana,Vehicle Loan,1035000.0,736.0,Good,Lower-middle,Rejected,Approved,0.6511,False
+69,West,Gujarat,Surat,MSME Loan,446000.0,640.0,Fair,Upper-middle,Approved,Rejected,0.2991,False
+4603,West,Rajasthan,Jaipur,MSME Loan,3092000.0,591.0,Fair,Upper-middle,Rejected,Rejected,0.1067,True
+3902,South,Andhra Pradesh,Visakhapatnam,Personal Loan,594000.0,759.0,Excellent,Upper-middle,Approved,Approved,0.7822,True
+2004,South,Karnataka,Mysuru,Business Loan,2092000.0,786.0,Excellent,Low,Rejected,Approved,0.8241,False
+4893,South,Karnataka,Mysuru,Home Loan,5242000.0,749.0,Good,Lower-middle,Approved,Approved,0.7484,True
+1623,South,Karnataka,Mysuru,Personal Loan,848000.0,697.0,Good,Upper-middle,Approved,Approved,0.5633,True
+3692,South,Tamil Nadu,Chennai,Vehicle Loan,772000.0,757.0,Excellent,Lower-middle,Approved,Approved,0.733,True
+1932,West,Maharashtra,Nagpur,Home Loan,3068000.0,639.0,Fair,Upper-middle,Rejected,Rejected,0.2898,True
+596,North,Uttar Pradesh,Lucknow,Personal Loan,972000.0,573.0,Fair,Low,Rejected,Rejected,0.0376,True
+391,East,West Bengal,Kolkata,Personal Loan,830000.0,763.0,Excellent,Upper-middle,Rejected,Approved,0.8015,False
+2485,East,West Bengal,Howrah,Home Loan,9585000.0,680.0,Good,Lower-middle,Rejected,Rejected,0.4479,True
+4163,South,Kerala,Thiruvananthapuram,MSME Loan,2577000.0,719.0,Good,Lower-middle,Rejected,Approved,0.5898,False
+4789,West,Maharashtra,Nagpur,Business Loan,1957000.0,693.0,Good,Upper-middle,Approved,Approved,0.5284,True
+2577,South,Tamil Nadu,Madurai,MSME Loan,780000.0,687.0,Good,High,Rejected,Approved,0.6101,False
+1654,South,Tamil Nadu,Chennai,Personal Loan,702000.0,672.0,Good,Upper-middle,Approved,Rejected,0.4771,False
+905,South,Telangana,Warangal,Personal Loan,412000.0,603.0,Fair,Upper-middle,Rejected,Rejected,0.1486,True
+4968,West,Rajasthan,Jaipur,Business Loan,4138000.0,726.0,Good,Lower-middle,Approved,Approved,0.6244,True
+4991,West,Maharashtra,Nashik,Vehicle Loan,1005000.0,731.0,Good,Lower-middle,Rejected,Approved,0.6307,False
+4143,South,Karnataka,Hubballi,Agriculture Loan,310000.0,668.0,Good,High,Approved,Approved,0.5897,True
+3144,West,Maharashtra,Nagpur,MSME Loan,1726000.0,650.0,Good,Upper-middle,Rejected,Rejected,0.2879,True
+2848,South,Karnataka,Bengaluru,Home Loan,8202000.0,698.0,Good,Upper-middle,Approved,Approved,0.6811,True
+1281,West,Rajasthan,Udaipur,Vehicle Loan,614000.0,783.0,Excellent,Lower-middle,Rejected,Approved,0.8361,False
+4866,North,Uttar Pradesh,Noida,Home Loan,4949000.0,693.0,Good,Upper-middle,Approved,Approved,0.6143,True
+2306,North,Haryana,Faridabad,Personal Loan,1144000.0,682.0,Good,Low,Rejected,Rejected,0.2847,True
+940,South,Telangana,Hyderabad,Vehicle Loan,893000.0,802.0,Excellent,Lower-middle,Approved,Approved,0.8921,True
+3673,West,Maharashtra,Pune,Business Loan,4294000.0,528.0,Low,Lower-middle,Rejected,Rejected,0.0069,True
+1953,South,Tamil Nadu,Chennai,Agriculture Loan,980000.0,689.0,Good,Upper-middle,Rejected,Approved,0.5347,False
+1408,North,Punjab,Ludhiana,Personal Loan,1491000.0,726.0,Good,High,Approved,Approved,0.8718,True
+2477,Central,Madhya Pradesh,Jabalpur,Personal Loan,465000.0,825.0,Excellent,Upper-middle,Approved,Approved,0.9531,True
+4447,South,Karnataka,Mangaluru,Vehicle Loan,524000.0,687.0,Good,High,Approved,Approved,0.6157,True
+4543,South,Telangana,Hyderabad,MSME Loan,1159000.0,679.0,Good,Upper-middle,Approved,Rejected,0.4021,False
+3405,East,West Bengal,Howrah,Home Loan,5904000.0,722.0,Good,Lower-middle,Approved,Approved,0.635,True
+617,South,Telangana,Hyderabad,Business Loan,1276000.0,727.0,Good,Lower-middle,Approved,Approved,0.623,True
+4064,South,Karnataka,Mangaluru,Business Loan,3763000.0,636.0,Fair,Lower-middle,Approved,Rejected,0.2129,False
+3500,Central,Madhya Pradesh,Jabalpur,Personal Loan,1107000.0,690.0,Good,High,Approved,Approved,0.7556,True
+3996,South,Tamil Nadu,Madurai,MSME Loan,3963000.0,649.0,Fair,Upper-middle,Rejected,Rejected,0.3278,True
+3283,North,Delhi,New Delhi,Vehicle Loan,730000.0,692.0,Good,Upper-middle,Approved,Rejected,0.4923,False
+2667,North,Delhi,Dwarka,Vehicle Loan,944000.0,722.0,Good,Upper-middle,Approved,Approved,0.6721,True
+2867,South,Karnataka,Hubballi,Personal Loan,216000.0,688.0,Good,Upper-middle,Rejected,Rejected,0.4602,True
+751,South,Telangana,Hyderabad,Personal Loan,1057000.0,663.0,Good,Upper-middle,Approved,Rejected,0.4327,False
+3295,West,Rajasthan,Jodhpur,Personal Loan,1315000.0,604.0,Fair,Lower-middle,Rejected,Rejected,0.0978,True
+2235,South,Telangana,Hyderabad,Personal Loan,1478000.0,730.0,Good,Lower-middle,Rejected,Approved,0.6502,False
+2734,West,Gujarat,Vadodara,Business Loan,2449000.0,811.0,Excellent,Lower-middle,Approved,Approved,0.9055,True
+1478,West,Gujarat,Ahmedabad,Home Loan,11667000.0,736.0,Good,Low,Approved,Approved,0.6599,True
+411,West,Gujarat,Ahmedabad,Home Loan,11769000.0,674.0,Good,Upper-middle,Approved,Approved,0.5834,True
+629,South,Tamil Nadu,Chennai,Personal Loan,586000.0,593.0,Fair,High,Rejected,Rejected,0.1591,True
+3956,East,Odisha,Cuttack,Vehicle Loan,1627000.0,649.0,Fair,Upper-middle,Approved,Rejected,0.31,False
+140,West,Maharashtra,Thane,Business Loan,594000.0,738.0,Good,Upper-middle,Approved,Approved,0.7305,True
+342,West,Rajasthan,Jodhpur,Personal Loan,723000.0,708.0,Good,High,Approved,Approved,0.7306,True
+268,North,Punjab,Amritsar,Personal Loan,943000.0,728.0,Good,Upper-middle,Rejected,Approved,0.672,False
+466,West,Maharashtra,Mumbai,Personal Loan,205000.0,721.0,Good,Lower-middle,Rejected,Approved,0.5517,False
+2910,West,Gujarat,Surat,Business Loan,3194000.0,744.0,Good,Upper-middle,Approved,Approved,0.7919,True
+1894,South,Tamil Nadu,Chennai,Personal Loan,480000.0,674.0,Good,Lower-middle,Approved,Rejected,0.3113,False
+3341,West,Maharashtra,Nagpur,Personal Loan,655000.0,652.0,Good,Lower-middle,Rejected,Rejected,0.1971,True
+848,North,Delhi,Rohini,Home Loan,10176000.0,617.0,Fair,Upper-middle,Rejected,Rejected,0.207,True
+3592,East,Bihar,Patna,Home Loan,11686000.0,695.0,Good,Lower-middle,Rejected,Approved,0.5161,False
+3840,South,Karnataka,Hubballi,Personal Loan,584000.0,748.0,Good,Upper-middle,Approved,Approved,0.7925,True
+544,South,Andhra Pradesh,Visakhapatnam,Home Loan,2974000.0,573.0,Fair,High,Rejected,Rejected,0.1985,True
+1551,South,Andhra Pradesh,Vijayawada,MSME Loan,938000.0,801.0,Excellent,Upper-middle,Approved,Approved,0.9199,True
+1534,South,Telangana,Warangal,MSME Loan,956000.0,723.0,Good,Lower-middle,Approved,Approved,0.6187,True
+3056,North,Punjab,Mohali,Home Loan,5467000.0,643.0,Fair,High,Rejected,Rejected,0.4537,True
+1168,South,Karnataka,Hubballi,Personal Loan,1257000.0,748.0,Good,Lower-middle,Approved,Approved,0.7278,True
+2539,North,Haryana,Gurugram,Personal Loan,486000.0,722.0,Good,Low,Approved,Approved,0.5052,True
+3774,West,Maharashtra,Thane,Personal Loan,101000.0,848.0,Excellent,High,Approved,Approved,0.9802,True
+3184,South,Telangana,Warangal,Vehicle Loan,1742000.0,626.0,Fair,Low,Approved,Rejected,0.1246,False
+2668,North,Uttar Pradesh,Kanpur,Business Loan,3905000.0,605.0,Fair,Lower-middle,Approved,Rejected,0.0967,False
+1265,Central,Madhya Pradesh,Indore,Personal Loan,1193000.0,574.0,Fair,Upper-middle,Rejected,Rejected,0.0611,True
+3709,West,Maharashtra,Nagpur,MSME Loan,1818000.0,677.0,Good,Low,Rejected,Rejected,0.2466,True
+2385,West,Rajasthan,Jodhpur,Home Loan,11881000.0,767.0,Excellent,Lower-middle,Approved,Approved,0.8256,True
+1111,West,Maharashtra,Mumbai,MSME Loan,1479000.0,754.0,Excellent,Upper-middle,Approved,Approved,0.7771,True
+2435,North,Punjab,Ludhiana,Personal Loan,265000.0,584.0,Fair,Upper-middle,Rejected,Rejected,0.1076,True
+185,East,Bihar,Patna,Vehicle Loan,201000.0,716.0,Good,Low,Approved,Rejected,0.4638,False
+1279,South,Tamil Nadu,Chennai,MSME Loan,1737000.0,603.0,Fair,Lower-middle,Rejected,Rejected,0.1019,True
+958,South,Karnataka,Mysuru,Home Loan,9849000.0,602.0,Fair,Upper-middle,Rejected,Rejected,0.206,True
+4290,West,Gujarat,Surat,Home Loan,1782000.0,619.0,Fair,High,Rejected,Rejected,0.2865,True
+3049,South,Andhra Pradesh,Guntur,Vehicle Loan,1956000.0,787.0,Excellent,Lower-middle,Approved,Approved,0.8533,True
+4021,North,Haryana,Panipat,MSME Loan,3963000.0,662.0,Good,Lower-middle,Rejected,Rejected,0.2643,True
+1843,West,Maharashtra,Thane,Business Loan,1089000.0,715.0,Good,Lower-middle,Approved,Approved,0.5453,True
+2820,South,Tamil Nadu,Coimbatore,Home Loan,9878000.0,720.0,Good,Upper-middle,Approved,Approved,0.7302,True
+4992,West,Maharashtra,Nagpur,Home Loan,10953000.0,659.0,Good,Lower-middle,Rejected,Rejected,0.3294,True
+4533,South,Andhra Pradesh,Vijayawada,Personal Loan,550000.0,811.0,Excellent,Low,Approved,Approved,0.8662,True
+1605,West,Rajasthan,Jaipur,Home Loan,10794000.0,602.0,Fair,Low,Rejected,Rejected,0.0823,True
+644,North,Haryana,Panipat,Business Loan,1290000.0,657.0,Good,Lower-middle,Rejected,Rejected,0.2099,True
+3115,East,Odisha,Bhubaneswar,Home Loan,8701000.0,656.0,Good,Lower-middle,Rejected,Rejected,0.2508,True
+4897,West,Maharashtra,Mumbai,Vehicle Loan,1994000.0,572.0,Fair,Lower-middle,Rejected,Rejected,0.0449,True
+2714,North,Uttar Pradesh,Noida,Vehicle Loan,1683000.0,682.0,Good,Upper-middle,Rejected,Rejected,0.3945,True
+3033,North,Haryana,Panipat,MSME Loan,3458000.0,641.0,Fair,Lower-middle,Rejected,Rejected,0.2083,True
+2193,West,Rajasthan,Jaipur,MSME Loan,3585000.0,539.0,Low,Low,Rejected,Rejected,0.0046,True
+1072,South,Telangana,Hyderabad,Vehicle Loan,2492000.0,626.0,Fair,Low,Rejected,Rejected,0.1233,True
+924,North,Haryana,Gurugram,Business Loan,606000.0,685.0,Good,High,Approved,Approved,0.5982,True
+3652,East,Bihar,Gaya,Business Loan,1092000.0,707.0,Good,Upper-middle,Rejected,Approved,0.5997,False
+4122,North,Delhi,Rohini,Home Loan,9470000.0,619.0,Fair,Upper-middle,Rejected,Rejected,0.2579,True
+1070,West,Gujarat,Ahmedabad,Home Loan,2908000.0,681.0,Good,Lower-middle,Approved,Rejected,0.3839,False
+129,North,Uttar Pradesh,Noida,Personal Loan,843000.0,815.0,Excellent,Lower-middle,Approved,Approved,0.9246,True

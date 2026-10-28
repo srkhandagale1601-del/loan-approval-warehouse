@@ -944,7 +944,7 @@
             <h3>Supervised Model Comparison Scorecard (Held-Out Test Set)</h3>
             <p>Evaluation across Accuracy, Precision, Recall, F1-Score, and ROC-AUC</p>
           </div>
-          <span class="kpi-tag good">Selected Best Model: Random Forest</span>
+          <span class="kpi-tag good" id="selectedBestModelTag">Selected Best Model: Logistic Regression</span>
         </div>
         <div class="table-responsive">
           <table class="data-table" id="tableModelScorecard">
@@ -972,7 +972,7 @@
         <article class="chart-card">
           <div class="chart-card-head">
             <div>
-              <h3>Confusion Matrix (Selected Random Forest)</h3>
+              <h3 id="headingModelConfusion">Confusion Matrix (Selected Logistic Regression)</h3>
               <p>Actual vs predicted loan outcomes on held-out test records</p>
             </div>
           </div>
@@ -987,13 +987,13 @@
           <div class="chart-card-head">
             <div>
               <h3>Feature Importance (Top Underwriting Drivers)</h3>
-              <p>MDI Gini-impurity reduction from the Random Forest ensemble</p>
+              <p id="subheadingModelImportance">Underwriting driver importance from the selected Logistic Regression model</p>
             </div>
           </div>
           <div class="chart-container" id="chartModelImportance"></div>
           <div class="chart-insight" id="insightModelImportance">
-            <b>Underwriting Drivers:</b> CIBIL bureau score, loan-to-income ratio, and requested loan amount dominate
-            model splits.
+            <b>Underwriting Drivers:</b> CIBIL bureau score, credit band classifications, and applicant income dominate
+            model coefficients.
           </div>
         </article>
       </div>
@@ -1211,9 +1211,9 @@
             <div class="chart-card-head">
               <div>
                 <h3>Underwriting Assessment</h3>
-                <p>Live inference output from trained Random Forest pipeline</p>
+                <p id="labModelSubtitle">Live inference output from trained Logistic Regression pipeline</p>
               </div>
-              <span class="kpi-tag neutral" id="labModelVersion">Model: Random Forest v2</span>
+              <span class="kpi-tag neutral" id="labModelVersion">Model: Logistic Regression</span>
             </div>
 
             <!-- Active Product & Policy Chip -->
@@ -1345,8 +1345,7 @@
           <p>The modeling pipeline in <code>src/ln/mining.py</code> rigorously excludes post-decision and leakage
             attributes (e.g. <code>sanctioned_amount_inr</code>, <code>interest_rate_pct</code>, <code>emi_inr</code>,
             <code>decision_reason</code>, <code>disbursement_date</code>). Models are fitted using stratified 70/15/15
-            train-validation-test partitions. Feature importance is computed from the Random Forest ensemble and
-            calibrated on held-out records.
+            train-validation-test partitions. Models are evaluated across validation F1 scores to determine the selected best model (Logistic Regression), with feature importance derived from model coefficients and calibrated on held-out records.
           </p>
         </div>
       </div>

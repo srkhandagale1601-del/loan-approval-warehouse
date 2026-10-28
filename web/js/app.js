@@ -116,7 +116,7 @@ function initNavigation() {
     if (tabId === 'warehouse') loadWarehousePreview();
     if (tabId === 'olap' && !olapLoaded) runOlap();
     if (tabId === 'segmentation' && !segmentationLoaded) loadSegmentation();
-    if (tabId === 'models' && !modelsLoaded) loadModelAnalytics();
+    if ((tabId === 'models' || tabId === 'predict') && !modelsLoaded) loadModelAnalytics();
     if (tabId === 'quality' && !qualityLoaded) loadDataQuality();
   }
 
@@ -769,10 +769,31 @@ async function loadModelAnalytics() {
     const res = await fetch('/api/models/analytics');
     if (!res.ok) throw new Error(`Model analytics error (${res.status})`);
     const data = await res.json();
+    const selectedModelName = data.selected_model || 'Logistic Regression';
+
+    // 0. Update dynamic labels across sections
+    const bestTag = $('selectedBestModelTag');
+    if (bestTag) bestTag.textContent = `Selected Best Model: ${selectedModelName}`;
+
+    const confHeading = $('headingModelConfusion');
+    if (confHeading) confHeading.textContent = `Confusion Matrix (Selected ${selectedModelName})`;
+
+    const subImportance = $('subheadingModelImportance');
+    if (subImportance) {
+      subImportance.textContent = `Underwriting driver importance from the selected ${selectedModelName} model`;
+    }
+
+    const labTag = $('labModelVersion');
+    if (labTag) labTag.textContent = `Model: ${selectedModelName}`;
+
+    const labSub = $('labModelSubtitle');
+    if (labSub) labSub.textContent = `Live inference output from trained ${selectedModelName} pipeline`;
 
     // 1. Model Comparison Scorecard
     const models = data.models || [];
-    $('tableModelScorecard').querySelector('tbody').innerHTML = models.map((m, idx) => `
+    $('tableModelScorecard').querySelector('tbody').innerHTML = models.map((m) => {
+      const isSelected = m.model === selectedModelName;
+      return `
       <tr>
         <td class="strong"><b>${esc(m.model)}</b></td>
         <td>${pct(m.accuracy * 100)}</td>
@@ -780,12 +801,12 @@ async function loadModelAnalytics() {
         <td>${pct(m.recall_approved * 100)}</td>
         <td><b>${pct(m.f1_approved * 100)}</b></td>
         <td>${pct(m.roc_auc * 100)}</td>
-        <td><span class="pill ${idx === 0 || m.model === data.selected_model ? 'good' : 'neutral'}">${m.model === data.selected_model ? 'Best (Selected)' : 'Evaluated'}</span></td>
+        <td><span class="pill ${isSelected ? 'good' : 'neutral'}">${isSelected ? 'Best (Selected)' : 'Evaluated'}</span></td>
       </tr>
-    `).join('');
+    `}).join('');
 
     // 2. Confusion Matrix Heatmap (for selected model)
-    const selected = models.find(m => m.model === data.selected_model) || models[0];
+    const selected = models.find(m => m.model === selectedModelName) || models[0];
     if (selected && selected.confusion_matrix) {
       const cm = selected.confusion_matrix;
       plot('chartModelConfusion', [{
@@ -820,8 +841,14 @@ async function loadModelAnalytics() {
       hovertemplate: '%{y}<br>Importance: %{x:.4f}<extra></extra>'
     }], {
       margin: { l: 150, r: 20, t: 10, b: 40 },
-      xaxis: { title: 'MDI Feature Importance' }
+      xaxis: { title: `${selectedModelName} Predictive Weight / Importance` }
     });
+
+    const insImportance = $('insightModelImportance');
+    if (insImportance && fi.length) {
+      const topDrivers = fi.slice(-3).reverse().map(f => f.feature.replace(/^num__|cat__/, '')).join(', ');
+      insImportance.innerHTML = `<b>Underwriting Drivers:</b> Top predictive drivers for ${esc(selectedModelName)} include <b>${esc(topDrivers)}</b>.`;
+    }
 
     modelsLoaded = true;
     loadTestPredictions();
@@ -959,6 +986,11 @@ async function runPrediction() {
     $('labProbabilityText').textContent = `${probPct}%`;
     $('labProbabilityFill').style.width = `${probPct}%`;
     $('labProbabilityFill').style.backgroundColor = isApproved ? '#16a34a' : '#dc2626';
+
+    if (data.model_version) {
+      const lmv = $('labModelVersion');
+      if (lmv) lmv.textContent = `Model: ${data.model_version.replace(' (Educational)', '')}`;
+    }
 
     const factors = data.risk_factors || [];
     $('labFactorsList').innerHTML = factors.map(f => `
@@ -1125,4 +1157,5 @@ document.addEventListener('DOMContentLoaded', () => {
   loadOverview();
   loadApplicationsAnalytics();
   loadRepaymentsAnalytics();
+  loadModelAnalytics();
 });

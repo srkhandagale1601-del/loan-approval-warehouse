@@ -1,28 +1,28 @@
 feature,raw_feature,importance
-cibil_score,num__cibil_score,0.2303
-income_annum,num__income_annum,0.0985
-total_assets,num__total_assets,0.0812
-loan_to_income,num__loan_to_income,0.0783
-asset_to_loan,num__asset_to_loan,0.0783
-loan_amount,num__loan_amount,0.0781
-credit_band_Fair,cat__credit_band_Fair,0.0652
-credit_band_Excellent,cat__credit_band_Excellent,0.0597
-loan_term,num__loan_term,0.0433
-no_of_dependents,num__no_of_dependents,0.0362
-credit_band_Good,cat__credit_band_Good,0.0229
-credit_band_Low,cat__credit_band_Low,0.0125
-education_Graduate,cat__education_Graduate,0.012
-education_12th,cat__education_12th,0.0106
-education_Postgraduate,cat__education_Postgraduate,0.0099
-self_employed_No,cat__self_employed_No,0.0096
-education_Up to 10th,cat__education_Up to 10th,0.0093
-self_employed_Yes,cat__self_employed_Yes,0.0089
-income_band_High,cat__income_band_High,0.0085
-amount_band_Medium,cat__amount_band_Medium,0.0075
-income_band_Lower-middle,cat__income_band_Lower-middle,0.0071
-income_band_Upper-middle,cat__income_band_Upper-middle,0.0069
-education_Professional,cat__education_Professional,0.0068
-amount_band_Small,cat__amount_band_Small,0.0059
-amount_band_Large,cat__amount_band_Large,0.0049
-income_band_Low,cat__income_band_Low,0.0048
-amount_band_Very large,cat__amount_band_Very large,0.0028
+cibil_score,num__cibil_score,0.3455
+credit_band_Low,cat__credit_band_Low,0.1508
+credit_band_Fair,cat__credit_band_Fair,0.0759
+income_annum,num__income_annum,0.0616
+income_band_Low,cat__income_band_Low,0.0554
+income_band_High,cat__income_band_High,0.0514
+credit_band_Good,cat__credit_band_Good,0.0454
+amount_band_Very large,cat__amount_band_Very large,0.026
+loan_amount,num__loan_amount,0.0214
+education_Postgraduate,cat__education_Postgraduate,0.0193
+income_band_Lower-middle,cat__income_band_Lower-middle,0.0164
+credit_band_Excellent,cat__credit_band_Excellent,0.0153
+total_assets,num__total_assets,0.0148
+education_Graduate,cat__education_Graduate,0.0116
+loan_term,num__loan_term,0.0097
+amount_band_Small,cat__amount_band_Small,0.0093
+education_Up to 10th,cat__education_Up to 10th,0.0091
+amount_band_Medium,cat__amount_band_Medium,0.0087
+self_employed_Yes,cat__self_employed_Yes,0.0087
+asset_to_loan,num__asset_to_loan,0.0074
+education_Professional,cat__education_Professional,0.0074
+loan_to_income,num__loan_to_income,0.0072
+amount_band_Large,cat__amount_band_Large,0.0063
+income_band_Upper-middle,cat__income_band_Upper-middle,0.0062
+self_employed_No,cat__self_employed_No,0.0055
+no_of_dependents,num__no_of_dependents,0.0034
+education_12th,cat__education_12th,0.0003
